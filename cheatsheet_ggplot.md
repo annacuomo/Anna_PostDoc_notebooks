@@ -11,6 +11,7 @@ options(repr.plot.width = 10, repr.plot.height = 4)
 
 ## Text in plots
 ```
+# size of text in plot (axes labels, title, etc..)
 p + theme(text = element_text(size=20))
 ```
 ## Save plot
