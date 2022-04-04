@@ -1,6 +1,24 @@
+## Multiple plots
+```
+library(cowplot)
+plot_grid(p1, p2, ncol = 2)
+```
+
+## Jupyter notebook - size of plot(s)
+```
+options(repr.plot.width = 10, repr.plot.height = 4) 
+```
+
 ## Text in plots
 ```
 p + theme(text = element_text(size=20))
+```
+## Save plot
+```
+fig_dir = "/.../figures/"
+pdf(paste0(fig_dir,"myplot.pdf"), width=8, height=6)
+ggplot()
+dev.off()
 ```
 
 ## Colour scales
