@@ -4,8 +4,9 @@ library(cowplot)
 plot_grid(p1, p2, ncol = 2)
 ```
 
-## Jupyter notebook - size of plot(s)
+## Jupyter notebook 
 ```
+# size of plot(s)
 options(repr.plot.width = 10, repr.plot.height = 4) 
 ```
 
