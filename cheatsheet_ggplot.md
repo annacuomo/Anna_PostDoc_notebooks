@@ -1,3 +1,8 @@
+## Text in plots
+```
+p + theme(text = element_text(size=20))
+```
+
 ## Colour scales
 
 #### colour scales (gradients)
