@@ -21,7 +21,7 @@ for (i in 1:length(names(canva_palettes))){
 }
 ```
 
-## Resources
+### Resources
 
 https://ggplot2-book.org/scale-colour.html
 
@@ -30,3 +30,5 @@ https://r-graph-gallery.com/ggplot2-color.html
 http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
 
 https://www.datanovia.com/en/blog/top-r-color-palettes-to-know-for-great-data-visualization/
+
+https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf
