@@ -19,3 +19,9 @@ corrplot(cor(df))
 import re
 re.sub("_", "-", mystring)
 ```
+
+#### show matrix
+```
+import matplotlib.pyplot as plt
+plt.matshow(M)
+```
