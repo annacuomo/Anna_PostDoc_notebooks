@@ -10,6 +10,10 @@ df = cbind(df0, df1)
 corrplot(cor(df))
 ```
 
+#### remove NAs
+```
+df <- df[rowSums(is.na(df)) == 0, ]
+```
 
 ## python
 
