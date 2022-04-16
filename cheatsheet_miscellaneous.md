@@ -3,6 +3,12 @@
 #### to read in a compressed file with a .gz extension
 ```df = read.csv(gzfile(filename), sep="\t")```
 
+#### q-value (Storey method for multiple testing correction - FDR)
+```
+library(qvalue)
+qv = qvalue(pv)$qvalues
+```
+
 #### corrplot
 ```
 library(corrplot)
