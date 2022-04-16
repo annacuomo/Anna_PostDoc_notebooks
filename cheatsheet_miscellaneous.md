@@ -8,6 +8,11 @@
 library(qvalue)
 qv = qvalue(pv)$qvalues
 ```
+#### adjust p-value
+```
+p.adjust(p, method = "BH")
+p.adjust.methods # to see alternative methods
+```
 
 #### corrplot
 ```
