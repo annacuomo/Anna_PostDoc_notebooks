@@ -28,6 +28,13 @@ df <- df[rowSums(is.na(df)) == 0, ]
 
 ## python
 
+#### initiate pandas data frame
+```
+import pandas as pd
+data = {"cell": cells, "cluster": clusters}
+df0 = pd.DataFrame(data)
+```
+
 #### create anndata object from X matrix
 ```
 import anndata as ad
