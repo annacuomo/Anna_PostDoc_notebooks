@@ -25,7 +25,8 @@ dev.off()
 
 ## Colour scales
 
-#### colour scales (gradients)
+### Gradients
+#### RColorBrewer
 ```
 library(RColorBrewer)
 p + scale_colour_gradientn(colors = brewer.pal(9,"Blues"))
@@ -33,7 +34,8 @@ p + scale_colour_gradientn(colors = brewer.pal(9,"Blues"))
 # for alternative palettes, try:
 RColorBrewer::display.brewer.all()
 ```
-#### colour scales (discrete)
+### Gradients
+#### ggthemes
 ```
 library(ggthemes)
 p + scale_color_canva(palette = "Pool party")
@@ -44,6 +46,11 @@ for (i in 1:length(names(canva_palettes))){
     print(show_col(canva_pal(names(canva_palettes)[i])(4)))   
     print(names(canva_palettes)[i])
 }
+```
+#### RColorBrewer
+```
+library(RColorBrewer)
+p + scale_colour_brewer(palette = "Set1")
 ```
 
 ### Resources
