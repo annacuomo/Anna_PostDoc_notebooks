@@ -28,8 +28,13 @@ df <- df[rowSums(is.na(df)) == 0, ]
 
 ## python
 
-#### equivalent to gsub in python:
+#### create anndata object from X matrix
+```
+import anndata as ad
+adata = ad.AnnData(X=X, obs=obs, var=var, dtype='float')
+```
 
+#### equivalent to gsub in python:
 ```
 import re
 re.sub("_", "-", mystring)
