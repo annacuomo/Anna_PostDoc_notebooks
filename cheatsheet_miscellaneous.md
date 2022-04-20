@@ -52,3 +52,8 @@ re.sub("_", "-", mystring)
 import matplotlib.pyplot as plt
 plt.matshow(M)
 ```
+
+#### save plot
+```
+plt.savefig("fig.pdf")
+```
