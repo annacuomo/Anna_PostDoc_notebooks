@@ -32,7 +32,7 @@ df <- df[rowSums(is.na(df)) == 0, ]
 ```
 import pandas as pd
 data = {"cell": cells, "cluster": clusters}
-df0 = pd.DataFrame(data)
+df0 = pd.DataFrame(data, columns=cols, index=idx)
 ```
 
 #### create anndata object from X matrix
