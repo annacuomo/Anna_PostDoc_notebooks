@@ -53,6 +53,12 @@ import matplotlib.pyplot as plt
 plt.matshow(M)
 ```
 
+#### other plots
+```
+plt.hist(y)
+plt.show()
+```
+
 #### save plot
 ```
 plt.savefig("fig.pdf")
