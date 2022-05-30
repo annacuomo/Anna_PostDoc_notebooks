@@ -10,11 +10,11 @@ Currently, personal website is hosted at https://annacuomo.github.io, code [here
 
 [About](https://github.com/annacuomo/annacuomo.github.io/blob/main/_pages/about.md) - Overview page.
 
-[CV](https://github.com/annacuomo/annacuomo.github.io/blob/main/_pages/cv.md).
+[CV](https://github.com/annacuomo/annacuomo.github.io/blob/main/_pages/cv.md): Education, Work Experience, Publications (linked directly from the publication page).
 
 [Files](https://github.com/annacuomo/annacuomo.github.io/tree/main/files) - at the moment, PDFs for each paper.
 
-[Profile Pic](https://github.com/annacuomo/annacuomo.github.io/blob/main/images/profile.png).
+[Profile Pic](https://github.com/annacuomo/annacuomo.github.io/blob/main/images/profile.png) - goes to the top left corner.
 
 Many more things are customizable presubmably, but this is what I have changed so far compared to the [template](https://github.com/academicpages/academicpages.github.io).
 
