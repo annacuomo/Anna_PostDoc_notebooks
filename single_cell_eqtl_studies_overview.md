@@ -1,5 +1,7 @@
 Idea: equivalent to Valentine Svennson's [database of single-cell studies](https://www.nxn.se/single-cell-studies), but for (single-cell) eQTL studies specifically.
 
+Starting this [here](https://docs.google.com/spreadsheets/d/1xlqeol6cuSTHsJs_IG2sAiawZX4M6Rwxubh7VKEBj0U/edit#gid=0)
+
 ## Open in python:
 
 ```
@@ -8,8 +10,8 @@ data = pd.read_csv('https://nxn.se/single-cell-studies/data.tsv', sep='\t')
 ```
 
 ### Discussion point: which fields?
-
->>> data.columns
+```
+data.columns
 Index(['Shorthand', 'DOI', 'Authors', 'Journal', 'Title', 'Date',
        'bioRxiv DOI', 'Reported cells total', 'Organism', 'Tissue',
        'Technique', 'Data location', 'Panel size', 'Measurement',
@@ -19,10 +21,11 @@ Index(['Shorthand', 'DOI', 'Authors', 'Journal', 'Title', 'Date',
        'Isolation', 'BC --> Cell ID _OR_ BC --> Cluster ID',
        'Number individuals'],
       dtype='object')
+```
 
 ### Discussion point: is there a convention for journal names?
-
->>> data['Journal'].unique()
+```
+data['Journal'].unique()
 array(['Proceedings of the National Academy of Sciences', 'Cell',
        'Neuron', 'Cerebral Cortex', 'Nucleic Acids Research',
        'Neuroscience Research', 'BMC Genomics', 'Journal of Neuroscience',
@@ -100,6 +103,7 @@ array(['Proceedings of the National Academy of Sciences', 'Cell',
        'mBio', 'Small Methods', 'Front. Neurol.', 'Cell Insight',
        'Human Molecular Genetics', 'mSphere', 'Hypertension',
        'Front. Genet.', 'Front. Cardiovasc. Med.'], dtype=object)
-       
-       ## References
-       [A curated database reveals trends in single-cell transcriptomics](https://academic.oup.com/database/article/doi/10.1093/database/baaa073/6008692)
+   ```
+   
+## References
+[A curated database reveals trends in single-cell transcriptomics](https://academic.oup.com/database/article/doi/10.1093/database/baaa073/6008692)
