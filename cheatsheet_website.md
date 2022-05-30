@@ -15,7 +15,11 @@ To overwrite defaults and change thins permanently, add to [this file](https://g
 
 https://nilseling.github.io
 
-https://www.nikosirmpilatze.com/ ([repo](https://github.com/niksirbi/MyWebsite))
+https://www.nikosirmpilatze.com ([repo](https://github.com/niksirbi/MyWebsite))
+
+https://www.joeleklof.com/
+
+https://azodichr.github.io
 
 ## useful articles
 
