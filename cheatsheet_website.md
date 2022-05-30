@@ -53,6 +53,8 @@ https://theacademicdesigner.com/2020/1-page-academic-personal-website/
 
 https://centuryofbio.substack.com/
 
+https://www.nxn.se/
+
 https://science-latte.com/ 
 
 
