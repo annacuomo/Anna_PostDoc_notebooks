@@ -1,6 +1,10 @@
 Idea: equivalent to Valentine Svennson's [database of single-cell studies](https://www.nxn.se/single-cell-studies), but for (single-cell) eQTL studies specifically.
 
-Starting this [here](https://docs.google.com/spreadsheets/d/1xlqeol6cuSTHsJs_IG2sAiawZX4M6Rwxubh7VKEBj0U/edit#gid=0)
+Starting this [here](https://docs.google.com/spreadsheets/d/1xlqeol6cuSTHsJs_IG2sAiawZX4M6Rwxubh7VKEBj0U/edit#gid=0), current fields:
+
+Date, Shorthand, DOI, Reported unique individuals, Reported total cells, Pseudobulk [y/n],	Dynamic eQTL [y/n], scRNA-seq technique, eQTL mapping method, article type, Authors, Journal, bioRxiv DOI, bioRxiv Date, Tissue, Organism, Title.
+
+Current count: n=18, spanning 2018-2022.
 
 ## Open in python:
 
