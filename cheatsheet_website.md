@@ -1,1 +1,10 @@
+Currently, personal website is hosted at https://annacuomo.github.io/, code [here](https://github.com/annacuomo/annacuomo.github.io).
 
+To see what things would look like / how everything is encoded, hover over some part of the website, right-click and select inspect.
+To overwrite defaults and change thins permanently, add to [this file](https://github.com/annacuomo/annacuomo.github.io/blob/main/assets/css/main.scss) using a syntax like in this example:
+
+```
+.archive__item-title {
+    font-size: 1em;
+}
+```
