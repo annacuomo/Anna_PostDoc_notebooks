@@ -1,4 +1,4 @@
-## current personal website
+## Current personal website
 
 Currently, personal website is hosted at https://annacuomo.github.io, code [here](https://github.com/annacuomo/annacuomo.github.io).
 
@@ -11,7 +11,7 @@ To overwrite defaults and change thins permanently, add to [this file](https://g
 }
 ```
 
-## other examples of websites:
+## Other examples of personal academic websites:
 
 https://nilseling.github.io
 
@@ -21,6 +21,14 @@ https://www.joeleklof.com/
 
 https://azodichr.github.io
 
-## useful articles
+## Useful articles
 
 https://theacademicdesigner.com/2020/1-page-academic-personal-website/
+
+## Blogs inspo
+
+https://centuryofbio.substack.com/
+
+https://science-latte.com/ 
+
+
