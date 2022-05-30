@@ -20,6 +20,8 @@ Currently, personal website is hosted at https://annacuomo.github.io, code [here
 Many things can be changed here and I have not fully worked this out yet.
 For now I have modified what goes on the left of the webpage, links and titles and short bio (that I can remember).
 
+[Navigation file](https://github.com/annacuomo/annacuomo.github.io/blob/main/_data/navigation.yml) to add which pages should be visible (I think).
+
 Many more things are customizable presubmably, but this is what I have changed so far compared to the [template](https://github.com/academicpages/academicpages.github.io).
 
 ### Style
