@@ -26,6 +26,19 @@ corrplot(cor(df))
 df <- df[rowSums(is.na(df)) == 0, ]
 ```
 
+#### installation
+##### using CRAN
+```
+install.packages("dplyr")
+```
+##### using Bioconductor
+```
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("qvalue")
+```
+
 ## python
 
 #### initiate pandas data frame
