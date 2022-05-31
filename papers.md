@@ -14,4 +14,6 @@
 ## Autoimmune disease papers
 
 ### Reviews
-[Peter K. Gregersen and Lina M. Olsson, 2009](https://www.annualreviews.org/doi/10.1146/annurev.immunol.021908.132653)
+* [Simon Makin 2021](https://www.nature.com/articles/d41586-021-01839-6)
+* [Peter K. Gregersen and Lina M. Olsson, 2009](https://www.annualreviews.org/doi/10.1146/annurev.immunol.021908.132653)
+
