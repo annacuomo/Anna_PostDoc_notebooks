@@ -1,7 +1,11 @@
 ## Linear Mixed Models (LMMs)
 
 * LIMIX
+  * [preprint](https://www.biorxiv.org/content/10.1101/003905v2),
+  * [wiki (LIMIX for eQTL mapping)](https://github.com/single-cell-genetics/limix_qtl/wiki).
 * BOLT-LMM
+  * [paper](https://www.nature.com/articles/ng.3190) (Loh et al, Nature Genetics 2015),
+  * [manual](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html).
 * GridLMM
   * [code](https://github.com/deruncie/GridLMM)
 
