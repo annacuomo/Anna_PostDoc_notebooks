@@ -55,6 +55,8 @@ https://centuryofbio.substack.com/
 
 https://www.nxn.se/
 
+https://medium.com/towards-data-science
+
 https://science-latte.com/ 
 
 
