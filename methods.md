@@ -3,6 +3,7 @@
 * LIMIX
 * BOLT-LMM
 * GridLMM
+  * https://github.com/deruncie/GridLMM
 
 
 ## Rare Variants (RV) association methods
