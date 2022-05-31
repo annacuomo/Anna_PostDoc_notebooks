@@ -122,4 +122,4 @@ array(['Proceedings of the National Academy of Sciences', 'Cell',
 
 [The single-cell eQTLGen consortium webpage](https://eqtlgen.org/sc/)
 
-[CZI iniative](https://chanzuckerberg.com/science/programs-resources/single-cell-biology/seednetworks/deciphering-intra-and-inter-individual-variation-at-single-cell-resolution/)
+[CZI iniative: Deciphering Intra- and Inter-Individual Variation at Single Cell Resolution](https://chanzuckerberg.com/science/programs-resources/single-cell-biology/seednetworks/deciphering-intra-and-inter-individual-variation-at-single-cell-resolution/)
