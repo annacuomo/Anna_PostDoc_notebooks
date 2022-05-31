@@ -115,3 +115,11 @@ array(['Proceedings of the National Academy of Sciences', 'Cell',
    
 ## References
 [1] [A curated database reveals trends in single-cell transcriptomics](https://academic.oup.com/database/article/doi/10.1093/database/baaa073/6008692)
+
+## Resources
+
+[OneK1K Browser](https://onek1k.org/)
+
+[The single-cell eQTLGen consortium webpage](https://eqtlgen.org/sc/)
+
+[CZI iniative](https://chanzuckerberg.com/science/programs-resources/single-cell-biology/seednetworks/deciphering-intra-and-inter-individual-variation-at-single-cell-resolution/)
