@@ -8,6 +8,9 @@
   * [manual](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html).
 * GridLMM
   * [code](https://github.com/deruncie/GridLMM)
+* [Estimation and Inference for Very Large Linear Mixed Effects Models](https://arxiv.org/pdf/1610.08088.pdf)
+* [lme4](https://github.com/lme4/lme4)
+* [mgcv]()
 
 
 ## Rare Variants (RV) association methods
