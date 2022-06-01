@@ -10,7 +10,7 @@
   * [code](https://github.com/deruncie/GridLMM)
 * [Estimation and Inference for Very Large Linear Mixed Effects Models](https://arxiv.org/pdf/1610.08088.pdf)
 * [lme4](https://github.com/lme4/lme4)
-* [mgcv]()
+* [mgcv](https://www.maths.ed.ac.uk/~swood34/mgcv/#:~:text=mgcv%20is%20an%20R%20package,splines%20with%20automatic%20smoothness%20estimation.)
 
 
 ## Rare Variants (RV) association methods
