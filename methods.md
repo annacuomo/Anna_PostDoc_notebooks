@@ -12,10 +12,12 @@
 
 ## Rare Variants (RV) association methods
 
-* SKAT
+* SKAT / SKAT-O / burden tests
 * LRTq (specific for expression association, i.e., identification of RV-eGenes)
   * [code](https://github.com/avallonking/LRTq),
   * [paper](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009596) (Li et al, Plos Genetics 2021).
+
+Adding to [this doc](https://docs.google.com/document/d/1zWrtY_1xe0Ye63ukfwb940g1mLwsvRDe-LgHkDyOzvs/edit) for an overview of methods to detect the effects of RV on expression specifically.
 
 ## eQTL methods
 
