@@ -11,7 +11,7 @@ Coeliac disease
 
 ## Genes that are known or thought to be associated with one or more autoimmune diseases
 
-HLA region, PTNP22, IL2Ra, TYK2, DNASE1L3 [1]
+HLA region, _PTNP22, IL2Ra, TYK2, DNASE1L3_ [1]
 
 ## Environmental and physiological variables that are thought to affect / trigger autoimmunity
 
