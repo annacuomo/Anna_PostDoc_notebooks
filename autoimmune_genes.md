@@ -1,11 +1,3 @@
-## Genes that are known or thought to be associated with one or more autoimmune diseases
-
-HLA region, PTNP22, IL2Ra, TYK2, DNASE1L3 [1]
-
-## Environmental and physiological variables that are thought to affect / trigger autoimmunity
-
-Sex [2], stress..
-
 ## Incomplete list of autoimmune diseases
 
 type 1 diabetes (T1D), 
@@ -14,8 +6,20 @@ rheumatoid arthritis (RA),
 Crohn’s disease (CD), 
 ulcerative colitis (UC),
 multiple sclerosis (MS), 
-lupus (SLE), 
+lupus (systemic lupus erythematosus; SLE), 
 Coeliac disease
+
+## Genes that are known or thought to be associated with one or more autoimmune diseases
+
+HLA region, PTNP22, IL2Ra, TYK2, DNASE1L3 [1]
+
+## Environmental and physiological variables that are thought to affect / trigger autoimmunity
+
+Sex [2], stress..
+
+## Comorbidities
+
+For example, the probability that women with endometriosis will have  hypothyroidism is 9.6% versus 1.5% for women who do not have endometriosis.
 
 ## References
 [1] [Cracking the genetic code of autoimmune disease](https://www.nature.com/articles/d41586-021-01839-6)
