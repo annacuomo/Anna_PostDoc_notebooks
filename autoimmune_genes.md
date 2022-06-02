@@ -15,9 +15,9 @@ HLA region, _PTNP22, IL2Ra, TYK2, DNASE1L3_ [1]
 
 ## Environmental and physiological variables that are thought to affect / trigger autoimmunity
 
-Sex [2], stress..
+Sex [2], stress, cigarette smoking, weight, diet..
 
-## Comorbidities
+## Comorbidities linked to autoimmune diseases
 
 For example, the probability that women with endometriosis will have  hypothyroidism is 9.6% versus 1.5% for women who do not have endometriosis.
 
