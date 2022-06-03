@@ -34,4 +34,6 @@ Adding to [this doc](https://docs.google.com/document/d/1zWrtY_1xe0Ye63ukfwb940g
   * [webpage](https://qtltools.github.io/qtltools/),
   * [paper](https://www.nature.com/articles/ncomms15452) (Delaneau et al., Nature Communications 2017).
 * [HEFT](https://academic.oup.com/bioinformatics/article/30/3/369/228688) - webpage no longer exists?
-* [LORSEN](https://www.frontiersin.org/articles/10.3389/fgene.2021.690926/full)
+* LORSEN
+  * [paper](https://www.frontiersin.org/articles/10.3389/fgene.2021.690926/full)
+  * [repo](https://github.com/gaochengPRC/LORSEN)
