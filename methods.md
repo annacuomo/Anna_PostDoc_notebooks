@@ -6,6 +6,7 @@
 * BOLT-LMM
   * [paper](https://www.nature.com/articles/ng.3190) (Loh et al, Nature Genetics 2015),
   * [manual](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html).
+* [HEFT](https://academic.oup.com/bioinformatics/article/30/3/369/228688#supplementary-data) - webpage no longer exists.
 * GridLMM
   * [code](https://github.com/deruncie/GridLMM)
 * [Estimation and Inference for Very Large Linear Mixed Effects Models](https://arxiv.org/pdf/1610.08088.pdf)
