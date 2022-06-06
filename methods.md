@@ -11,13 +11,13 @@
   * [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779) (Kerin & Marchinin, AJHG 2020),
   * [code](https://mkerin.github.io/LEMMA/).
 * fastGWA
-  * [paper](https://www.nature.com/articles/s41588-019-0530-8)
+  * [paper](https://www.nature.com/articles/s41588-019-0530-8) (Jiang et al, Nature Genetics 2019)
   * [software](https://yanglab.westlake.edu.cn/software/gcta/#fastGWA)
 * SAIGE (Scalable and Accurate Implementation of GEneralized mixed model)
-  * [paper](https://www.nature.com/articles/s41588-018-0184-y)
+  * [paper](https://www.nature.com/articles/s41588-018-0184-y) (Zhou et al, Nature Genetics 2018),
   * [code](https://github.com/weizhouUMICH/SAIGE/)
 * regenie
-  * [paper](https://www.nature.com/articles/s41588-021-00870-7)
+  * [paper](https://www.nature.com/articles/s41588-021-00870-7) (Mbatchou et al, Nature Genetics 2021),
   * [webpage](https://rgcgithub.github.io/regenie/)
 * GridLMM
   * [code](https://github.com/deruncie/GridLMM)
@@ -29,6 +29,8 @@
 ## Rare Variants (RV) association methods
 
 * SKAT / SKAT-O / burden tests
+* SAIGE-GENE
+  * [paper](https://www.nature.com/articles/s41588-020-0621-6) (Zhou et al, Nature Genetics 2020)
 * LRTq (specific for expression association, i.e., identification of RV-eGenes)
   * [code](https://github.com/avallonking/LRTq),
   * [paper](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009596) (Li et al, Plos Genetics 2021).
