@@ -18,9 +18,11 @@ If more commands are needed, you can display the whole file using "cat", and the
 cat file.txt | head -n 50
 ```
 ### Loop
+```
 for ((i=0; i <= 1000; i++)); do
     python $py_script $i 
 done
+```
 
 ### Complicated (for me) example
 this 
