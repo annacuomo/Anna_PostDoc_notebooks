@@ -1,5 +1,5 @@
 ## Useful bash commands
-### Am pretty average at bash commands at the moment, but can always try to get better!
+### Basics 
 
 Let's start with head and tail:
 ```
@@ -17,8 +17,12 @@ If more commands are needed, you can display the whole file using "cat", and the
 ```
 cat file.txt | head -n 50
 ```
+### Loop
+for ((i=0; i <= 1000; i++)); do
+    python $py_script $i 
+done
 
-### Complicated example
+### Complicated (for me) example
 this 
 * opens the file,
 * then using awk specifies it is comma "," separated, then selects rows where the 4th column is = 22
