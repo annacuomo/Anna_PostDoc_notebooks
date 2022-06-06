@@ -8,9 +8,9 @@
   * [paper 2](https://www.nature.com/articles/s41588-018-0144-6)
   * [manual](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html).
 * LEMMA
-  *  [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779)
+  * [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779)
 * fastGWA
-  *  [paper](https://www.nature.com/articles/s41588-019-0530-8)
+  * [paper](https://www.nature.com/articles/s41588-019-0530-8)
 *  SAIGE
   *  [paper](https://www.nature.com/articles/s41588-018-0184-y)
 *  regenie
