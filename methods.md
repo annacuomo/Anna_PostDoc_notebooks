@@ -5,7 +5,7 @@
   * [wiki (LIMIX for eQTL mapping)](https://github.com/single-cell-genetics/limix_qtl/wiki).
 * BOLT-LMM
   * [paper](https://www.nature.com/articles/ng.3190) (Loh et al, Nature Genetics 2015),
-  * [paper 2](https://www.nature.com/articles/s41588-018-0144-6)
+  * [paper 2](https://www.nature.com/articles/s41588-018-0144-6) (Loh et al, Nature Genetics 2018),
   * [manual](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html).
 * LEMMA
   * [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779)
