@@ -11,6 +11,11 @@
   *  [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779)
 * fastGWA
   *  [paper](https://www.nature.com/articles/s41588-019-0530-8)
+*  SAIGE
+  *  [paper](https://www.nature.com/articles/s41588-018-0184-y)
+*  regenie
+  * [paper](https://www.nature.com/articles/s41588-021-00870-7)
+  * [webpage](https://rgcgithub.github.io/regenie/)
 * GridLMM
   * [code](https://github.com/deruncie/GridLMM)
 * [Estimation and Inference for Very Large Linear Mixed Effects Models](https://arxiv.org/pdf/1610.08088.pdf)
