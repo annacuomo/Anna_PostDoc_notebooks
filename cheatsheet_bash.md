@@ -1,5 +1,5 @@
 ## Useful bash commands
-### Pretty average at bash commands at the moments, but can always try to get better!
+### Am pretty average at bash commands at the moment, but can always try to get better!
 
 Let's start with head and tail:
 ```
@@ -18,7 +18,7 @@ If more commands are needed, you can display the whole file using "cat", and the
 cat file.txt | head -n 50
 ```
 
-### complicated example
+### Complicated example
 this 
 * opens the file,
 * then using awk specifies it is comma "," separated, then selects rows where the 4th column is = 22
