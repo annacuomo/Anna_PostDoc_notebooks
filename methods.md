@@ -31,6 +31,7 @@
 * SKAT / SKAT-O / burden tests
 * SAIGE-GENE
   * [paper](https://www.nature.com/articles/s41588-020-0621-6) (Zhou et al, Nature Genetics 2020)
+  * [preprint v2](https://www.medrxiv.org/content/10.1101/2021.07.12.21260400v2)
 * LRTq (specific for expression association, i.e., identification of RV-eGenes)
   * [code](https://github.com/avallonking/LRTq),
   * [paper](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009596) (Li et al, Plos Genetics 2021).
