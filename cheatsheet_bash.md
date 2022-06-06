@@ -28,4 +28,6 @@ cat file.txt | awk -F ',' '$4 == 22' | sed -n 1p
 ```
 ## References
 
+[Cheatsheet](https://devhints.io/bash)
+
 [15 Special Characters You Need to Know for Bash](https://www.howtogeek.com/439199/15-special-characters-you-need-to-know-for-bash/)
