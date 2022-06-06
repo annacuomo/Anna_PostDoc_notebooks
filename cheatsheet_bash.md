@@ -24,7 +24,7 @@ this
 * then using awk specifies it is comma "," separated, then selects rows where the 4th column is = 22
 * then using sed selects the "1"st row
 ```
-cat fvf | awk -F ',' '$4 == 22' | sed -n 1p
+cat file.txt | awk -F ',' '$4 == 22' | sed -n 1p
 ```
 ## References
 
