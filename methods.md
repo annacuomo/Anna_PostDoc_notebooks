@@ -7,12 +7,15 @@
   * [paper](https://www.nature.com/articles/ng.3190) (Loh et al, Nature Genetics 2015),
   * [paper 2](https://www.nature.com/articles/s41588-018-0144-6) (Loh et al, Nature Genetics 2018),
   * [manual](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html).
-* LEMMA
-  * [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779)
+* LEMMA (Linear Environment Mixed Model Analysis)
+  * [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779) (Kerin & Marchinin, AJHG 2020),
+  * [code](https://mkerin.github.io/LEMMA/).
 * fastGWA
   * [paper](https://www.nature.com/articles/s41588-019-0530-8)
-* SAIGE
+  * [software](https://yanglab.westlake.edu.cn/software/gcta/#fastGWA)
+* SAIGE (Scalable and Accurate Implementation of GEneralized mixed model)
   * [paper](https://www.nature.com/articles/s41588-018-0184-y)
+  * [code](https://github.com/weizhouUMICH/SAIGE/)
 * regenie
   * [paper](https://www.nature.com/articles/s41588-021-00870-7)
   * [webpage](https://rgcgithub.github.io/regenie/)
