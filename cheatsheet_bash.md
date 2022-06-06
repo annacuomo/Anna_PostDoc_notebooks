@@ -18,6 +18,14 @@ If more commands are needed, you can display the whole file using "cat", and the
 cat file.txt | head -n 50
 ```
 
+### complicated example
+this 
+* opens the file,
+* then using awk specifies it is comma "," separated, then selects rows where the 4th column is = 22
+* then using sed selects the "1"st row
+```
+cat fvf | awk -F ',' '$4 == 22' | sed -n 1p
+```
 ## References
 
 [15 Special Characters You Need to Know for Bash](https://www.howtogeek.com/439199/15-special-characters-you-need-to-know-for-bash/)
