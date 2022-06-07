@@ -25,7 +25,7 @@ done
 ```
 
 ### Complicated (for me) example
-this 
+this command (used [here](https://github.com/annacuomo/TenK10K_analyses_HPC/blob/main/scripts/run_CRM.qsub)):
 * opens the file,
 * then using awk specifies it is comma "," separated, then selects rows where the 4th column is = 22
 * then using sed selects the "1"st row
