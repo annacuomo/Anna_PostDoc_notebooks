@@ -29,8 +29,9 @@ this
 * opens the file,
 * then using awk specifies it is comma "," separated, then selects rows where the 4th column is = 22
 * then using sed selects the "1"st row
+* awk again ("," separated again), then consider second column only to get tp the gene name
 ```
-cat file.txt | awk -F ',' '$4 == 22' | sed -n 1p
+cat file.txt | awk -F ',' '$4 == 22' | sed -n 1p | awk -F "," '{print $2}'
 ```
 ## References
 
