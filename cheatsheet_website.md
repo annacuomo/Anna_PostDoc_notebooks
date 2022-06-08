@@ -2,7 +2,7 @@
 
 Currently, personal website is hosted at https://annacuomo.github.io, code [here](https://github.com/annacuomo/annacuomo.github.io).
 
-### Content
+### To modify content:
 
 [Publications](https://github.com/annacuomo/annacuomo.github.io/tree/main/_publications) as separate .md files, one per paper.
 
@@ -24,7 +24,7 @@ For now I have modified what goes on the left of the webpage, links and titles a
 
 Many more things are customizable presubmably, but this is what I have changed so far compared to the [template](https://github.com/academicpages/academicpages.github.io).
 
-### Style
+### To change the style:
 
 To see what things would look like / how everything is encoded, hover over some part of the website, right-click and select inspect.
 To overwrite defaults and change thins permanently, add to [this file](https://github.com/annacuomo/annacuomo.github.io/blob/main/assets/css/main.scss) using a syntax like in this example:
