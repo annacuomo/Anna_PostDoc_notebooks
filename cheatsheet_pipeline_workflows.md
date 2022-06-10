@@ -3,6 +3,10 @@
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/)
 * [Netxflow](https://www.nextflow.io/)
 * [hail-batch](https://hail.is/docs/batch/tutorial.html)
+* [WDL](https://support.terra.bio/hc/en-us/sections/360007274612)
+* [CWL](https://www.commonwl.org/)
+* [Ruffus](http://www.ruffus.org.uk/)
+  * [paper](https://academic.oup.com/bioinformatics/article/26/21/2778/214489) Goodstadt, Bioinformatics 2010
 
 
 
