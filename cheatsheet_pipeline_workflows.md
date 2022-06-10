@@ -15,6 +15,10 @@
 * [Galaxy](https://usegalaxy.org/)
   * [paper](https://link.springer.com/article/10.1186/gb-2010-11-8-r86) (Goecks et al, Genome Biology 2010)
 
+### CPG approach [link](https://github.com/populationgenomics/team-docs/blob/main/getting_started.md#hail-batch)
+
+* hail-batch / analysis runner?
+* Terra / cromwell?
 
 ### Snakemake
 
