@@ -1,9 +1,11 @@
 ## Pipeline tools / workflows
 
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/)
-  * [original paper](https://academic.oup.com/bioinformatics/article/28/19/2520/290322)(Köster and Rahman, Bioinformatics 2012)
+  * [original paper](https://academic.oup.com/bioinformatics/article/28/19/2520/290322) (Köster and Rahman, Bioinformatics 2012)
   * ["rolling" paper](https://f1000research.com/articles/10-33/v1)
 * [Netxflow](https://www.nextflow.io/)
+  * [repo](https://github.com/nextflow-io/nextflow)
+  * [paper](https://www.nature.com/articles/nbt.3820) (Di Tommaso et al, Nature Biotechnology 2017) 
 * [hail-batch](https://hail.is/docs/batch/tutorial.html)
 * [WDL](https://support.terra.bio/hc/en-us/sections/360007274612)
 * [CWL](https://www.commonwl.org/)
