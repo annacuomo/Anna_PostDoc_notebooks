@@ -1,4 +1,12 @@
-### Learning Snakemake
+## Pipeline tools / workflows
+
+* [Snakemake](https://snakemake.readthedocs.io/en/stable/)
+* [Netxflow](https://www.nextflow.io/)
+* [hail-batch](https://hail.is/docs/batch/tutorial.html)
+
+
+
+### Snakemake
 
 I have been wanting to learn in better detail how to use snakemake (and whether that is ideal at all, as opposed to nextflow, and I am sure many other alternatives).
 
