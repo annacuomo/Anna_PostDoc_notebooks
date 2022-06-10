@@ -7,6 +7,7 @@
   * [repo](https://github.com/nextflow-io/nextflow)
   * [paper](https://www.nature.com/articles/nbt.3820) (Di Tommaso et al, Nature Biotechnology 2017) 
 * [hail-batch](https://hail.is/docs/batch/tutorial.html)
+  * part of the [hail](https://hail.is/) package
 * [WDL](https://support.terra.bio/hc/en-us/sections/360007274612)
 * [CWL](https://www.commonwl.org/)
 * [Ruffus](http://www.ruffus.org.uk/)
