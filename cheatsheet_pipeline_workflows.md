@@ -12,7 +12,7 @@
 * [CWL](https://www.commonwl.org/)
 * [Ruffus](http://www.ruffus.org.uk/)
   * [paper](https://academic.oup.com/bioinformatics/article/26/21/2778/214489) (Goodstadt, Bioinformatics 2010)
-* Galaxy
+* [Galaxy](https://usegalaxy.org/)
   * [paper](https://link.springer.com/article/10.1186/gb-2010-11-8-r86) (Goecks et al, Genome Biology 2010)
 
 
