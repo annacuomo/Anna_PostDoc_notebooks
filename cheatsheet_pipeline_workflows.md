@@ -12,12 +12,13 @@
 * [CWL](https://www.commonwl.org/)
 * [Ruffus](http://www.ruffus.org.uk/)
   * [paper](https://academic.oup.com/bioinformatics/article/26/21/2778/214489) (Goodstadt, Bioinformatics 2010)
-
+* Galaxy
+  * [paper](https://link.springer.com/article/10.1186/gb-2010-11-8-r86) (Goecks et al, Genome Biology 2010)
 
 
 ### Snakemake
 
-I have been wanting to learn in better detail how to use snakemake (and whether that is ideal at all, as opposed to nextflow, and I am sure many other alternatives).
+I have been wanting to learn in better detail how to use snakemake (and whether that is ideal at all, as opposed to nextflow, and I am sure many other alternatives - e.g. should I just switch to hail-bath altogether in line with CPG?).
 
 I have used it extensively to map eQTLs in my PhD but I have largely copy-pasted someone else's, only adapting to my own specific needs.
 Now, I'd like to gain a deeper understanding to be able to do exactly what I want in different settings, and to be able to efficiently debug by myself without anyone else's help.
