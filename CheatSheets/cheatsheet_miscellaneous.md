@@ -76,3 +76,9 @@ plt.show()
 ```
 plt.savefig("fig.pdf")
 ```
+
+#### to check version of python package
+```
+import cellregmap as crm
+crm.__version__
+```
