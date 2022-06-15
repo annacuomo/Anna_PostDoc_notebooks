@@ -1,6 +1,6 @@
 ## WDL
 
-
+Setting this up for CellRegMap [here](https://github.com/annacuomo/CellRegMap_pipeline) with Michael Franklin's help.
 
 ## Snakemake
 
