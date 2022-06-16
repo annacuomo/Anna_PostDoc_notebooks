@@ -8,6 +8,10 @@
 library(qvalue)
 qv = qvalue(pv)$qvalues
 ```
+If you get the error: ```Error in smooth.spline(lambda, pi0, df = smooth.df) : missing or infinite values in inputs are not allowed```, try:
+```
+qv = qvalue(pv, pi0=1)$qvalues
+```
 #### adjust p-value
 ```
 p.adjust(p, method = "BH")
