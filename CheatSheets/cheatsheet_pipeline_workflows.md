@@ -13,7 +13,8 @@ check that you have [Docker](https://docs.docker.com/get-docker/) installed, the
 miniwdl run hello_all_in_one_file.wdl
 ```
 
-### HPC
+### Set up to run WDL pipeline on HPC
+
 To set it up on a high computing system, it is a bit more involved and requires to install [cromwell]().
 
 Cromwell is set up to work well on the cloud (e.g., pipelines from the Broad Institute largelt use WDL / cromwell / Terra), but it is a bit more complicated to set up on non-cloud high perfomance computing systems like the Garvan's HPC.
