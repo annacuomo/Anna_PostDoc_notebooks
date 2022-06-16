@@ -20,10 +20,20 @@ To set it up on a high computing system, it is a bit more involved and requires 
 
 Cromwell is set up to work well on the cloud (e.g., pipelines from the Broad Institute largelt use WDL / cromwell / Terra), but it is a bit more complicated to set up on non-cloud high perfomance computing systems like the Garvan's HPC.
 
+#### Cromwell
 First, download/install cromwell (instructions [here](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/)) from [here](https://github.com/broadinstitute/cromwell/releases/tag/80).
 
+#### Java
 Running cromwell requires a working Java environment, so if you don't have it, you should download it from [here](https://www.oracle.com/java/technologies/downloads/#java8) (I downloaded **x64 RPM Package** from the Linux options, for my Centos7 machine).
 
+To ensure the newly downloaded java gets called when you type in ```java```, add the path in your **.bashrc** file, by adding these two lines:
+
+```
+MY_JAVA_DIR=/wherever/you/putit
+export PATH=$MY_JAVA_DIR:$PATH
+```
+
+##### qsub Conifg file
 Second, you need a qsub specific config file like [this one](https://github.com/annacuomo/CellRegMap_pipeline/blob/main/qsub.conf) (thanks to Michael Geaghan).
 
 Finally, run your wdl by typing:
