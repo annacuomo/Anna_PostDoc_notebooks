@@ -2,6 +2,32 @@
 
 Setting this up for CellRegMap [here](https://github.com/annacuomo/CellRegMap_pipeline) with Michael Franklin's help.
 
+Here is a [simple WDL](https://github.com/annacuomo/CellRegMap_pipeline/blob/main/hello_all_in_one_file.wdl) to test.
+
+Locally, install ```miniwdl``` as:
+```
+pip install miniwdl
+```
+check that you have [Docker](https://docs.docker.com/get-docker/) installed, then run:
+```
+miniwdl run hello_all_in_one_file.wdl
+```
+
+### HPC
+To set it up on a high computing system, it is a bit more involved and requires to install [cromwell]().
+
+Cromwell is set up to work well on the cloud (e.g., pipelines from the Broad Institute largelt use WDL / cromwell / Terra), but it is a bit more complicated to set up on non-cloud high perfomance computing systems like the Garvan's HPC.
+
+First, install cromwell:
+
+Second, you need a qsub specific config file like [this one]() (thanks to Michael Geaghan).
+
+Finally, run your wdl by typing:
+```
+java -Dconfig.file=qsub.conf -jar <path-to-cromwell-jar> run hello_all_in_one_file.wdl
+```
+
+
 ## Snakemake
 
 I have been wanting to learn in better detail how to use snakemake (and whether that is ideal at all, as opposed to nextflow, and I am sure many other alternatives - e.g. should I just switch to hail-bath altogether [in line with CPG](https://github.com/populationgenomics/team-docs/blob/main/hail_batch_dev.md)?).
