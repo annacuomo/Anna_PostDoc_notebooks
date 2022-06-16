@@ -22,6 +22,8 @@ Cromwell is set up to work well on the cloud (e.g., pipelines from the Broad Ins
 
 First, download/install cromwell (instructions [here](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/)) from [here](https://github.com/broadinstitute/cromwell/releases/tag/80).
 
+Running cromwell requires a working Java environment, so if you don't have it, you should download it from [here](https://www.oracle.com/java/technologies/downloads/#java8) (I downloaded **x64 RPM Package** from the Linux options, for my Centos7 machine).
+
 Second, you need a qsub specific config file like [this one](https://github.com/annacuomo/CellRegMap_pipeline/blob/main/qsub.conf) (thanks to Michael Geaghan).
 
 Finally, run your wdl by typing:
