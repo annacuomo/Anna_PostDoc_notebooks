@@ -27,6 +27,7 @@ p.s. I actually downloaded [version 56](https://github.com/broadinstitute/cromwe
 
 #### Java
 Running cromwell requires a working Java environment, so if you don't have it, you should download it from [here](https://www.oracle.com/java/technologies/downloads/#java8) (I downloaded **x64 Compressed Archive** from the Linux options, for my Centos7 machine).
+Note that you may need to create an Oracle account to download Java, if you don't have one!
 
 To ensure the newly downloaded java gets called when you type in ```java```, unzip the file you downloaded by typing:
 ```
