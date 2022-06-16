@@ -39,6 +39,13 @@ Now, I'd like to gain a deeper understanding to be able to do exactly what I wan
 
 ### Examples 
 
+
+#### Snakemake to run QTLs 
+
+This is my own snakemake to run the [limix QTL pipeline](https://github.com/single-cell-genetics/limix_qtl) to map eQTLs in our [neuronal differentiation study](https://github.com/single-cell-genetics/singlecell_neuroseq_paper) ([paper](https://www.nature.com/articles/s41588-021-00801-6)) - building on one of [Marc Jan Bonder](https://twitter.com/mjbonder)'s templates:
+
+https://github.com/annacuomo/CellRegMap_analyses/blob/main/neuroseq/usage/scripts/snakemake.py
+
 #### from Drew (verbatim):
 
 This directory has an example: https://github.com/powellgenomicslab/iPSC_Village_scripts/tree/main/Variance/post_review
