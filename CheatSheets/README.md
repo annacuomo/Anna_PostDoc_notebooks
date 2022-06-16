@@ -11,4 +11,4 @@ They are split by category
 * [LateX cheatsheet](../CheatSheets/cheatsheet_latex.md/) 
 * [R & Python cheatsheet](../CheatSheets/cheatsheet_miscellaneous.md/) 
 * [website cheatsheet](../CheatSheets/cheatsheet_website.md/) 
-* [WDL/snakemake cheatsheet](../CheatSheets/cheatsheet_pipeline_workflows.md/) 
+* [WDL / snakemake cheatsheet](../CheatSheets/cheatsheet_pipeline_workflows.md/) 
