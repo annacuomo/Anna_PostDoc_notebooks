@@ -23,6 +23,8 @@ Cromwell is set up to work well on the cloud (e.g., pipelines from the Broad Ins
 #### Cromwell
 First, download/install cromwell (instructions [here](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/)) from [here](https://github.com/broadinstitute/cromwell/releases/tag/80).
 
+p.s. I actually downloaded [version 56](https://github.com/broadinstitute/cromwell/releases/tag/56) as 80 didnt work for me. 
+
 #### Java
 Running cromwell requires a working Java environment, so if you don't have it, you should download it from [here](https://www.oracle.com/java/technologies/downloads/#java8) (I downloaded **x64 Compressed Archive** from the Linux options, for my Centos7 machine).
 
@@ -40,7 +42,28 @@ For me, "wherever/you/put/it" ends in ```jdk1.8.0_333/bin```.
 
 Remember to log out and back into your cluster for the change to be active, and then check that it works by typing ```which java```.
 
-##### qsub Config file
+#### step 1: Hello World workflow
+
+```
+java -jar cromwell-56.jar run myWorkflow.wdl
+```
+using the myWorkflow from the instructions page:
+```
+workflow myWorkflow {
+    call myTask
+}
+
+task myTask {
+    command {
+        echo "hello world"
+    }
+    output {
+        String out = read_string(stdout())
+    }
+}
+```
+
+#### qsub Config file
 Second, you need a qsub specific config file like [this one](https://github.com/annacuomo/CellRegMap_pipeline/blob/main/qsub.conf) (thanks to Michael Geaghan).
 
 Finally, run your wdl by typing:
