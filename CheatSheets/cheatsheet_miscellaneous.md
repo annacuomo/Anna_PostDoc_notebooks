@@ -1,7 +1,7 @@
 ## R
 
 #### to read in a compressed file with a .gz extension
-```df = read.csv(gzfile(filename), sep="\t")```
+```df = read.csv(gzfile(filename.txt), sep="\t")```
 
 #### q-value (Storey method for multiple testing correction - FDR)
 ```
