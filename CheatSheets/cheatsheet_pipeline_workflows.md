@@ -24,16 +24,23 @@ Cromwell is set up to work well on the cloud (e.g., pipelines from the Broad Ins
 First, download/install cromwell (instructions [here](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/)) from [here](https://github.com/broadinstitute/cromwell/releases/tag/80).
 
 #### Java
-Running cromwell requires a working Java environment, so if you don't have it, you should download it from [here](https://www.oracle.com/java/technologies/downloads/#java8) (I downloaded **x64 RPM Package** from the Linux options, for my Centos7 machine).
+Running cromwell requires a working Java environment, so if you don't have it, you should download it from [here](https://www.oracle.com/java/technologies/downloads/#java8) (I downloaded **x64 Compressed Archive** from the Linux options, for my Centos7 machine).
 
-To ensure the newly downloaded java gets called when you type in ```java```, add the path in your **.bashrc** file, by adding these two lines:
+To ensure the newly downloaded java gets called when you type in ```java```, unzip the file you downloaded by typing:
+```
+ tar zxvf jdk-8u333-linux-x64.tar.gz
+```
+add the path in your **.bashrc** file, by adding these two lines:
 
 ```
 MY_JAVA_DIR=/wherever/you/putit
 export PATH=$MY_JAVA_DIR:$PATH
 ```
+For me, "wherever/you/put/it" ends in ```jdk1.8.0_333/bin```.
 
-##### qsub Conifg file
+Remember to log out and back into your cluster for the change to be active, and then check that it works by typing ```which java```.
+
+##### qsub Config file
 Second, you need a qsub specific config file like [this one](https://github.com/annacuomo/CellRegMap_pipeline/blob/main/qsub.conf) (thanks to Michael Geaghan).
 
 Finally, run your wdl by typing:
