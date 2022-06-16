@@ -12,16 +12,17 @@ check that you have [Docker](https://docs.docker.com/get-docker/) installed, the
 ```
 miniwdl run hello_all_in_one_file.wdl
 ```
+(worked fine for me, but only after checking I had docker installed, i.e. typing ```docker info``` before trying the command again).
 
 ### Set up to run WDL pipeline on HPC
 
-To set it up on a high computing system, it is a bit more involved and requires to install [cromwell]().
+To set it up on a high computing system, it is a bit more involved and requires to install [cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/).
 
 Cromwell is set up to work well on the cloud (e.g., pipelines from the Broad Institute largelt use WDL / cromwell / Terra), but it is a bit more complicated to set up on non-cloud high perfomance computing systems like the Garvan's HPC.
 
 First, install cromwell:
 
-Second, you need a qsub specific config file like [this one]() (thanks to Michael Geaghan).
+Second, you need a qsub specific config file like [this one](https://github.com/annacuomo/CellRegMap_pipeline/blob/main/qsub.conf) (thanks to Michael Geaghan).
 
 Finally, run your wdl by typing:
 ```
