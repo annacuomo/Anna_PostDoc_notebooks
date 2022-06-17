@@ -69,9 +69,9 @@ Second, you need a qsub specific config file like [this one](https://github.com/
 
 Finally, run your wdl by typing:
 ```
-java -Dconfig.file=qsub.conf -jar <path-to-cromwell-jar> run hello_all_in_one_file.wdl
+java -Dconfig.file=/path/to/config/file/qsub.conf -jar cromwell-56.jar run myWorkflow.wdl
 ```
-
+This worked fine for the Hello World WDL with default parameters, next step is to try an actual workflow.
 
 ## Snakemake
 
