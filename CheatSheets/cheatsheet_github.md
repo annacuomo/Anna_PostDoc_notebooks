@@ -12,6 +12,8 @@ git push -f origin main
 ```
 It worked!
 
+[Another useful thread](https://stackoverflow.com/questions/15240815/git-fatal-the-remote-end-hung-up-unexpectedly)
+
 ### Add to .gitignore files you don't want to version
 
 * [Example 1](https://github.com/annacuomo/TenK10K_analyses_HPC/blob/main/.gitignore)
