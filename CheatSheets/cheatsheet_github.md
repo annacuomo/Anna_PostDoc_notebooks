@@ -13,4 +13,5 @@ git push -f origin main
 
 ### Add to .gitignore files you don't want to version
 
-[Example]()
+* [Example 1](https://github.com/annacuomo/TenK10K_analyses_HPC/blob/main/.gitignore)
+* [Example 2](https://github.com/annacuomo/CellRegMap_analyses/blob/main/.gitignore)
