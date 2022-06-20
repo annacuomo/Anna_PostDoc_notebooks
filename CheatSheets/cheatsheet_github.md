@@ -1,3 +1,8 @@
+### Reset previous version
+```
+git reset --hard 9344d8b
+```
+
 ### To add all files including deleted ones
 * git add -A . 
 * git add -u .
