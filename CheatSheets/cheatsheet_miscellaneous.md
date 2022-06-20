@@ -29,6 +29,10 @@ corrplot(cor(df))
 ```
 df <- df[rowSums(is.na(df)) == 0, ]
 ```
+#### package version
+```
+packageVersion("snow")
+```
 
 #### installation
 ##### using CRAN
