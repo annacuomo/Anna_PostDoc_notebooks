@@ -31,8 +31,8 @@
 * SKAT
   * [paper](https://www.sciencedirect.com/science/article/pii/S0002929711002229) (Wu et al, AJHG 2011)
 * SKAT-O 
-  * [paper]()
-  * combines SKAT and burden tests
+  * [paper](https://academic.oup.com/biostatistics/article/13/4/762/241404) (Lee et al, Biostatistics 2012)
+  * combines SKAT and burden tests (?)
 * SAIGE-GENE
   * [paper](https://www.nature.com/articles/s41588-020-0621-6) (Zhou et al, Nature Genetics 2020)
   * [preprint v2](https://www.medrxiv.org/content/10.1101/2021.07.12.21260400v2) (Zhou et al, medRxiv 2022)
