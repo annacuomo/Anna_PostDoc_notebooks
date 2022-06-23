@@ -25,7 +25,7 @@
 * [lme4](https://github.com/lme4/lme4)
 * [mgcv](https://www.maths.ed.ac.uk/~swood34/mgcv/#:~:text=mgcv%20is%20an%20R%20package,splines%20with%20automatic%20smoothness%20estimation.)
 
-PCG (preconditioned conjugate gradient) to solve LMMs ([paper](https://www.sciencedirect.com/science/article/pii/0377042788903585?ref=pdf_download&fr=RR-2&rr=71fa1dad6e88a831)])
+PCG (preconditioned conjugate gradient) to solve LMMs ([paper](https://www.sciencedirect.com/science/article/pii/0377042788903585?ref=pdf_download&fr=RR-2&rr=71fa1dad6e88a831)) - used in BOLT-LMM I think
 
 ## Rare Variants (RV) association methods
 
