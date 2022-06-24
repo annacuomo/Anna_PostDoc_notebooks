@@ -2,6 +2,8 @@
 
 Setting this up for CellRegMap [here](https://github.com/annacuomo/CellRegMap_pipeline) with Michael Franklin's help.
 
+[WDL specs](https://github.com/openwdl/wdl/blob/main/versions/development/SPEC.md).
+
 Here is a [simple WDL](https://github.com/annacuomo/CellRegMap_pipeline/blob/main/hello_all_in_one_file.wdl) to test.
 
 Locally, install ```miniwdl``` as:
