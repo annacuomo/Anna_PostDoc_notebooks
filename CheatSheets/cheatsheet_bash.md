@@ -33,6 +33,14 @@ this command (used [here](https://github.com/annacuomo/TenK10K_analyses_HPC/blob
 ```
 cat file.txt | awk -F ',' '$4 == 22' | sed -n 1p | awk -F "," '{print $2}'
 ```
+
+## Random
+
+[The uncompromising code formatter](https://black.readthedocs.io/en/stable/)
+Simply ```pip install black```,
+
+Then, ``` black my_script.py``` to reformat.
+
 ## References
 
 [Cheatsheet](https://devhints.io/bash)
