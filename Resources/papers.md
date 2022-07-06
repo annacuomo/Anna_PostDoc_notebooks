@@ -11,6 +11,9 @@
 * [Where Are the Disease-Associated eQTLs?](https://www.cell.com/trends/genetics/fulltext/S0168-9525(20)30209-2). Benjamin D. Umans, Alexis Battle and Yoav Gilad, Trends in Genetics, 2021.
 * [From GWAS to Function: Using Functional Genomics to Identify the Mechanisms Underlying Complex Diseases](https://www.frontiersin.org/articles/10.3389/fgene.2020.00424/full). Eddie Cano-Gamez and Gosia Trynka, Frontiers in Genetics, 2020.
 * [From variant to function in human disease genetics](https://www.science.org/doi/10.1126/science.abi8207). Tuli Lappalainen and Daniel G. MacArthur, Science, 2021.
+* [Functional studies of GWAS variants are gaining momentum](https://www.nature.com/articles/s41467-020-20188-y). Florence Lichou and Gosia Trynka, Nature Communications, 2020.
+* [Mapping human cell phenotypes to genotypes with single-cell genomics](https://www.science.org/doi/10.1126/science.aax6648). J. Gray Camp, Randall Platt and Barbara Treutlein, Science, 2019.
+* [Computational principles and challenges in single-cell data integration](https://www.nature.com/articles/s41587-021-00895-7). Ricard Argelaguet, Anna S. E. Cuomo, Oliver Stegle and John C. Marioni, Nature Biotechnology, 2021.
 
 ## Random collection of cool papers I want to read
 
