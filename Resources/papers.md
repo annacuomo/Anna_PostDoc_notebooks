@@ -1,3 +1,14 @@
+## Review articles
+
+### NRG
+* [Measuring biological age using omics data](https://www.nature.com/articles/s41576-022-00511-7)
+* [Challenges in measuring and understanding biological noise](https://www.nature.com/articles/s41576-019-0130-6)
+* [Reconciling the analysis of IBD and IBS in complex trait studies](https://www.nature.com/articles/nrg2865)
+
+### GWAS / eQTL / function
+* [From GWAS to Function: Using Functional Genomics to Identify the Mechanisms Underlying Complex Diseases](https://www.frontiersin.org/articles/10.3389/fgene.2020.00424/full) (Eddie Cano-Gamez and Gosia Trynka, Frontiers in Genetics, 2020)
+* 
+
 ## Random collection of cool papers I want to read
 
 ### 2022
