@@ -66,3 +66,5 @@ http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
 https://www.datanovia.com/en/blog/top-r-color-palettes-to-know-for-great-data-visualization/
 
 https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf
+
+https://github.com/dill/beyonce
