@@ -1,6 +1,7 @@
 ## Review articles
 
 ### Nature Reviews Genetics (NRG)
+* [Single-cell atlases: shared and tissue-specific cell types across human organs](https://www.nature.com/articles/s41576-022-00449-w)
 * [Measuring biological age using omics data](https://www.nature.com/articles/s41576-022-00511-7)
 * [Challenges in measuring and understanding biological noise](https://www.nature.com/articles/s41576-019-0130-6)
 * [Reconciling the analysis of IBD and IBS in complex trait studies](https://www.nature.com/articles/nrg2865)
