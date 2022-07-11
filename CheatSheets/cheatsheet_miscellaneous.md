@@ -33,6 +33,16 @@ df <- df[rowSums(is.na(df)) == 0, ]
 ```
 packageVersion("snow")
 ```
+#### UMAP packages
+```
+install.packages("umap")
+library(umap)
+```
+works fine in R, but to run Seurat's ```obj = RunUMAP(obj)``` you seemingly have to install umap-learn, i.e.,:
+```
+pip install umap-learn
+```
+in the command line. Haven't quite managed to get it to work myself though.
 
 #### installation
 ##### using CRAN
