@@ -24,6 +24,7 @@
 * [Stable population structure in Europe since the Iron Age, despite high mobility](https://www.biorxiv.org/content/10.1101/2022.05.15.491973v1.full.pdf)
 * [Limited overlap of eQTLs and GWAS hits due to systematic differences in discovery](https://www.biorxiv.org/content/10.1101/2022.05.07.491045v1)
 * [A comparison of marker gene selection methods for single-cell RNA sequencing data](https://www.biorxiv.org/content/10.1101/2022.05.09.490241v1)
+* [Single-cell reference mapping to construct and extend cell type hierarchies](https://www.biorxiv.org/content/10.1101/2022.07.07.499109v1.full.pdf)
 
 #### Peer-reviewed papers
 * [Single-cell eQTL models reveal dynamic T cell state dependence of disease loci](https://www.nature.com/articles/s41586-022-04713-1)
