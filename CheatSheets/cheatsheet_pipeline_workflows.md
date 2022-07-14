@@ -85,6 +85,8 @@ This worked fine for the Hello World WDL with default parameters, next step is t
 * [inputs .json file]
 * [config (cluster specific)]
 
+```zip -r tasks.zip tasks```
+
 ## Snakemake
 
 I have been wanting to learn in better detail how to use snakemake (and whether that is ideal at all, as opposed to nextflow, and I am sure many other alternatives - e.g. should I just switch to hail-bath altogether [in line with CPG](https://github.com/populationgenomics/team-docs/blob/main/hail_batch_dev.md)?).
