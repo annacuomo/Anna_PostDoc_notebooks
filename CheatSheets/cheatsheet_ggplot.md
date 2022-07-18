@@ -10,11 +10,14 @@ plot_grid(p1, p2, ncol = 2)
 options(repr.plot.width = 10, repr.plot.height = 4) 
 ```
 
-## line trend across points
+## Linear trend across points
 ```
 p = ggplot(df, aes(x=x, y=y)) + geom_point()
 p + stat_smooth(se = F, linetype=2, col="darkgrey"))
 ```
+
+## Venn
+[Neuroseq studies overlap figure as an example](https://github.com/single-cell-genetics/singlecell_neuroseq_paper/blob/main/plotting_notebooks/Figure_3/Figure_3a.ipynb)
 
 ## Text in plots
 ```
