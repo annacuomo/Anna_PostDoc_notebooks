@@ -10,6 +10,12 @@ plot_grid(p1, p2, ncol = 2)
 options(repr.plot.width = 10, repr.plot.height = 4) 
 ```
 
+## line trend across points
+```
+p = ggplot(df, aes(x=x, y=y)) + geom_point()
+p + stat_smooth(se = F, linetype=2, col="darkgrey"))
+```
+
 ## Text in plots
 ```
 # size of text in plot (axes labels, title, etc..)
