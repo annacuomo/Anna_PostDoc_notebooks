@@ -24,6 +24,15 @@ library(corrplot)
 df = cbind(df0, df1)
 corrplot(cor(df))
 ```
+#### quick enrichment for gene list
+```
+# install.packages("enrichR")
+library(enrichR)
+setEnrichrSite("Enrichr")
+dbs <- listEnrichrDbs()
+# run the over over-representation analysis in kegg
+enrich_pw <- enrichr(list_of_egenes, 'KEGG_2021_Human')
+```
 
 #### remove NAs
 ```
