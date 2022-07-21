@@ -16,6 +16,7 @@
 * [Mapping human cell phenotypes to genotypes with single-cell genomics](https://www.science.org/doi/10.1126/science.aax6648). J. Gray Camp, Randall Platt and Barbara Treutlein, Science, 2019.
 * [Computational principles and challenges in single-cell data integration](https://www.nature.com/articles/s41587-021-00895-7). Ricard Argelaguet, Anna S. E. Cuomo, Oliver Stegle and John C. Marioni, Nature Biotechnology, 2021.
 * [Mapping Human Reproductionwith Single-Cell Genomics](https://www.annualreviews.org/doi/epdf/10.1146/annurev-genom-120121-114415), Magda Marečková, Hassan Massalha, Valentina Lorenzi and Roser Vento-Tormo, Annual Review of Genomics and Human Genetics, 2022.
+* [Understanding inflammatory bowel disease via immunogenetics](https://www.sciencedirect.com/science/article/pii/S0896841115300147), Katie de Lange & Jeffrey Barrett, Journal of Autoimmunity, 2015.
 
 ## Random collection of cool papers I want to read
 
