@@ -5,6 +5,7 @@
 * [Measuring biological age using omics data](https://www.nature.com/articles/s41576-022-00511-7)
 * [Challenges in measuring and understanding biological noise](https://www.nature.com/articles/s41576-019-0130-6)
 * [Reconciling the analysis of IBD and IBS in complex trait studies](https://www.nature.com/articles/nrg2865)
+* [The emerging landscape of spatial profiling technologies](https://www.nature.com/articles/s41576-022-00515-3)
 
 ### GWAS / eQTL / function
 
