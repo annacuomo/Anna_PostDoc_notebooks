@@ -118,6 +118,17 @@ java -Dconfig.file=qsub.conf -jar /share/ScratchGeneral/anncuo/cromwell/cromwell
 
 Note the full path for where cromwell is, the config file, the zipped tasks, the inputs.
 
+To debug, check progress, intermediate files, etc, need to go to the "execution" folder, that looks something like this:
+
+_/share/ScratchGeneral/anncuo/github_repos/CellRegMap_pipeline/cromwell-executions/RunCellRegMap/63e322c3-e29b-4de3-9893-8b04b6f3207d/call-EstimateBetas/shard-0/execution/_
+
+* it is split by "call" (e.g., call-EstimateBetas)
+* by "shard" if run in scatters
+
+Inside execution, there will be standard errors and output, generated files, and the script that was run.
+
+Type ```watch qstat``` to follow how cromwell submits jobs and their state (e.g. "r" for running)
+
 ## Resources
 
 [WDL specs](https://github.com/openwdl/wdl/blob/main/versions/development/SPEC.md).
