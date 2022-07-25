@@ -7,3 +7,5 @@
 * [On cell types and cell states](https://mbernste.github.io/posts/cell_types_cell_states/)
 
 * [NHGRI on Polygenic Risk Scores](https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores)
+
+* [How to Perform Exploratory Data Analysis?](https://mugekuskon.medium.com/how-to-perform-exploratory-data-analysis-5c3d944c13ff)
