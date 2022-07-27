@@ -133,6 +133,14 @@ Type ```watch qstat``` to follow how cromwell submits jobs and their state (e.g.
 
 [WDL specs](https://github.com/openwdl/wdl/blob/main/versions/development/SPEC.md).
 
+[WDL best practices](https://docs.dockstore.org/en/stable/advanced-topics/best-practices/wdl-best-practices.html)
+
+[python logging](https://docs.python.org/3/howto/logging.html)
+
+[what to look for in a code review](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
+
+[case styles in programming](https://systemweakness.com/case-styles-in-programming-b4ee6012fd5f)
+
 ## References
 
 https://www.rc.virginia.edu/userinfo/howtos/rivanna/wdl-bioinformatics/
