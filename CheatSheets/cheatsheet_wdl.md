@@ -129,6 +129,16 @@ Inside execution, there will be standard errors and output, generated files, and
 
 Type ```watch qstat``` to follow how cromwell submits jobs and their state (e.g. "r" for running)
 
+#### Build container
+
+To use a docker image instead of a conda environment, you need to add:
+* [Dockerfile](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/image/Dockerfile)
+* [requirements.txt](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/image/requirements.txt) - packages to install (specify version!)
+* [deploy.yaml](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/.github/workflows/deploy.yaml) - contains instructions to build docker image and push to dockerhub (github action)
+
+Create repo in dockerhub, add secrets in github (specific repo-> settings-> secrets->actions-> new repository secret) DOCKERHUB_USERNAME (annasecuomo) and DOCKERHUB_TOKEN, after creating a token in dockerhub (account settings -> security -> new access token) 
+
+
 ## Resources
 
 [WDL specs](https://github.com/openwdl/wdl/blob/main/versions/development/SPEC.md).
