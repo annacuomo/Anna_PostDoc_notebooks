@@ -120,7 +120,7 @@ Note the full path for where cromwell is, the config file, the zipped tasks, the
 
 To debug, check progress, intermediate files, etc, need to go to the "execution" folder, that looks something like this:
 
-_/share/ScratchGeneral/anncuo/github_repos/CellRegMap_pipeline/cromwell-executions/RunCellRegMap/63e322c3-e29b-4de3-9893-8b04b6f3207d/call-EstimateBetas/shard-0/execution/_
+```/share/ScratchGeneral/anncuo/github_repos/CellRegMap_pipeline/cromwell-executions/RunCellRegMap/63e322c3-e29b-4de3-9893-8b04b6f3207d/call-EstimateBetas/shard-0/execution/```
 
 * it is split by "call" (e.g., call-EstimateBetas)
 * by "shard" if run in scatters
