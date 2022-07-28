@@ -10,7 +10,7 @@
 
 ### Use case: CellRegMap
 
-Writing a WDL pipeline to run [CellRegMap](https://github.com/limix/CellRegMap) [here](https://github.com/populationgenomics/CellRegMap_pipeline) with Michael Franklin's help.
+A WDL pipeline to run [CellRegMap](https://github.com/limix/CellRegMap) is available at [this repo](https://github.com/populationgenomics/CellRegMap_pipeline) (written with a lot of help from [Michael Franklin](https://github.com/illusional)) and on [Dockerhub](https://hub.docker.com/repository/docker/annasecuomo/cellregmap_pipeline).
 
 ### Getting started
 
