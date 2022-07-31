@@ -139,10 +139,10 @@ Type ```watch qstat``` to follow how cromwell submits jobs and their state (_e.g
 
 To use a docker image instead of a conda environment ([commit](https://github.com/populationgenomics/CellRegMap_pipeline/commit/a11dac55f020ed442c47491eef47c987d60fc35a)), you need to add:
 * [Dockerfile](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/image/Dockerfile)
-* [requirements.txt](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/image/requirements.txt) - packages to install (specify version!)
+* [requirements.txt](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/image/requirements.txt) - Python packages to install (specify version!)
 * [deploy.yaml](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/.github/workflows/deploy.yaml) - contains instructions to build docker image and push to dockerhub (github action)
 
-Create repo in dockerhub, add secrets in github (specific repo-> settings-> secrets->actions-> new repository secret) DOCKERHUB_USERNAME (annasecuomo) and DOCKERHUB_TOKEN, after creating a token in dockerhub (account settings -> security -> new access token) 
+Create repo in dockerhub, add secrets in github (specific repo-> settings-> secrets-> actions-> new repository secret) DOCKERHUB_USERNAME (annasecuomo) and DOCKERHUB_TOKEN, after creating a token in dockerhub (account settings -> security -> new access token). 
 
 
 ## Resources
@@ -159,4 +159,4 @@ Create repo in dockerhub, add secrets in github (specific repo-> settings-> secr
 
 ## References
 
-https://www.rc.virginia.edu/userinfo/howtos/rivanna/wdl-bioinformatics/
+https://www.rc.virginia.edu/userinfo/howtos/rivanna/wdl-bioinformatics/ (intro)
