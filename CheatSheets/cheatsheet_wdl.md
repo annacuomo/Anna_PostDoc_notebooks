@@ -111,7 +111,9 @@ git pull
 ```
 if you made changes to wdl scripts in tasks, re-zip the tasks folder:
 
-```zip -r tasks.zip tasks```
+```
+zip -r tasks.zip tasks
+```
 
 then, run:
 ```
@@ -124,16 +126,18 @@ To debug, check progress, intermediate files, etc, need to go to the "execution"
 
 ```/share/ScratchGeneral/anncuo/github_repos/CellRegMap_pipeline/cromwell-executions/RunCellRegMap/63e322c3-e29b-4de3-9893-8b04b6f3207d/call-EstimateBetas/shard-0/execution/```
 
-* it is split by "call" (e.g., call-EstimateBetas)
+* the path starts with where the repo is
+* inside which cromwell creates a folder called cromwell-executions, with the (only one for now) main workflow
+* it is split by "call" (_e.g._, call-EstimateBetas)
 * by "shard" if run in scatters
 
 Inside execution, there will be standard errors and output, generated files, and the script that was run.
 
-Type ```watch qstat``` to follow how cromwell submits jobs and their state (e.g. "r" for running)
+Type ```watch qstat``` to follow how cromwell submits jobs and their state (_e.g._, "r" for running) - note that this is specific to this qsub cluster (vs _e.g._, bsub etc..)
 
 #### Build container
 
-To use a docker image instead of a conda environment, you need to add:
+To use a docker image instead of a conda environment ([commit](https://github.com/populationgenomics/CellRegMap_pipeline/commit/a11dac55f020ed442c47491eef47c987d60fc35a)), you need to add:
 * [Dockerfile](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/image/Dockerfile)
 * [requirements.txt](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/image/requirements.txt) - packages to install (specify version!)
 * [deploy.yaml](https://github.com/populationgenomics/CellRegMap_pipeline/blob/create-wdl-workflow/.github/workflows/deploy.yaml) - contains instructions to build docker image and push to dockerhub (github action)
