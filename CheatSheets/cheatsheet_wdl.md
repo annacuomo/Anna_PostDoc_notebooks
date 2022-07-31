@@ -2,11 +2,11 @@
 
 ### Intro
 
-[WDL]() is a workflow language to define tasks and workflows.
-[Cromwell]() is the execution engine (written in Java) that supports running WDL scripts, on:
-* local machine (e.g., own laptop)
-* local cluster / compute farm (e.g., Garvan's HPC)
-* cloud platform (e.g., Google Cloud, Amazon AWS)
+[WDL](https://openwdl.org/) is a workflow language to define tasks and workflows.
+[Cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/) is the execution engine (written in Java) that supports running WDL scripts, on:
+* local machine (_e.g._, own laptop)
+* local cluster / compute farm (_e.g._, Garvan's HPC)
+* cloud platform (_e.g._, Google Cloud Platform, Amazon AWS, Microsoft Azure)
 
 ### Use case: CellRegMap
 
@@ -24,7 +24,7 @@ check that you have [Docker](https://docs.docker.com/get-docker/) installed, the
 ```
 miniwdl run hello_all_in_one_file.wdl
 ```
-(worked fine for me, but only after checking I had docker installed, i.e., typing ```docker info``` before trying the command again).
+(worked fine for me, but only after checking I had docker installed, _i.e._, typing ```docker info``` before trying the command again).
 
 Note: [miniwdl] works fine locally, but doesn't work on cluster/GCP, so for that we need Cromwell.
 
@@ -32,7 +32,7 @@ Note: [miniwdl] works fine locally, but doesn't work on cluster/GCP, so for that
 
 To set it up on a high computing system, it is a bit more involved and requires to install [cromwell](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/).
 
-Cromwell is set up to work well on the cloud (e.g., pipelines from the Broad Institute largelt use WDL / cromwell / Terra), but it is a bit more complicated to set up on non-cloud high perfomance computing systems like the Garvan's HPC.
+Cromwell is set up to work well on the cloud (_e.g._, pipelines from the [Broad Institute](https://www.broadinstitute.org/) largely use WDL / cromwell / Terra), but it is a bit more complicated to set up on non-cloud high perfomance computing systems like the Garvan's HPC.
 
 ##### Cromwell
 First, download/install cromwell (instructions [here](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/)) from [here](https://github.com/broadinstitute/cromwell/releases/tag/80).
@@ -40,7 +40,7 @@ First, download/install cromwell (instructions [here](https://cromwell.readthedo
 p.s. I actually downloaded [version 56](https://github.com/broadinstitute/cromwell/releases/tag/56) as 80 didn't work for me. 
 
 ##### Java
-Running cromwell requires a working Java environment, so if you don't have it, you should download it from [here](https://www.oracle.com/java/technologies/downloads/#java8) (I downloaded **x64 Compressed Archive** from the Linux options, for my Centos7 machine).
+Running cromwell requires a working Java environment, so if you don't have it, you should download it from [here](https://www.oracle.com/java/technologies/downloads/#java8) (I downloaded **x64 Compressed Archive** from the Linux options, for the cluster's Centos7 machine).
 Note that you may need to create an Oracle account to download Java, if you don't have one!
 
 To ensure the newly downloaded java gets called when you type in ```java```, unzip the file you downloaded by typing:
@@ -59,10 +59,7 @@ Remember to log out and back into your cluster for the change to be active, and 
 
 ##### step 1: Hello World workflow
 
-```
-java -jar cromwell-56.jar run myWorkflow.wdl
-```
-using the myWorkflow from the instructions page:
+Create the myWorkflow from the instructions page:
 ```
 workflow myWorkflow {
     call myTask
@@ -77,6 +74,11 @@ task myTask {
     }
 }
 ```
+and run it by typing:
+```
+java -jar cromwell-56.jar run myWorkflow.wdl
+```
+This worked fine locally, but to run on the cluster we need one more step.
 
 ##### qsub Config file
 Second, you need a qsub specific config file like [this one](https://github.com/annacuomo/CellRegMap_pipeline/blob/main/qsub.conf) (thanks to Michael Geaghan).
@@ -93,17 +95,17 @@ Now that we are happy that the simple example wdl script works, let's work on th
 
 [Pipeline repo](https://github.com/annacuomo/CellRegMap_pipeline/) structure:
 
-* [Main workflow]
-* [Tasks (WDL)]
-* [.py scripts in images]
-* [inputs .json file]
-* [config (cluster specific)]
+* [Main workflow]() - main WDL pipeline
+* [Tasks (WDL)]() - these are tasks that get called by the main workflow, written in WDL
+* [.py scripts in images]() - these will get added to the container
+* [inputs .json file]() - all input files need to be specified here
+* [config (cluster specific)]() - this file specifies how you submit the
 
 To run it, go to the repo:
 ```
 cd /to/where/my/repo/is/CellRegMap_pipeline/
 ```
-pull all changes (I am making changes locally, using [VSCode]():
+pull all changes (I am making changes locally, using [VSCode](https://code.visualstudio.com/)):
 ```
 git pull
 ```
@@ -113,10 +115,10 @@ if you made changes to wdl scripts in tasks, re-zip the tasks folder:
 
 then, run:
 ```
-java -Dconfig.file=qsub.conf -jar /share/ScratchGeneral/anncuo/cromwell/cromwell-56.jar run run_cellregmap.wdl --imports tasks.zip --inputs inputs.json
+java -Dconfig.file=qsub.conf -jar /share/ScratchGeneral/anncuo/cromwell/cromwell-56.jar run runCellRegMap.wdl --imports tasks.zip --inputs inputs.json
 ```
 
-Note the full path for where cromwell is, the config file, the zipped tasks, the inputs.
+Note the full path for where cromwell is, the main workflow name, the config file, the zipped tasks, the inputs file.
 
 To debug, check progress, intermediate files, etc, need to go to the "execution" folder, that looks something like this:
 
