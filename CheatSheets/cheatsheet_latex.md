@@ -5,7 +5,9 @@ Mostly, I figured these out when compiling my [PhD thesis](https://github.com/an
 
 * ```\clearpage``` instead of ```\newpage```, when figures and tables just move around and don't stay where you put them, this is a good way to enforce an order ([for example, to enforce the caption of Fig S2 to go after the figure](https://github.com/annacuomo/CellRegMap_Supplementary_Methods/blob/main/supplementary_figures.tex)).
 * ```\textcolor{blue}{text_i_need_in_colour}``` to colour one piece of text (_e.g._, minor revisions for my thesis)
+* in formulae, ```\in``` is the "belongs to" symbol
 
 ## Resources
 
-https://www.geeksforgeeks.org/logic-notations-in-latex/
+* https://www.geeksforgeeks.org/logic-notations-in-latex/
+* https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
