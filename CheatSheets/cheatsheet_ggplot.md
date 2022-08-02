@@ -72,6 +72,8 @@ for (i in 1:length(names(canva_palettes))){
     print(names(canva_palettes)[i])
 }
 ```
+or see [this notebook](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/sc_endodiff/Canva%20Palettes.ipynb).
+
 #### RColorBrewer
 ```
 library(RColorBrewer)
