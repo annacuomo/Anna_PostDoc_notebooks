@@ -66,3 +66,6 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("qvalue")
 ```
 
+### Seurat
+```gene1<- FetchData(mySample, vars = "myGene")``` to fetch (normalised) expression of a specific gene
+
