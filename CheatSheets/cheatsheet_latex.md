@@ -7,6 +7,7 @@ Mostly, I figured these out when compiling my [PhD thesis](https://github.com/an
 * ```\textcolor{blue}{text_i_need_in_colour}``` to colour one piece of text (_e.g._, minor revisions for my thesis)
 * in formulae, ```\in``` is the "belongs to" symbol
 * to capitalise greek letters, use ```\boldsymbol{\theta}```
+* in formulae, ```sim``` is ~ (distributed as)
 
 ## Resources
 
