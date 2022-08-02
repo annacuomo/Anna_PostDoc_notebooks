@@ -15,6 +15,14 @@ options(repr.plot.width = 10, repr.plot.height = 4)
 p = ggplot(df, aes(x=x, y=y)) + geom_point()
 p + stat_smooth(se = F, linetype=2, col="darkgrey"))
 ```
+### to get a linear trend per group
+```
+p + stat_smooth(se=F, linetype = 2, aes(group=as.factor(GROUP), colour=as.factor(GROUP)))
+```
+## label name
+```
+p + labs(colour=GROUP)
+```
 
 ## Venn
 ```
