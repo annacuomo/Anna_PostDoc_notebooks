@@ -33,6 +33,12 @@ dbs <- listEnrichrDbs()
 # run the over over-representation analysis in kegg
 enrich_pw <- enrichr(list_of_egenes, 'KEGG_2021_Human')
 ```
+#### check if file exists
+
+```
+file.exists("myfile.R")
+```
+returns ```TRUE``` (or ```FALSE```)
 
 #### remove NAs
 ```
