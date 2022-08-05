@@ -21,7 +21,24 @@ adata = ad.AnnData(X=X, obs=obs, var=var, dtype='float')
 #### equivalent to gsub in python:
 ```
 import re
-re.sub("_", "-", mystring)
+mynewstring = re.sub("_", "-", mystring)
+```
+or
+```
+mynewstring = mystring.replace("_", "-")
+```
+
+#### read arguments in .py script
+Option 1:
+```
+import sys
+chrom = str(sys.argv[1])
+```
+Option 2:
+```
+import click
+@click.command()
+@click.option("--chrom", required=True, help="More info here")
 ```
 
 #### show matrix
