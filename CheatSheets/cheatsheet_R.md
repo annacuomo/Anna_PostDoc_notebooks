@@ -44,6 +44,12 @@ returns ```TRUE``` (or ```FALSE```)
 ```
 df <- df[rowSums(is.na(df)) == 0, ]
 ```
+#### read arguments in Rscript
+```
+args = commandArgs(trailingOnly=TRUE)
+chr_number <- args[1]
+```
+
 #### package version
 ```
 packageVersion("snow")
