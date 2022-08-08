@@ -1,3 +1,8 @@
+### Create a new branch and go into it
+```
+git checkout -b name-of-branch
+```
+
 ### Reset previous version
 ```
 git reset --hard 9344d8b
