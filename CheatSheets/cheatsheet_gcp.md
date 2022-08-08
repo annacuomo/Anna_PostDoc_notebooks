@@ -20,4 +20,5 @@ This will open a browser where you can login with your google credentials.
 
 
 ### Resources
-[How to cloud](https://github.com/danking/hail-cloud-docs/blob/master/how-to-cloud.md)
+* [How to cloud](https://github.com/danking/hail-cloud-docs/blob/master/how-to-cloud.md)
+* [Google cloud HOW TO guides](https://cloud.google.com/storage/docs/how-to)
