@@ -15,6 +15,9 @@ This will open a browser where you can login with your google credentials.
 #### copy one file into an existing bucket
 ```gsutil cp /my/file/on/the/cluster.csv gs://path-on-gcp/bucket/```
 
+#### list files in a bucket
+```gcloud alpha storage ls --recursive gs://path-on-gcp/bucket/```
+
 
 ### Resources
 [How to cloud](https://github.com/danking/hail-cloud-docs/blob/master/how-to-cloud.md)
