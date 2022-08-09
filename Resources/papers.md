@@ -29,6 +29,7 @@
 * [Single-cell reference mapping to construct and extend cell type hierarchies](https://www.biorxiv.org/content/10.1101/2022.07.07.499109v1.full.pdf)
 
 ### Peer-reviewed papers
+* [A physical wiring diagram for the human immune system](https://www.nature.com/articles/s41586-022-05028-x)
 * [Single-cell eQTL models reveal dynamic T cell state dependence of disease loci](https://www.nature.com/articles/s41586-022-04713-1)
 * [Variance-quantitative trait loci enable systematic discovery of gene-environment interactions for cardiometabolic serum biomarkers](https://www.nature.com/articles/s41467-022-31625-5) @vQTLs @GxE 
 * [Hiplot: a comprehensive and easy-to-use web service for boosting publication-ready biomedical data visualization](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac261/6620876) @data_viz
