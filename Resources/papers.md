@@ -35,6 +35,7 @@
 * [Variance-quantitative trait loci enable systematic discovery of gene-environment interactions for cardiometabolic serum biomarkers](https://www.nature.com/articles/s41467-022-31625-5) @vQTLs @GxE 
 * [Hiplot: a comprehensive and easy-to-use web service for boosting publication-ready biomedical data visualization](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac261/6620876) @data_viz
 * [Systematic discovery and perturbation of regulatory genes in human T cells reveals the architecture of immune networks](https://www.nature.com/articles/s41588-022-01106-y) @Tcell @gene_reg
+* [Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function](https://www.science.org/doi/full/10.1126/science.abl4290)
 
 
 ## Autoimmune disease papers
