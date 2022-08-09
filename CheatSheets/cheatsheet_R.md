@@ -24,6 +24,16 @@ library(corrplot)
 df = cbind(df0, df1)
 corrplot(cor(df))
 ```
+
+#### quantiles
+```
+qts = quantile(v, probs = c(0.3, 0.7))
+bottom_cells = rownames(df[df$gene < qts[1],])
+top_cells = rownames(df[df$gene > qts[2],])
+
+```
+see [notebook](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/CellRegMap/neuroseq/June_2021/example_figure5_SLC35E2_step1.ipynb).
+
 #### quick enrichment for gene list
 ```
 # install.packages("enrichR")
