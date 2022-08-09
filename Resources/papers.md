@@ -22,20 +22,19 @@
 
 ## Random collection of cool papers I want to read
 
-### 2022
-
-#### Preprints
+### Preprints
 * [Stable population structure in Europe since the Iron Age, despite high mobility](https://www.biorxiv.org/content/10.1101/2022.05.15.491973v1.full.pdf)
 * [Limited overlap of eQTLs and GWAS hits due to systematic differences in discovery](https://www.biorxiv.org/content/10.1101/2022.05.07.491045v1)
 * [A comparison of marker gene selection methods for single-cell RNA sequencing data](https://www.biorxiv.org/content/10.1101/2022.05.09.490241v1)
 * [Single-cell reference mapping to construct and extend cell type hierarchies](https://www.biorxiv.org/content/10.1101/2022.07.07.499109v1.full.pdf)
 
-#### Peer-reviewed papers
+### Peer-reviewed papers
 * [Single-cell eQTL models reveal dynamic T cell state dependence of disease loci](https://www.nature.com/articles/s41586-022-04713-1)
 * [Variance-quantitative trait loci enable systematic discovery of gene-environment interactions for cardiometabolic serum biomarkers](https://www.nature.com/articles/s41467-022-31625-5) @vQTLs @GxE 
 * [Hiplot: a comprehensive and easy-to-use web service for boosting publication-ready biomedical data visualization](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac261/6620876) @data_viz
 * [Systematic discovery and perturbation of regulatory genes in human T cells reveals the architecture of immune networks](https://www.nature.com/articles/s41588-022-01106-y) @Tcell @gene_reg
 * [Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function](https://www.science.org/doi/full/10.1126/science.abl4290)
+* [Quantifying genetic effects on disease mediated by assayed gene expression levels](https://www.nature.com/articles/s41588-020-0625-2)
 
 
 ## Autoimmune disease papers
