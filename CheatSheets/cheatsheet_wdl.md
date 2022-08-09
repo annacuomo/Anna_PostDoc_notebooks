@@ -144,6 +144,14 @@ To use a docker image instead of a conda environment ([commit](https://github.co
 
 Create repo in dockerhub, add secrets in github (specific repo-> settings-> secrets-> actions-> new repository secret) DOCKERHUB_USERNAME (annasecuomo) and DOCKERHUB_TOKEN, after creating a token in dockerhub (account settings -> security -> new access token). 
 
+#### visualise pipeline
+Install womtools from [here](https://github.com/broadinstitute/cromwell/releases/tag/56) (note that as for cromwell the newest version 83 doesn't quite work so I am using v 56).
+Then, run:
+```
+java -jar ../cromwell/womtool-56.jar womgraph runCellRegMap.wdl
+```
+copy results into: https://dreampuf.github.io/GraphvizOnline 
+
 
 ## Resources
 
