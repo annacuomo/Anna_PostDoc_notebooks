@@ -27,6 +27,8 @@
 * [Limited overlap of eQTLs and GWAS hits due to systematic differences in discovery](https://www.biorxiv.org/content/10.1101/2022.05.07.491045v1)
 * [A comparison of marker gene selection methods for single-cell RNA sequencing data](https://www.biorxiv.org/content/10.1101/2022.05.09.490241v1)
 * [Single-cell reference mapping to construct and extend cell type hierarchies](https://www.biorxiv.org/content/10.1101/2022.07.07.499109v1.full.pdf)
+* [Systematic single-variant and gene-based association testing of thousands of phenotypes in 426,370 UK Biobank exomes](https://www.medrxiv.org/content/10.1101/2021.06.19.21259117v4.full.pdf)
+* [Tissue-specific impacts of aging and genetics on gene expression patterns in humans](https://www.biorxiv.org/content/10.1101/2021.11.16.468753v3.full.pdf)
 
 ### Peer-reviewed papers
 * [A physical wiring diagram for the human immune system](https://www.nature.com/articles/s41586-022-05028-x)
@@ -36,6 +38,7 @@
 * [Systematic discovery and perturbation of regulatory genes in human T cells reveals the architecture of immune networks](https://www.nature.com/articles/s41588-022-01106-y) @Tcell @gene_reg
 * [Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function](https://www.science.org/doi/full/10.1126/science.abl4290)
 * [Quantifying genetic effects on disease mediated by assayed gene expression levels](https://www.nature.com/articles/s41588-020-0625-2)
+* [A phenotypic spectrum of autism is attributable to the combined effects of rare variants, polygenic risk and sex](https://www.nature.com/articles/s41588-022-01064-5)
 
 
 ## Autoimmune disease papers
