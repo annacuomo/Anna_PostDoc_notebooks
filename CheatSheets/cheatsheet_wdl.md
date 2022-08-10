@@ -148,10 +148,11 @@ Create repo in dockerhub, add secrets in github (specific repo-> settings-> secr
 Install womtools from [here](https://github.com/broadinstitute/cromwell/releases/tag/56) (note that as for cromwell the newest version 83 doesn't quite work so I am using v 56).
 Then, run:
 ```
-java -jar ../cromwell/womtool-56.jar womgraph runCellRegMap.wdl
+java -jar ../cromwell/womtool-56.jar graph runCellRegMap.wdl
 ```
-copy results into: https://dreampuf.github.io/GraphvizOnline 
+copy results into: https://dreampuf.github.io/GraphvizOnline, and you get something like this:
 
+![graphviz (1)](https://user-images.githubusercontent.com/25035866/183782252-11d38773-f6c0-40f7-bef0-14b075406be9.svg)
 
 ## Resources
 
