@@ -1,6 +1,15 @@
-### Hail
+## Hail
 
 [Hail](https://hail.is/) used at Broad and CPG, ..
+
+### Recurring commands 
+
+#### filter to this sample's non-ref calls
+```
+import hail as hl
+mt = hl.variant_qc(mt)
+mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
+```
 
 ### Example / template scripts
 
