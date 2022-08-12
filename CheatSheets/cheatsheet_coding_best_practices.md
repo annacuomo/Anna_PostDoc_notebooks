@@ -9,6 +9,10 @@
 
 * [python logging](https://docs.python.org/3/howto/logging.html)
 
+### R
+
+* [Kat's R style guide](https://github.com/populationgenomics/team-docs/blob/add_style_guide/r_style_guide.md)
+
 ### WDL
 
 * [WDL specs](https://github.com/openwdl/wdl/blob/main/versions/development/SPEC.md).
