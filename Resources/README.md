@@ -6,4 +6,8 @@ Collating resources I want to remember to read, blog posts or tools I want to ha
 
 They are split by category:
 
-* [Papers I want to read](../Resources/papers.md/)
+* [Blog posts](../Resources/blog_posts.md/)
+* [Lectures](../Resources/lectures.md/)
+* [Methods](../Resources/methods.md/)
+* [Papers](../Resources/papers.md/) I want to read
+* [Tools](../Resources/tools.md/)
