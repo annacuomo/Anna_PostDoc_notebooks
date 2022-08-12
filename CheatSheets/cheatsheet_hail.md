@@ -15,4 +15,10 @@
 
 ### Resources
 
-[Tutorials](https://hail.is/docs/0.2/tutorials-landing.html)
+* [Hail webpage](https://hail.is/)
+* [Hail docs](https://hail.is/docs/0.2/index.html)
+* [Discuss.hail](https://discuss.hail.is/)
+* [Zulip](https://hail.zulipchat.com/login/)
+* [Kat's hail batch scripts](https://github.com/populationgenomics/ancestry/tree/main/scripts/hail_batch/)
+* [MatrixTable Cheat Sheet](https://hail.is/docs/0.2/_static/cheatsheets/hail_matrix_tables_cheat_sheet.pdf)
+* [Hail tutorials](https://hail.is/docs/0.2/tutorials-landing.html)
