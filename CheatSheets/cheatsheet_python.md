@@ -39,6 +39,9 @@ Option 2:
 import click
 @click.command()
 @click.option("--chrom", required=True, help="More info here")
+def main(
+    chrom: str,
+):
 ```
 
 #### show matrix
