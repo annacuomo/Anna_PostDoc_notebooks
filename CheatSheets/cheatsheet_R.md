@@ -91,15 +91,15 @@ BiocManager::install("qvalue")
 ### Seurat
 ```gene1<- FetchData(mySample, vars = "myGene")``` to fetch (normalised) expression of a specific gene
 
-
+AverageExpression ([docs](https://rdrr.io/github/satijalab/seurat/man/AverageExpression.html)), let's you create (mean) pseudobulk by a group (e.g., individual)
 ```
-mat0 = AverageExpression(
-  sce_22,
+mat = AverageExpression(
+  sce,
   assays = "SCT",
-  features = nonzero_genes,
+  features = relevant_genes,
   return.seurat = FALSE,
   group.by = "individual"
 )
 ``` 
-[docs](https://rdrr.io/github/satijalab/seurat/man/AverageExpression.html)
+
 
