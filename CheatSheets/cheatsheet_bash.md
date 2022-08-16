@@ -43,6 +43,5 @@ Then, ``` black my_script.py``` to reformat.
 
 ## References
 
-[Cheatsheet](https://devhints.io/bash)
-
-[15 Special Characters You Need to Know for Bash](https://www.howtogeek.com/439199/15-special-characters-you-need-to-know-for-bash/)
+* [Cheatsheet](https://devhints.io/bash)
+* [15 Special Characters You Need to Know for Bash](https://www.howtogeek.com/439199/15-special-characters-you-need-to-know-for-bash/)
