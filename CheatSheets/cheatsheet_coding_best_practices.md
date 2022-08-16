@@ -8,6 +8,7 @@
 ### Python
 
 * [python logging](https://docs.python.org/3/howto/logging.html)
+* [linters](https://github.com/populationgenomics/team-docs/blob/main/new_repository.md#linters)
 
 ### R
 
@@ -17,10 +18,3 @@
 
 * [WDL specs](https://github.com/openwdl/wdl/blob/main/versions/development/SPEC.md).
 * [WDL best practices](https://docs.dockstore.org/en/stable/advanced-topics/best-practices/wdl-best-practices.html)
-
-
-
-
-
-
-                                                       
