@@ -22,6 +22,8 @@ This will open a browser where you can login with your google credentials.
 
 AnyPath, ouputh_path, etc..
 
+https://hail.is/docs/batch/tutorial.html#input-files
+
 ## R
 https://cran.r-project.org/web/packages/googleCloudStorageR/vignettes/googleCloudStorageR.html
 
