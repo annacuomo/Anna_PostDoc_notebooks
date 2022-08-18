@@ -21,6 +21,7 @@ mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 
 #### Kat
 * https://github.com/populationgenomics/tx-adapt/blob/vep/vep/run_vep.py
+* https://github.com/populationgenomics/tob-wgs/blob/run_only_existing_files/scripts/eqtl_hail_batch/conditional_analysis.py
 
 ### Resources
 
