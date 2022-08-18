@@ -1,4 +1,4 @@
-### Useful commands on Google Cloud Platform (GCP)
+## Useful commands on Google Cloud Platform (GCP)
 
 #### create environment with GC SDK 
 ```mamba create --name gcp -c conda-forge google-cloud-sdk```
@@ -18,10 +18,13 @@ This will open a browser where you can login with your google credentials.
 #### list files in a bucket
 ```gcloud alpha storage ls --recursive gs://path-on-gcp/bucket/```
 
-### Python scripts to run on the cloud
+## Python scripts to run on the cloud
 
 AnyPath, ouputh_path, etc..
 
-### Resources
+## R
+https://cran.r-project.org/web/packages/googleCloudStorageR/vignettes/googleCloudStorageR.html
+
+## Resources
 * [How to cloud](https://github.com/danking/hail-cloud-docs/blob/master/how-to-cloud.md)
 * [Google cloud HOW TO guides](https://cloud.google.com/storage/docs/how-to)
