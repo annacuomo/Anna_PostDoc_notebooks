@@ -29,6 +29,7 @@
 * [Single-cell reference mapping to construct and extend cell type hierarchies](https://www.biorxiv.org/content/10.1101/2022.07.07.499109v1.full.pdf)
 * [Systematic single-variant and gene-based association testing of thousands of phenotypes in 426,370 UK Biobank exomes](https://www.medrxiv.org/content/10.1101/2021.06.19.21259117v4.full.pdf)
 * [Tissue-specific impacts of aging and genetics on gene expression patterns in humans](https://www.biorxiv.org/content/10.1101/2021.11.16.468753v3.full.pdf)
+* [EXPRESSION QTLS IN SINGLE-CELL SEQUENCING DATA](https://www.biorxiv.org/content/10.1101/2022.08.14.503915v1.full.pdf)
 
 ### Peer-reviewed papers
 * [A physical wiring diagram for the human immune system](https://www.nature.com/articles/s41586-022-05028-x)
