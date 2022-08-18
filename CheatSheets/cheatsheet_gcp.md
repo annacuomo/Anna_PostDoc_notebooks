@@ -18,6 +18,9 @@ This will open a browser where you can login with your google credentials.
 #### list files in a bucket
 ```gcloud alpha storage ls --recursive gs://path-on-gcp/bucket/```
 
+### Python scripts to run on the cloud
+
+AnyPath, ouputh_path, etc..
 
 ### Resources
 * [How to cloud](https://github.com/danking/hail-cloud-docs/blob/master/how-to-cloud.md)
