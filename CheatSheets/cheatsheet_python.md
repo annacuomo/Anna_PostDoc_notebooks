@@ -11,6 +11,10 @@ df0 = pd.DataFrame(data, columns=cols, index=idx)
 ```
 cov_naive_Bcell = cov_df[cov_df['predicted.celltype.l2'] == 'B naive']
 ```
+#### but if the column is an index instead:
+```
+df_subset = df[df.index =="XYZ"]
+```
 
 #### create anndata object from X matrix
 ```
@@ -26,6 +30,10 @@ mynewstring = re.sub("_", "-", mystring)
 or
 ```
 mynewstring = mystring.replace("_", "-")
+```
+#### equivalent to table in python (pandas DataFrame):
+```
+df.colunm_name.value_counts()
 ```
 
 #### read arguments in .py script
