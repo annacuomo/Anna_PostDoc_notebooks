@@ -10,6 +10,10 @@ import hail as hl
 mt = hl.variant_qc(mt)
 mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 ```
+filter mt1 based on rows from mt2
+```
+mt1_with_mt2_rows_only = mt1.semi_join_rows(mt2.rows())
+```
 
 ### Example / template scripts
 
