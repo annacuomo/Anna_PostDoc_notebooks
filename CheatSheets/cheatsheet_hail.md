@@ -15,6 +15,14 @@ filter mt1 based on rows from mt2
 mt1_with_mt2_rows_only = mt1.semi_join_rows(mt2.rows())
 ```
 
+### Plotting
+For plotting, you need to create a folder like [this one](https://github.com/populationgenomics/tob-wgs/tree/rare-variant-association/scripts/rv_expression_association/plot), with the following three files:
+* main, to specify dataproc and hail dependencies 
+* actual plotting script 
+* README to specify running commands
+
+Plots then appear in.. ([example](https://test-web.populationgenomics.org.au/tob-wgs/plot/v0/histogram_maf_post_filter.png))
+
 ### Example / template scripts
 
 #### Matt
