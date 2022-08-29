@@ -8,6 +8,7 @@ Mostly, I figured these out when compiling my [PhD thesis](https://github.com/an
 * in formulae, ```\in``` is the "belongs to" symbol
 * to capitalise greek letters, use ```\boldsymbol{\theta}```
 * in formulae, ```sim``` is ~ (distributed as)
+* ```\underbrace_{y}_{sc. \ expr}``` adds an bracket under ```y``` to specify it represents single-cell expression
 
 ## Resources
 
