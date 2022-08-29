@@ -1,5 +1,5 @@
 ## Useful Commands LateX edition
-(Adding here useful LateX commands I find myself forgetting and having to routinely google.)
+Adding here useful LateX commands I find myself forgetting and having to routinely google or look up in my own scripts.
 
 Mostly, I figured these out when compiling my [PhD thesis](https://github.com/annacuomo/PhD_Thesis/).
 
