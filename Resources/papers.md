@@ -40,6 +40,8 @@
 * [Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function](https://www.science.org/doi/full/10.1126/science.abl4290)
 * [Quantifying genetic effects on disease mediated by assayed gene expression levels](https://www.nature.com/articles/s41588-020-0625-2)
 * [A phenotypic spectrum of autism is attributable to the combined effects of rare variants, polygenic risk and sex](https://www.nature.com/articles/s41588-022-01064-5)
+* [Genetic control of the dynamic transcriptional response to
+immune stimuli and glucocorticoids at single cell resolution](https://www.biorxiv.org/content/10.1101/2021.09.30.462672v2.full.pdf)
 
 
 ## Autoimmune disease papers
