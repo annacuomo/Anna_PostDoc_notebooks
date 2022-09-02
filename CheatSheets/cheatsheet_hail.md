@@ -4,6 +4,7 @@
 
 The following commands read in a hail table and hail matrix table, respectively"
 ```
+import hail as hl
 ht = hl.read_table(my_object.ht)
 mt = hl.read_matrix_table(my_object.mt)
 ```
@@ -13,7 +14,6 @@ Not super sure of the difference yet, tables should be "easier"? About variants 
 
 #### filter to this sample's non-ref calls
 ```
-import hail as hl
 mt = hl.variant_qc(mt)
 mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 ```
