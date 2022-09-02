@@ -1,6 +1,13 @@
 ## Hail
 
-[Hail](https://hail.is/) used at Broad and CPG, ..
+[Hail](https://hail.is/) used at Broad and CPG, python-based by with its own object types and syntax.
+
+The following commands read in a hail table and hail matrix table, respectively"
+```
+ht = hl.read_table(my_object.ht)
+mt = hl.read_matrix_table(my_object.mt)
+```
+Not super sure of the difference yet, tables should be "easier"? About variants only rather than variable and samples?
 
 ### Recurring commands 
 
