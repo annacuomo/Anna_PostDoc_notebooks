@@ -3,7 +3,6 @@
 library(cowplot)
 plot_grid(p1, p2, ncol = 2)
 ```
-
 ### Jupyter notebook 
 ```
 # size of plot(s)
@@ -13,7 +12,10 @@ options(repr.plot.width = 10, repr.plot.height = 4)
 ```
 p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8, bins=15) 
 ```
-
+### Add rectange to plot ([Example](https://github.com/single-cell-genetics/singlecell_endodiff_paper/blob/main/plotting_notebooks/lead_switchin.ipynb))
+```
+p = p + geom_rect(mapping = aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), color = col, fill = col)
+```
 ### Linear trend across points
 ```
 p = ggplot(df, aes(x=x, y=y)) + geom_point()
