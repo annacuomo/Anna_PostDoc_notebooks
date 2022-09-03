@@ -9,11 +9,10 @@ plot_grid(p1, p2, ncol = 2)
 # size of plot(s)
 options(repr.plot.width = 10, repr.plot.height = 4) 
 ```
-### Histogram
+### Histogram ([Example here](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/sc_neuroseq/iPSCs/fig3b_3e.ipynb))
 ```
-p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8) 
+p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8, bins=15) 
 ```
-[Example here](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/sc_neuroseq/iPSCs/fig3b_3e.ipynb)
 
 ### Linear trend across points
 ```
@@ -94,3 +93,4 @@ p + scale_colour_brewer(palette = "Set1")
 * https://www.datanovia.com/en/blog/top-r-color-palettes-to-know-for-great-data-visualization/
 * https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf
 * https://github.com/dill/beyonce
+* https://r-charts.com/distribution/histogram-binwidth-ggplot2/
