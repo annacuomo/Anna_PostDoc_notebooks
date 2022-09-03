@@ -1,21 +1,26 @@
-## Multiple plots
+### Multiple plots
 ```
 library(cowplot)
 plot_grid(p1, p2, ncol = 2)
 ```
 
-## Jupyter notebook 
+### Jupyter notebook 
 ```
 # size of plot(s)
 options(repr.plot.width = 10, repr.plot.height = 4) 
 ```
+### Histogram
+```
+p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8) 
+```
+[Example here](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/sc_neuroseq/iPSCs/fig3b_3e.ipynb)
 
-## Linear trend across points
+### Linear trend across points
 ```
 p = ggplot(df, aes(x=x, y=y)) + geom_point()
 p + stat_smooth(se = F, linetype=2, col="darkgrey"))
 ```
-### to get a linear trend per group
+#### to get a linear trend per group
 ```
 p + stat_smooth(se=F, linetype = 2, aes(group=as.factor(GROUP), colour=as.factor(GROUP)))
 ```
