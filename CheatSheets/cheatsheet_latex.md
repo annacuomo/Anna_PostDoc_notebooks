@@ -10,12 +10,27 @@ Mostly, I figured these out when compiling my [PhD thesis](https://github.com/an
 * in formulae, ```sim``` is ~ (distributed as)
 * ```\underbrace_{y}_{sc. \ expr}``` adds an bracket under ```y``` to specify it represents single-cell expression
 
-To wrote a system of equations, ```\usepackage{systeme}``` in main and then 
+To write a system of equations, ```\usepackage{systeme}``` in main and then 
 ```
 \systeme{
     part1,
     part2
     },
+```
+For tables with multi-row captions, ```\usepackage{multirow}``` in main and then, _e.g.,_ ([Box on confusion matrix from {hD thesis](https://github.com/annacuomo/PhD_Thesis/blob/main/Chapter2/chapter2.tex#L231-L242)):
+```
+\begin{center}
+\begin{tabular}{l|l|c|c|}
+\multicolumn{2}{c}{}&\multicolumn{2}{c}{Test Result}\\
+\cline{3-4}
+\multicolumn{2}{c|}{}&reject $H_0$&accept $H_0$\\
+\cline{2-4}
+\multirow{2}{*}{Actual value}& $H_1$ & True Positive ($TP$) & False Negative ($FN$)\\
+\cline{2-4}
+& $H_0$ & False Positive ($FP$) & True Negative ($TN$)\\
+\cline{2-4}
+\end{tabular}
+\end{center}
 ```
 
 ## Resources
