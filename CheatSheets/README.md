@@ -6,7 +6,7 @@ Collating commands I need frequently as a self-helping resource.
 
 They are split by category:
 
-* [bash cheatsheet](../CheatSheets/cheatsheet_bash.md/)
+* [bash cheatsheet](cheatsheet_bash.md)
 * [coding style cheatsheet](../CheatSheets/cheatsheet_coding_best_practices.md/)
 * [Google Cloud cheatsheet](../CheatSheets/cheatsheet_gcp.md/)
 * [ggplot cheatsheet](../CheatSheets/cheatsheet_ggplot.md/) 
@@ -17,4 +17,4 @@ They are split by category:
 * [R cheatsheet](../CheatSheets/cheatsheet_R.md/) 
 * [snakemake cheatsheet](../CheatSheets/cheatsheet_snakemake.md/) 
 * [WDL cheatsheet](../CheatSheets/cheatsheet_wdl.md/) 
-* [website cheatsheet](../CheatSheets/cheatsheet_website.md/) 
+* [own website cheatsheet](../CheatSheets/cheatsheet_website.md/) 
