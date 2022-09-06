@@ -10,6 +10,14 @@ Mostly, I figured these out when compiling my [PhD thesis](https://github.com/an
 * in formulae, ```sim``` is ~ (distributed as)
 * ```\underbrace_{y}_{sc. \ expr}``` adds an bracket under ```y``` to specify it represents single-cell expression
 
+To wrote a system of equations, ```\usepackage{systeme}``` in main and then 
+```
+\systeme{
+    part1,
+    part2
+    },
+```
+
 ## Resources
 
 * https://www.geeksforgeeks.org/logic-notations-in-latex/
