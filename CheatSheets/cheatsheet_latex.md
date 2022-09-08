@@ -8,7 +8,8 @@ Mostly, I figured these out when compiling my [PhD thesis](https://github.com/an
 * in formulae, ```\in``` is the "belongs to" symbol
 * ```\leq``` smaller or equal
 * to capitalise greek letters, use ```\boldsymbol{\theta}```
-* in formulae, ```sim``` is ~ (distributed as)
+* in formulae, ```sim``` is ~ (distributed as / similar to)
+* ```\approx``` is approximately, `double ~'
 * ```\underbrace_{y}_{sc. \ expr}``` adds an bracket under ```y``` to specify it represents single-cell expression
 
 To write a system of equations, ```\usepackage{systeme}``` in main and then 
