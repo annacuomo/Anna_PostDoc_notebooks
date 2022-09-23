@@ -7,4 +7,5 @@
 * [Open Targets Genetics](https://genetics.opentargets.org/variant/1_154453788_C_T)
 
 #### Miscellaneous
+* [Google Scholar](https://scholar.google.com.au/)
 * [Magic Eraser](https://www.magiceraser.io/)
