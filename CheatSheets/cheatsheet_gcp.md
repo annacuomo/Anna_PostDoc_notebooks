@@ -24,8 +24,10 @@ AnyPath, ouputh_path, etc..
 
 https://hail.is/docs/batch/tutorial.html#input-files
 
+Examples!
+
 ## R
-https://cran.r-project.org/web/packages/googleCloudStorageR/vignettes/googleCloudStorageR.html
+[Open cloud objects in R](https://cran.r-project.org/web/packages/googleCloudStorageR/vignettes/googleCloudStorageR.html)
 
 ## Resources
 * [How to cloud](https://github.com/danking/hail-cloud-docs/blob/master/how-to-cloud.md)
