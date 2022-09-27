@@ -12,7 +12,7 @@
 
 ### R
 
-* [Kat's R style guide](https://github.com/populationgenomics/team-docs/blob/add_style_guide/r_style_guide.md)
+* [Kat's R style guide](https://github.com/populationgenomics/team-docs/blob/main/r_style_guide.md)
 
 ### WDL
 
