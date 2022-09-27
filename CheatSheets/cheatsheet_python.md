@@ -15,9 +15,13 @@ cov_naive_Bcell = cov_df[cov_df['predicted.celltype.l2'] == 'B naive']
 ```
 df_subset = df[df.index =="XYZ"]
 ```
-#### select one column
+#### select specific column(s)
 ```
 df[["colname"]]
+```
+or
+```
+df.loc[:,["col1","col2"]]
 ```
 
 #### create anndata object from X matrix
