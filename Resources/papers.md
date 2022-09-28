@@ -6,6 +6,8 @@
 * [Challenges in measuring and understanding biological noise](https://www.nature.com/articles/s41576-019-0130-6)
 * [Reconciling the analysis of IBD and IBS in complex trait studies](https://www.nature.com/articles/nrg2865)
 * [The emerging landscape of spatial profiling technologies](https://www.nature.com/articles/s41576-022-00515-3)
+* [Genetics of human telomere biology disorders](https://www.nature.com/articles/s41576-022-00527-z)
+* [Characterizing cis-regulatory elements using single-cell epigenomics](https://www.nature.com/articles/s41576-022-00509-1)
 
 ### GWAS / eQTL / function
 
@@ -19,6 +21,7 @@
 * [Mapping Human Reproductionwith Single-Cell Genomics](https://www.annualreviews.org/doi/epdf/10.1146/annurev-genom-120121-114415), Magda Marečková, Hassan Massalha, Valentina Lorenzi and Roser Vento-Tormo, Annual Review of Genomics and Human Genetics, 2022.
 * [Understanding inflammatory bowel disease via immunogenetics](https://www.sciencedirect.com/science/article/pii/S0896841115300147), Katie de Lange & Jeffrey Barrett, Journal of Autoimmunity, 2015.
 * [A brief history of human disease genetics](https://www.nature.com/articles/s41586-019-1879-7), Melina Claussnitzer et al, Nature, 2020.
+* [From Mendel to quantitative genetics in the genome era: the scientific legacy of W. G. Hill](https://www.nature.com/articles/s41588-022-01103-1)
 
 ## Random collection of cool papers I want to read
 
