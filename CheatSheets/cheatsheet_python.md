@@ -23,6 +23,10 @@ or
 ```
 df.loc[:,["col1","col2"]]
 ```
+#### select rows based on column values
+```
+df_sel = df.loc[df['col'].isin(selected_values)]
+```
 
 #### create anndata object from X matrix
 ```
