@@ -23,6 +23,12 @@
 * [A brief history of human disease genetics](https://www.nature.com/articles/s41586-019-1879-7), Melina Claussnitzer et al, Nature, 2020.
 * [From Mendel to quantitative genetics in the genome era: the scientific legacy of W. G. Hill](https://www.nature.com/articles/s41588-022-01103-1)
 
+### Nature Reviews Methods Primers
+
+* [Genome-wide association studies](https://www.nature.com/articles/s43586-021-00056-9)
+* [Mendelian Randomization](https://www.nature.com/articles/s43586-021-00092-5)
+* [Bayesian statistics and modelling](https://www.nature.com/articles/s43586-020-00001-2)
+
 ## Random collection of cool papers I want to read
 
 ### Preprints
