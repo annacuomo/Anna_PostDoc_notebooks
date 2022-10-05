@@ -1,4 +1,7 @@
-## Miscellaneous articles / blog posts on best practices when coding
+## Miscellaneous notes as well as articles / blog posts on best practices when coding
+
+* do not put data on github, this includes notebooks! Until data is released that is
+* ok to put code, for reproducibility and transparency
 
 ### General
 * [How to Make Your Code Reviewer Fall in Love with You](https://mtlynch.io/code-review-love/)
