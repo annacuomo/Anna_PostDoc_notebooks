@@ -1,4 +1,4 @@
-### Collection of useful lectures
+### Collection of useful lectures / slide-decks / notes
 
 * [Mark Daly on complex disease (MPG Primer 2017)](https://www.youtube.com/watch?v=Z-dh1soxeQs)
 * [Ben Meale on rare variants (MPG Primer 2019)](https://www.youtube.com/watch?v=TKFKcwGsXDc)
