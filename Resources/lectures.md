@@ -7,4 +7,4 @@
 * [Immunology course Fall 2021](https://www.youtube.com/playlist?list=PLc_SwOK0df2ULPRFfJg3Sc1T_emGMmTHL) by [Brianne Barker](https://bbarkerdrew.com/), Drew University
 * [Genetics lectures Eric Lander](http://videolectures.net/eric_lander/) at MIT
 * [Carl Kadie on PySnpTools](https://www.youtube.com/watch?v=KPI6479ctAQ) - Microsoft guy, FaST-LMM et al
-* [Graham Coop Population Genetics notes](https://github.com/cooplab/popgen-notes) - download the PDF
+* [Graham Coop's Population Genetics notes](https://github.com/cooplab/popgen-notes) - download the PDF (this is basically a book)
