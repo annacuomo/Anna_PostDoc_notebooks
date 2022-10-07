@@ -23,6 +23,7 @@
 * [Understanding inflammatory bowel disease via immunogenetics](https://www.sciencedirect.com/science/article/pii/S0896841115300147), Katie de Lange & Jeffrey Barrett, Journal of Autoimmunity, 2015.
 * [A brief history of human disease genetics](https://www.nature.com/articles/s41586-019-1879-7), Melina Claussnitzer et al, Nature, 2020.
 * [From Mendel to quantitative genetics in the genome era: the scientific legacy of W. G. Hill](https://www.nature.com/articles/s41588-022-01103-1)
+* [Focus on your locus with a massively parallel reporter assay](https://jneurodevdisorders.biomedcentral.com/articles/10.1186/s11689-022-09461-x)
 
 ### Nature Reviews Methods Primers
 
