@@ -2,7 +2,7 @@
 
 ### MPG Primers
 * [Mark Daly on complex disease (2017)](https://www.youtube.com/watch?v=Z-dh1soxeQs)
-* [Ben Meale on rare variants (2019)](https://www.youtube.com/watch?v=TKFKcwGsXDc)
+* [Ben Meale on the analysis of rare variants (2019)](https://www.youtube.com/watch?v=TKFKcwGsXDc)
 * [Luke O'Connor & Dan Weiner on linking GWAS SNPs with genes (2022)](https://www.youtube.com/watch?v=2O89Cl8RCe0)
 
 ### Miscellaneous
