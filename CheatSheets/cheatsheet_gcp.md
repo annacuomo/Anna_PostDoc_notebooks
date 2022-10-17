@@ -9,6 +9,24 @@ Talk about [AnyPath](), [ouputh_path]()
 
 #### Notebook
 
+Current working strategy.
+
+First, create a simple ```dataset.toml``` file in the jupyter notebook, that contains the following lines (modify parameters if needed):
+```
+[workflow]
+access_level="test"
+dataset="tob-wgs"
+```
+
+Next, set config which will be then set when calling ```dataset_path``` (this is what analysis runner does automatically):
+```
+from cpg_utils.config import set_config_paths
+from cpg_utils.hail_batch import dataset_path
+
+set_config_paths(['/home/jupyter/dataset.toml'])
+mt_path = dataset_path('output_filename_suffix')
+```
+
 #### Analysis runner
 
 * [Example 1](https://github.com/populationgenomics/tob-wgs/blob/rare-variant-association/scripts/rv_expression_association/get_gene_set.py#L50)
