@@ -5,9 +5,15 @@ This is very annoying always, as the cloud doesn't quite work like a regular sto
 
 ### saving to file
 
+Talk about [AnyPath](), [ouputh_path]()
+
 #### Notebook
 
 #### Analysis runner
+
+* [Example 1](https://github.com/populationgenomics/tob-wgs/blob/rare-variant-association/scripts/rv_expression_association/get_gene_set.py#L50)
+* [Example 2](https://github.com/populationgenomics/tob-wgs/blob/get-variants/scripts/rv_expression_association/get_vep_variants.py#L59-L74)
+* [Example 3](https://github.com/populationgenomics/tob-wgs/blob/rare-variant-association/scripts/rv_expression_association/plot/plot_alt_af.py#L63)
 
 ### opening a file
 
@@ -18,7 +24,9 @@ Others don't.
 #### R
 For R this never works, so..
 
-Example here: 
+[Open cloud objects in R](https://cran.r-project.org/web/packages/googleCloudStorageR/vignettes/googleCloudStorageR.html)
+
+* [Example](https://github.com/populationgenomics/tob-wgs/blob/get-variants/scripts/rv_expression_association/run_SKAT.R)
 
 ### Miscellaneous
 
@@ -40,17 +48,9 @@ This will open a browser where you can login with your google credentials.
 #### list files in a bucket
 ```gcloud alpha storage ls --recursive gs://path-on-gcp/bucket/```
 
-## Python scripts to run on the cloud
-
-AnyPath, ouputh_path, etc..
-
-https://hail.is/docs/batch/tutorial.html#input-files
-
-Examples!
-
-## R
-[Open cloud objects in R](https://cran.r-project.org/web/packages/googleCloudStorageR/vignettes/googleCloudStorageR.html)
-
 ## Resources
 * [How to cloud](https://github.com/danking/hail-cloud-docs/blob/master/how-to-cloud.md)
 * [Google cloud HOW TO guides](https://cloud.google.com/storage/docs/how-to)
+
+
+* [Hail batch input files](https://hail.is/docs/batch/tutorial.html#input-files) ????
