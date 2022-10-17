@@ -3,6 +3,11 @@
 #### to read in a compressed file with a .gz extension
 ```df = read.csv(gzfile(filename.txt), sep="\t")```
 
+#### sample n rows from a dataframe
+```
+ df[sample(nrow(df), n), ]
+```
+
 #### q-value (Storey method for multiple testing correction - FDR)
 ```
 library(qvalue)
