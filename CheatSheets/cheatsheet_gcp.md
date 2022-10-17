@@ -48,7 +48,7 @@ For R this never works, so..
 
 * [Example](https://github.com/populationgenomics/tob-wgs/blob/get-variants/scripts/rv_expression_association/run_SKAT.R)
 
-### Miscellaneous
+### Command line
 
 #### create environment with GC SDK 
 ```mamba create --name gcp -c conda-forge google-cloud-sdk```
@@ -62,7 +62,7 @@ This will open a browser where you can login with your google credentials.
 #### get Google Cloud SDK's current version, check available versions and update
 ```gcloud version```, ```gcloud components list --show-versions``` and ```gcloud components update```
 
-#### copy one file into an existing bucket
+#### copy one file into an existing bucket (this may not work anymore)
 ```gsutil cp /my/file/on/the/cluster.csv gs://path-on-gcp/bucket/```
 
 #### list files in a bucket
