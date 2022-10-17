@@ -1,5 +1,8 @@
 ## R
 
+#### use of seq (linspace)
+```beta = seq(from = 0.1, to = 1, by = 0.1)```
+
 #### to read in a compressed file with a .gz extension
 ```df = read.csv(gzfile(filename.txt), sep="\t")```
 
