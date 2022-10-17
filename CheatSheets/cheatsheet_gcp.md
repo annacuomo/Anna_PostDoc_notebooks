@@ -21,6 +21,8 @@ Talk about [AnyPath](), [ouputh_path]()
 Some python libraries (like pandas) deal fine with it.
 Others don't.
 
+* [Example](https://github.com/populationgenomics/tob-wgs/blob/get-variants/scripts/rv_expression_association/get_vep_variants.py#L9-L10)
+
 #### R
 For R this never works, so..
 
