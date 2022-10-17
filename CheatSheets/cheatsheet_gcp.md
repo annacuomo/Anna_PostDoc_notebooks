@@ -1,4 +1,26 @@
-## Useful commands on Google Cloud Platform (GCP)
+# Useful commands on Google Cloud Platform (GCP)
+
+## Accessing files
+This is very annoying always, as the cloud doesn't quite work like a regular storing file system.
+
+### saving to file
+
+#### Notebook
+
+#### Analysis runner
+
+### opening a file
+
+#### Python
+Some python libraries (like pandas) deal fine with it.
+Others don't.
+
+#### R
+For R this never works, so..
+
+Example here: 
+
+### Miscellaneous
 
 #### create environment with GC SDK 
 ```mamba create --name gcp -c conda-forge google-cloud-sdk```
