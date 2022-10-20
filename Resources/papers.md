@@ -43,6 +43,7 @@
 * [EXPRESSION QTLS IN SINGLE-CELL SEQUENCING DATA](https://www.biorxiv.org/content/10.1101/2022.08.14.503915v1.full.pdf)
 
 ### Peer-reviewed papers
+* [Evolution of immune genes is associated with the Black Death](https://www.nature.com/articles/s41586-022-05349-x)
 * [A physical wiring diagram for the human immune system](https://www.nature.com/articles/s41586-022-05028-x) @immunology
 * [Single-cell eQTL models reveal dynamic T cell state dependence of disease loci](https://www.nature.com/articles/s41586-022-04713-1)
 * [Variance-quantitative trait loci enable systematic discovery of gene-environment interactions for cardiometabolic serum biomarkers](https://www.nature.com/articles/s41467-022-31625-5) @vQTLs @GxE 
