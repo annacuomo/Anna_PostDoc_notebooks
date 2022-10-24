@@ -1,13 +1,9 @@
 # Useful commands on Google Cloud Platform (GCP)
 
-## Accessing files
+## Accessing files (saving to and opening new file) in a notebook
 This is very annoying always, as the cloud doesn't quite work like a regular storing file system.
 
-### saving to file
-
-Talk about [AnyPath](), [ouputh_path]()
-
-#### Notebook
+### Saving to file
 
 Current working strategy.
 
@@ -27,8 +23,18 @@ set_config_paths(['/home/jupyter/dataset.toml'])
 mt_path = dataset_path('output_filename_suffix')
 ```
 
-#### Analysis runner
+## Accessing files (saving to and opening new file) using the analysis runner
 
+Talk about [AnyPath](), [ouputh_path]()
+
+### Saving to file
+
+#### R
+* [Example by Kat](https://github.com/populationgenomics/tx-adapt/blob/find_ta_candidates/ta_candidates/get_ta_candidates.R)
+* [Own example]()
+* [(old) docs](https://github.com/populationgenomics/analysis-runner/blob/main/examples/r/script.R#L23)
+
+#### Python
 * [Example 1](https://github.com/populationgenomics/tob-wgs/blob/rare-variant-association/scripts/rv_expression_association/get_gene_set.py#L50)
 * [Example 2](https://github.com/populationgenomics/tob-wgs/blob/get-variants/scripts/rv_expression_association/get_vep_variants.py#L59-L74)
 * [Example 3](https://github.com/populationgenomics/tob-wgs/blob/rare-variant-association/scripts/rv_expression_association/plot/plot_alt_af.py#L63)
