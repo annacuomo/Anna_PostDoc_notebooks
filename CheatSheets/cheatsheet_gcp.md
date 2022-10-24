@@ -51,7 +51,7 @@ Talk about [AnyPath](), [ouputh_path]()
 
 #### R
 * [Example by Kat](https://github.com/populationgenomics/tx-adapt/blob/find_ta_candidates/ta_candidates/get_ta_candidates.R)
-* [Own example]()
+* [Own example](https://github.com/populationgenomics/tob-wgs/blob/get-variants/scripts/rv_expression_association/simulate/test_SKAT.R#L208-L218)
 * [(old) docs](https://github.com/populationgenomics/analysis-runner/blob/main/examples/r/script.R#L23)
 
 #### Python
