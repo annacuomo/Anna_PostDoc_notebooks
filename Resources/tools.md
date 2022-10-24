@@ -2,7 +2,7 @@
 
 ### Variant Annotations
 * [M-CAP](https://www.nature.com/articles/ng.3703) / [S-CAP](https://www.nature.com/articles/s41588-019-0348-4)
-* CADD [v1](https://www.nature.com/articles/ng.2892) and [v2](https://academic.oup.com/nar/article/47/D1/D886/5146191)
+* CADD: Combined Annotation–Dependent Depletion [v1](https://www.nature.com/articles/ng.2892) and [v2](https://academic.oup.com/nar/article/47/D1/D886/5146191)
 * [SIFT]()
 * [PolyPhen-2]()
 * [MetaLR]()
