@@ -24,6 +24,7 @@
 * [A brief history of human disease genetics](https://www.nature.com/articles/s41586-019-1879-7), Melina Claussnitzer et al, Nature, 2020.
 * [From Mendel to quantitative genetics in the genome era: the scientific legacy of W. G. Hill](https://www.nature.com/articles/s41588-022-01103-1)
 * [Focus on your locus with a massively parallel reporter assay](https://jneurodevdisorders.biomedcentral.com/articles/10.1186/s11689-022-09461-x), McAfee 2022
+* [Unique roles of rare variants in the genetics of complex diseases in humans](https://www.nature.com/articles/s10038-020-00845-2), Momozawa & Mizukami, 2021
 
 ### Nature Reviews Methods Primers
 
