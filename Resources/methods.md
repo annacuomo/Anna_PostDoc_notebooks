@@ -19,6 +19,7 @@
 * regenie
   * [paper](https://www.nature.com/articles/s41588-021-00870-7) (Mbatchou et al, Nature Genetics 2021),
   * [webpage](https://rgcgithub.github.io/regenie/)
+  * [repo](https://github.com/rgcgithub/regenie)
 * GridLMM
   * [code](https://github.com/deruncie/GridLMM)
 * [Estimation and Inference for Very Large Linear Mixed Effects Models](https://arxiv.org/pdf/1610.08088.pdf)
