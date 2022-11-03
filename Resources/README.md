@@ -10,6 +10,7 @@ They are split by category:
 * [Lectures](lectures.md)
 * [Methods](methods.md)
 * [Papers](papers.md) I want to read
+* [Pipelines](pipelines.md)
 * [Single-cell eQTL studies](single_cell_eqtl_studies_overview.md)
 * [Tools](tools.md)
 
