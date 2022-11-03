@@ -6,6 +6,7 @@
 * [NHGRI on Polygenic Risk Scores](https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores)
 * [How to Perform Exploratory Data Analysis?](https://mugekuskon.medium.com/how-to-perform-exploratory-data-analysis-5c3d944c13ff)
 * [Crafting Papers for Publication](https://twitter.com/SandraNoDuerme/status/1577792875156357121/photo/1)
+* [Population-specific Genetic Effects and Where to Find Them](https://huwenboshi.github.io/genetics/2021/02/21/crosspopfunct.html)
 
 ### Illustrators
 
