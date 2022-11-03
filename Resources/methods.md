@@ -61,3 +61,6 @@ Adding to [this doc](https://docs.google.com/document/d/1zWrtY_1xe0Ye63ukfwb940g
 * LORSEN
   * [paper](https://www.frontiersin.org/articles/10.3389/fgene.2021.690926/full)
   * [repo](https://github.com/gaochengPRC/LORSEN)
+
+## Overleaf
+LateX scripts for own document getting together info / formulae [here](https://github.com/annacuomo/Review_G_LMM_for_genetics)
