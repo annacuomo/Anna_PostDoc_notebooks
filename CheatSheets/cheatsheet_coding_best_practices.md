@@ -12,6 +12,8 @@
 
 * [python logging](https://docs.python.org/3/howto/logging.html)
 * [linters](https://github.com/populationgenomics/team-docs/blob/main/new_repository.md#linters)
+* [Same operands, different story!](https://github.com/satwikkansal/wtfpython#-same-operands-different-story)
+* [Immutable vs mutable objects](https://realpython.com/pointers-in-python/#immutable-vs-mutable-objects)
 
 ### R
 
