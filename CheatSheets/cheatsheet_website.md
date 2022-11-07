@@ -44,5 +44,6 @@ To overwrite defaults and change thins permanently, add to [this file](https://g
 * https://www.nxn.se/
 * https://medium.com/towards-data-science
 * https://science-latte.com/ 
+* http://www.cureffi.org/
 
 
