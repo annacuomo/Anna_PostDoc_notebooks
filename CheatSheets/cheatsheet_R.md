@@ -58,7 +58,8 @@ returns ```TRUE``` (or ```FALSE```)
 
 #### remove NAs
 ```
-df <- df[rowSums(is.na(df)) == 0, ]
+df <- df[rowSums(is.na(df)) == 0, ]         # removes rows with any NA
+df <- df[rowSums(is.na(df)) != ncol(df), ]  # removes rows with all NA
 ```
 #### read arguments in Rscript
 ```
