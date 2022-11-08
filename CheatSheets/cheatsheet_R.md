@@ -40,6 +40,13 @@ top_cells = rownames(df[df$gene > qts[2],])
 ```
 see [notebook](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/CellRegMap/neuroseq/June_2021/example_figure5_SLC35E2_step1.ipynb).
 
+#### long to wide using reshape
+```
+library(reshape)
+df = data.frame(sample = c("sample1","sample2","sample1","sample2"), name = c("n1","n2","n2","n1"), value = c(1,2,3,4))
+mat = cast(df, sample ~ name)
+```
+
 #### quick enrichment for gene list
 ```
 # install.packages("enrichR")
