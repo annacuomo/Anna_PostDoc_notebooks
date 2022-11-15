@@ -16,6 +16,11 @@
 * [Ensembl](https://asia.ensembl.org/Homo_sapiens/Variation/Mappings?db=core;r=22:23240940-23241940;v=rs5759655;vdb=variation;vf=184891459)
 * [Open Targets Genetics](https://genetics.opentargets.org/variant/1_154453788_C_T)
 
+### Acronyms / names
+* VCF: variant call format
+* Jupyter: Julia, python, R
+
 ### Miscellaneous
 * [Google Scholar](https://scholar.google.com.au/)
 * [Magic Eraser](https://www.magiceraser.io/)
+
