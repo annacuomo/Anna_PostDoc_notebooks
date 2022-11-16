@@ -19,5 +19,6 @@
 
 ### CPG approach [link](https://github.com/populationgenomics/team-docs/blob/main/getting_started.md#hail-batch)
 
+* [Production pipeline](https://github.com/populationgenomics/production-pipelines) is a worflow language itself?? 
 * hail-batch / analysis runner?
 * Terra / cromwell?
