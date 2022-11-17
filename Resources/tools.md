@@ -1,4 +1,4 @@
-## Collection of tools / resources websites
+# Collection of tools / resources websites
 
 ### Variant Annotations
 * MPC: **M**issense badness, **P**olyphen-2, missense **C**onstraint (Lily Wang (Talkowski lab), Kaitlin Samocha)
@@ -20,14 +20,14 @@
 * VCF: variant call format
 * Jupyter: Julia, python, R
 
-### Single-cell methods
+## Single-cell methods
 
-#### Filtering
+### Filtering
 * Doublet removal
 * Ambient RNA removal
 * Empty droplet removal
 
-#### Processing
+### Processing
 * Batch correction
   * MNN
   * CCA (Seurat) 
@@ -35,23 +35,23 @@
   * scran
   * sctransform   
 
-#### Cell-level
+### Cell-level
 * Clustering
 * Cell type annotation
 * Pseudotime inference
 
-#### Gene-level
+### Gene-level
 * DE
 * GRN
 
-#### Workflows / objects
+### Workflows / objects
 * Scanpy
 * Seurat
 * SingleCellExperiment
 * scran
 * scater
 
-### Miscellaneous
+## Miscellaneous
 * [Google Scholar](https://scholar.google.com.au/)
 * [Magic Eraser](https://www.magiceraser.io/)
 
