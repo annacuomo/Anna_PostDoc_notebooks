@@ -20,7 +20,8 @@
 * VCF: variant call format
 * Jupyter: Julia, python, R
 
-## Single-cell methods
+## Single-cell tools
+[Pretty comprehensive / overwhelming list](https://www.scrna-tools.org/)
 
 ### Filtering
 * Doublet removal
