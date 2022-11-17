@@ -1,4 +1,4 @@
-# Collection of tools / resources websites
+# Collection of tools / resource-websites
 
 ### Variant Annotations
 * MPC: **M**issense badness, **P**olyphen-2, missense **C**onstraint (Lily Wang (Talkowski lab), Kaitlin Samocha)
@@ -35,12 +35,17 @@
   * scran
   * sctransform   
 
-### Cell-level
+### Meta-Pseudo cells
+* SEA
+* MetaCell
+* Vision pooling
+
+### Cell-level downstream analysis
 * Clustering
 * Cell type annotation
 * Pseudotime inference
 
-### Gene-level
+### Gene-level downstream analysis
 * DE
 * GRN
 
