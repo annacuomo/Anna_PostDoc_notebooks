@@ -55,14 +55,14 @@
 * Pseudotime inference
 
 ### Gene-level downstream analysis
-* DE
-  * mast 
-* GRN
+* DE (differential expression)
+  * [MAST]() 
+* GRN (gene regulatory network)
   * SCODE
-  * SCENIC 
+  * [SCENIC](https://www.nature.com/articles/nmeth.4463) 
 
 ### Workflows / objects
-* Scanpy
+* [Scanpy](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1382-0)
 * Seurat
 * SingleCellExperiment
 * scran
