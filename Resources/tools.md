@@ -20,6 +20,29 @@
 * VCF: variant call format
 * Jupyter: Julia, python, R
 
+### Single-cell methods
+
+#### Processing
+* Batch correction
+* Normalisation
+  * sctransform   
+
+#### Cell-level
+* Clustering
+* Cell type annotation
+* Pseudotime inference
+
+#### Gene-level
+* DE
+* GRN
+
+#### Workflows / objects
+* Scanpy
+* Seurat
+* SingleCellExperiment
+* scran
+* scater
+
 ### Miscellaneous
 * [Google Scholar](https://scholar.google.com.au/)
 * [Magic Eraser](https://www.magiceraser.io/)
