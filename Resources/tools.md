@@ -36,6 +36,7 @@
 * Batch correction
   * MNN
   * CCA (Seurat) 
+  * Harmony
 * Normalisation
   * scran
   * sctransform   
@@ -48,6 +49,7 @@
 ### Cell-level downstream analysis
 * Clustering 
 * Cell type annotation
+  * scmap 
   * scPred
   * CellTypist 
 * Pseudotime inference
