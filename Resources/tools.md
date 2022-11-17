@@ -56,7 +56,10 @@
 
 ### Gene-level downstream analysis
 * DE
+  * mast 
 * GRN
+  * SCODE
+  * SCENIC 
 
 ### Workflows / objects
 * Scanpy
