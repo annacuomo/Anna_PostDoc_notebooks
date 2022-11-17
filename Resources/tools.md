@@ -22,9 +22,17 @@
 
 ### Single-cell methods
 
+#### Filtering
+* Doublet removal
+* Ambient RNA removal
+* Empty droplet removal
+
 #### Processing
 * Batch correction
+  * MNN
+  * CCA (Seurat) 
 * Normalisation
+  * scran
   * sctransform   
 
 #### Cell-level
