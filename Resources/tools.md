@@ -27,6 +27,11 @@
 * Ambient RNA removal
 * Empty droplet removal
 
+### Demultiplexing
+* Cardelino
+* Vireo
+* Demuxlet
+
 ### Processing
 * Batch correction
   * MNN
