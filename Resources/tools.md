@@ -46,8 +46,10 @@
 * Vision pooling
 
 ### Cell-level downstream analysis
-* Clustering
+* Clustering 
 * Cell type annotation
+  * scPred
+  * CellTypist 
 * Pseudotime inference
 
 ### Gene-level downstream analysis
