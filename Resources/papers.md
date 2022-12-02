@@ -57,6 +57,7 @@
 * [A phenotypic spectrum of autism is attributable to the combined effects of rare variants, polygenic risk and sex](https://www.nature.com/articles/s41588-022-01064-5)
 * [Genetic control of the dynamic transcriptional response to
 immune stimuli and glucocorticoids at single cell resolution](https://www.biorxiv.org/content/10.1101/2021.09.30.462672v2.full.pdf)
+* [En masse organoid phenotyping informs metabolic-associated genetic susceptibility to NASH](https://www.sciencedirect.com/science/article/pii/S0092867422012508)
 
 
 ## Autoimmune disease papers
