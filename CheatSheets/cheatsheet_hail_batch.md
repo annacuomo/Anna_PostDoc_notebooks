@@ -54,10 +54,13 @@ from cpg_utils.hail_batch import (
 )
 ```
 
-Explain below what each of this is good for.
+Explain below what each of this is good for:
+* copy_common_env: 
+* dataset_path:
 
+Max number of genes being run at once function definition:
 
-```
+```python
 # Setup MAX concurrency by genes
 _dependent_jobs: list[hb.job.Job] = []
 
@@ -69,6 +72,7 @@ def manage_concurrency_for_job(job: hb.job.Job):
         job.depends_on(_dependent_jobs[-max_gene_concurrency])
     _dependent_jobs.append(job)
 ```
+
 ### Other
 
 In the future, I may want to adapt [Konrad K's SAIGE on UKBB exmples workflow](https://github.com/Nealelab/ukb_exomes) to running the new Poisson version of SAIGE on scRNA-seq + WGS data from TenK10K.
