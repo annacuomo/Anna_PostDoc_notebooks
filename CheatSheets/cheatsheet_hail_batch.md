@@ -24,8 +24,8 @@ For each (python) job:
 ```python
 
 new_job = batch.new_python_job('Some description of this job')
-manage_concurrency_for_job(new_job)
-copy_common_env(new_job)  # see below
+manage_concurrency_for_job(new_job)  # manually define function to avoid too many concurrent jobs 
+copy_common_env(new_job)             # see below
 new_job.depends_on(old_job)
 new_job.image(MY_IMAGE)
 new_job.call(
