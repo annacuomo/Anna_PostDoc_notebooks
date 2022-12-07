@@ -56,6 +56,19 @@ from cpg_utils.hail_batch import (
 
 Explain below what each of this is good for.
 
+
+```
+# Setup MAX concurrency by genes
+_dependent_jobs: list[hb.job.Job] = []
+
+def manage_concurrency_for_job(job: hb.job.Job):
+        """
+        To avoid having too many jobs running at once, we have to limit concurrency.
+        """
+        if len(_dependent_jobs) >= max_gene_concurrency:
+            job.depends_on(_dependent_jobs[-max_gene_concurrency])
+        _dependent_jobs.append(job)
+```
 ### Other
 
 In the future, I may want to adapt [Konrad K's SAIGE on UKBB exmples workflow](https://github.com/Nealelab/ukb_exomes) to running the new Poisson version of SAIGE on scRNA-seq + WGS data from TenK10K.
