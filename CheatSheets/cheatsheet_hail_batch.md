@@ -31,7 +31,7 @@ new_job.image(MY_IMAGE)
 new_job.call(
         my_function,
         input=my_input,
-        )
+)
 ```
 
 Then, at the end:
