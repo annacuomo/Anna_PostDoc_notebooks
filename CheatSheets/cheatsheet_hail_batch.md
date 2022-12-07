@@ -6,7 +6,7 @@ My main experience with this is so far is an end-to-end [workflow](https://githu
 
 ### Common commands I always forget
 
-Set up job:
+Set up a batch:
 
 ```python
 import hailtop.batch as hb
@@ -15,7 +15,30 @@ b = hb.ServiceBackend(
         billing_project=get_config()['hail']['billing_project'],
         remote_tmpdir=remote_tmpdir(),
     )
+
 batch = hb.Batch('CellRegMap pipeline', backend=sb)
+```
+
+For each (python) job:
+
+```python
+
+new_job = batch.new_python_job('Some description of this job')
+manage_concurrency_for_job(new_job)
+copy_common_env(new_job)  # see below
+new_job.depends_on(old_job)
+new_job.image(MY_IMAGE)
+new_job.call(
+        my_function,
+        input=my_input,
+        )
+```
+
+Then, at the end:
+
+```python
+# set jobs running
+batch.run(wait=False)
 ```
 
 CPG Hail Batch utils:
