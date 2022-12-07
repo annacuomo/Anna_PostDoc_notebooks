@@ -62,12 +62,12 @@ Explain below what each of this is good for.
 _dependent_jobs: list[hb.job.Job] = []
 
 def manage_concurrency_for_job(job: hb.job.Job):
-        """
-        To avoid having too many jobs running at once, we have to limit concurrency.
-        """
-        if len(_dependent_jobs) >= max_gene_concurrency:
-            job.depends_on(_dependent_jobs[-max_gene_concurrency])
-        _dependent_jobs.append(job)
+    """
+    To avoid having too many jobs running at once, we have to limit concurrency.
+    """
+    if len(_dependent_jobs) >= max_gene_concurrency:
+        job.depends_on(_dependent_jobs[-max_gene_concurrency])
+    _dependent_jobs.append(job)
 ```
 ### Other
 
