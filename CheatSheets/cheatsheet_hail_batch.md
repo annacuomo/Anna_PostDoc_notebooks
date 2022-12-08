@@ -75,6 +75,6 @@ def manage_concurrency_for_job(job: hb.job.Job):
 
 ### Other
 
-In the future, I may want to adapt [Konrad K's SAIGE on UKBB exmples workflow](https://github.com/Nealelab/ukb_exomes) to running the new Poisson version of SAIGE on scRNA-seq + WGS data from TenK10K.
+In the future, I may want to adapt [Konrad K's SAIGE on UKBB whole exomes workflow](https://github.com/Nealelab/ukb_exomes) to running the new Poisson version of SAIGE on scRNA-seq + WGS data from TenK10K.
 
 
