@@ -34,6 +34,11 @@ import anndata as ad
 adata = ad.AnnData(X=X, obs=obs, var=var, dtype='float')
 ```
 
+#### correlation (cor in R)
+```
+np.corrcoef[1,0] = np.corrcoef[0,1]
+```
+
 #### equivalent to gsub in python:
 ```
 import re
