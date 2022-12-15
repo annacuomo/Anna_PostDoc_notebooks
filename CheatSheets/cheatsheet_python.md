@@ -64,23 +64,6 @@ def main(
 ):
 ```
 
-#### show matrix
-```
-import matplotlib.pyplot as plt
-plt.matshow(M)
-```
-
-#### other plots
-```
-plt.hist(y)
-plt.show()
-```
-
-#### save plot
-```
-plt.savefig("fig.pdf")
-```
-
 #### to check version of python package
 ```
 import cellregmap as crm
@@ -88,3 +71,27 @@ crm.__version__
 ```
 #### python try except
 https://www.w3schools.com/python/python_try_except.asp
+
+
+### Plotting
+
+#### show matrix
+```
+import matplotlib.pyplot as plt
+plt.matshow(M)
+```
+
+#### histogram
+```
+plt.hist(y)
+plt.show()
+```
+
+```
+plt.scatter(x,y)
+```
+
+#### save plot
+```
+plt.savefig("fig.pdf")
+```
