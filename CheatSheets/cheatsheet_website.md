@@ -33,6 +33,7 @@ To overwrite defaults and change thins permanently, add to [this file](https://g
 * https://www.nikosirmpilatze.com ([repo](https://github.com/niksirbi/MyWebsite))
 * https://www.joeleklof.com/
 * https://azodichr.github.io
+* more templates: https://github.com/seankross/postcards (rmd)
 
 ## Useful articles
 
