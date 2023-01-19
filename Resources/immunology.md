@@ -1,5 +1,7 @@
-# Intro
+# Overview
 I know very little about immunology, so just learning stuff and writing things I learn / need to remember as I go.
+
+add some form of diagram / overview
 
 # Cell types
 
@@ -12,9 +14,15 @@ I know very little about immunology, so just learning stuff and writing things I
 
 ### CD4
 
+these include Tregs?
+
 ### CD8
 
 ### Other T cells
+
+## B cells
+* Naive
+* Memory
 
 # Resources
 Cell type gene markers: https://www.rndsystems.com/resources/cell-markers/immune-cells/
