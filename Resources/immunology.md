@@ -6,3 +6,14 @@ I know very little about immunology, so just learning stuff and writing things I
 * CD14 positive (and negative CD16) monocytes are also called classical monocytes (MonoC): CD14++CD16--
 * CD16 positive (and negative CD14) monocytes are also called non-classical monocytes (MonoNC): CD16++CD14--
 * Intermediate monocytes have high levels of CD14 and low (but positive) levels of CD16: CD14++CD16+
+
+### T cells
+
+#### CD4
+
+#### CD8
+
+#### Other T cells
+
+## Resources
+Cell type gene markers: https://www.rndsystems.com/resources/cell-markers/immune-cells/
