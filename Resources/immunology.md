@@ -1,9 +1,8 @@
 # Overview
 I know very little about immunology, so just learning stuff and writing things I learn / need to remember as I go.
 
-add some form of diagram / overview
+From [wiki](https://en.wikipedia.org/wiki/Haematopoiesis):
 ![image](https://user-images.githubusercontent.com/25035866/213349144-120e539b-7483-4a26-a094-fa0fd1817edd.png)
-
 
 * Lymphocyes include T and B cells, NK cells other?
 * Myeloid cells
