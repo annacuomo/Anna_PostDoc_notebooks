@@ -1,6 +1,6 @@
 ## Hail
 
-[Hail](https://hail.is/) used at Broad and CPG, python-based by with its own object types and syntax.
+[Hail](https://hail.is/) used at Broad and CPG, python-based but with its own object types and syntax.
 
 The following commands read in a hail table and hail matrix table, respectively"
 ```
@@ -27,7 +27,7 @@ which would retain sample-level data and annotations.
 mt = hl.variant_qc(mt)
 mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 ```
-filter mt1 based on rows from mt2
+#### filter mt1 based on rows from mt2
 ```
 mt1_with_mt2_rows_only = mt1.semi_join_rows(mt2.rows())
 ```
