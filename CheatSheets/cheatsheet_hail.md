@@ -11,9 +11,14 @@ mt = hl.read_matrix_table(my_object.mt)
 As it turns out, a variant-specific ```Table``` is obtained by running 
 ```
 variant_table = mt.rows()
-```, 
+``` 
 retaining site-level data and annotations. 
-Similarly, one could run ```sample_table = mt.cols()```, which would retain sample-level data and annotations.
+
+Similarly, one could run 
+```
+sample_table = mt.cols()
+```
+which would retain sample-level data and annotations.
 
 ### Recurring commands 
 
