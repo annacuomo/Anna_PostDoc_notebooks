@@ -1,5 +1,7 @@
 # Seurat
 
+## Getting started
+
 ### create new object
 ```
 pbmc.rna <- CreateSeuratObject(counts = ge_df, project = "bioheart.multiome.ge", min.cells = 3, min.features = 200)
@@ -11,6 +13,11 @@ pbmc.rna <- FindVariableFeatures(pbmc.rna)
 pbmc.rna <- ScaleData(pbmc.rna)
 pbmc.rna <- RunPCA(pbmc.rna)
 ```
+### save
+```
+saveRDS(pbmc, file = "../output/pbmc3k_final.rds")
+```
+## Other
 
 ###  fetch (normalised) expression of a specific gene
 ```gene1<- FetchData(mySample, vars = "myGene")``` 
