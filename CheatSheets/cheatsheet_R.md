@@ -16,8 +16,10 @@ chr_number <- args[1]
 
 ## Data manipulation
 
-### use of seq (linspace)
-```beta = seq(from = 0.1, to = 1, by = 0.1)```
+### initialise data frame
+```
+df <- data.frame(mat, row.names = rows, col.names = cols) 
+```
 
 ### sample n rows from a dataframe
 ```df[sample(nrow(df), n), ]```
@@ -34,6 +36,9 @@ mat = cast(df, sample ~ name)
 df <- df[rowSums(is.na(df)) == 0, ]         # removes rows with any NA
 df <- df[rowSums(is.na(df)) != ncol(df), ]  # removes rows with all NA
 ```
+
+### use of seq (linspace)
+```beta = seq(from = 0.1, to = 1, by = 0.1)```
 
 ## Analysis
 
