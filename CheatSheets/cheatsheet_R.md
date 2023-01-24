@@ -18,7 +18,9 @@ chr_number <- args[1]
 
 ### initialise data frame
 ```
-df <- data.frame(mat, row.names = rows, col.names = cols) 
+df <- data.frame(mat)
+rownames(df) = rows
+colnames(df) = cols 
 ```
 
 ### sample n rows from a dataframe
