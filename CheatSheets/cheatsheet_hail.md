@@ -32,6 +32,12 @@ mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 mt1_with_mt2_rows_only = mt1.semi_join_rows(mt2.rows())
 ```
 
+### filter mt to a range
+```
+gene_interval = 'chr1:156053680-156053690'  
+mt0 = hl.filter_intervals(mt, [hl.parse_locus_interval(gene_interval, reference_genome='GRCh38')])
+```
+
 ### using Matt's script to copy subsets of hail tables / matrix tables to test
 
 From my own copy of [the scripts folder in analysis runner](https://github.com/populationgenomics/analysis-runner/tree/main/scripts), run
