@@ -11,7 +11,7 @@ They are split by category:
   * [ggplot cheatsheet](R/cheatsheet_ggplot.md) 
   * [Seurat cheatsheet](R/cheatsheet_Seurat.md) 
 * [Python cheatsheets](Python)
-  * [Python cheatsheet](Python/cheatsheet_python.md) 
+  * [general Python cheatsheet](Python/cheatsheet_python.md) 
   * [Hail cheatsheet](Python/cheatsheet_hail.md) 
   * [Hail batch cheatsheet](Python/cheatsheet_hail_batch.md) 
 * [Coding cheatsheets](Coding)
