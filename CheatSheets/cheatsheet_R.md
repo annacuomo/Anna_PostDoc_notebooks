@@ -28,21 +28,11 @@ library(reshape)
 df = data.frame(sample = c("sample1","sample2","sample1","sample2"), name = c("n1","n2","n2","n1"), value = c(1,2,3,4))
 mat = cast(df, sample ~ name)
 ```
-### check if file exists
-```
-file.exists("myfile.R")
-```
-returns ```TRUE``` (or ```FALSE```)
 
 ### remove NAs
 ```
 df <- df[rowSums(is.na(df)) == 0, ]         # removes rows with any NA
 df <- df[rowSums(is.na(df)) != ncol(df), ]  # removes rows with all NA
-```
-
-### package version
-```
-packageVersion("snow")
 ```
 
 ## Analysis
@@ -100,6 +90,19 @@ pip install umap-learn
 ```
 in the command line. Haven't quite managed to get it to work myself though.
 
+## File exploration
+
+### check if file exists
+```
+file.exists("myfile.R")
+```
+returns ```TRUE``` (or ```FALSE```)
+
+### list files in directory
+```
+list.files(mydir)
+```
+
 ## installation
 ### using CRAN
 ```
@@ -111,6 +114,10 @@ if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 BiocManager::install("qvalue")
+```
+### check package version
+```
+packageVersion("snow")
 ```
 
 ## Seurat
