@@ -3,7 +3,6 @@
 ### create new object
 ```
 pbmc.rna <- CreateSeuratObject(counts = ge_df, project = "bioheart.multiome.ge", min.cells = 3, min.features = 200)
-pbmc.rna
 ```
 ### basic analysis
 ```
