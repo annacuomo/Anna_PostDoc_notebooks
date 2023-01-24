@@ -63,7 +63,7 @@ analysis-runner --dataset tob-wgs \
 ## Plotting
 For plotting, see examples [here](https://github.com/populationgenomics/tob-wgs/tree/rare-variant-association/scripts/rv_expression_association/plot), note the
 * actual plotting script (s)
-* README to specify running commands using the analysis-runnrt
+* README to specify running commands using the analysis-runner
 
 Plots then appear in the broswe, like in this [example](https://test-web.populationgenomics.org.au/tob-wgs/plot/v0/histogram_maf_post_filter.png)
 
