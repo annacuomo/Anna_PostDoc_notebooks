@@ -25,4 +25,4 @@ They are split by category:
   * [Google Cloud cheatsheet](cheatsheet_gcp.md)
   * [LateX cheatsheet](cheatsheet_latex.md)
   * [own website cheatsheet](cheatsheet_website.md) 
-  * Max shortcuts
+  * [Mac shortcuts](cheatsheet_mac_shortcuts.md)
