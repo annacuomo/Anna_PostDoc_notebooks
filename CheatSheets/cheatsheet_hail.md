@@ -32,7 +32,7 @@ mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 mt1_with_mt2_rows_only = mt1.semi_join_rows(mt2.rows())
 ```
 
-### filter mt to a range
+### filter mt to variants within an interval
 ```
 gene_interval = 'chr1:156053680-156053690'  
 mt0 = hl.filter_intervals(mt, [hl.parse_locus_interval(gene_interval, reference_genome='GRCh38')])
