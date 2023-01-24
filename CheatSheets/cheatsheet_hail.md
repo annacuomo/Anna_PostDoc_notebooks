@@ -8,7 +8,11 @@ import hail as hl
 ht = hl.read_table(my_object.ht)
 mt = hl.read_matrix_table(my_object.mt)
 ```
-As it turns out, a variant-specific ```Table``` is obtained by running ```variant_table = mt.rows()```, retaining site-level data and annotations. 
+As it turns out, a variant-specific ```Table``` is obtained by running 
+```
+variant_table = mt.rows()
+```, 
+retaining site-level data and annotations. 
 Similarly, one could run ```sample_table = mt.cols()```, which would retain sample-level data and annotations.
 
 ### Recurring commands 
@@ -21,6 +25,28 @@ mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 filter mt1 based on rows from mt2
 ```
 mt1_with_mt2_rows_only = mt1.semi_join_rows(mt2.rows())
+```
+
+#### using Matt's script to copy subsets of hail tables / matrix tables to test
+
+From my own copy of [the scripts folder in analysis runner](https://github.com/populationgenomics/analysis-runner/tree/main/scripts), run
+
+For Hail Table - HT - objects: 
+```
+analysis-runner --dataset tob-wgs \
+    --description "subset vep annotated ht" \
+    --output-dir "tob_wgs_rv" --access-level standard \
+    python3 subset_hail_table.py -i gs://cpg-tob-wgs-main/tob_wgs_vep/104/vep104.3_GRCh38.ht \
+    --chr chr22 --pos 23702743-23804425 --out VPREB3_50K_window_vep
+```
+
+For (Hail) Matrix Table - MT - objects: 
+```
+analysis-runner --dataset tob-wgs \
+    --description "subset mt to chr1 only" \
+    --output-dir "tob_wgs_rv" --access-level standard \
+    python3 subset_matrix_table.py -i gs://cpg-tob-wgs-main/mt/v7.mt  \
+    --chr chr1 --out v7_chr1_copy
 ```
 
 ### Plotting
