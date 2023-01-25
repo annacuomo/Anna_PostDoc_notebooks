@@ -61,6 +61,7 @@ immune stimuli and glucocorticoids at single cell resolution](https://www.biorxi
 * [En masse organoid phenotyping informs metabolic-associated genetic susceptibility to NASH](https://www.sciencedirect.com/science/article/pii/S0092867422012508)
 * [FinnGen provides genetic insights from a well-phenotyped isolated population](https://www.nature.com/articles/s41586-022-05473-8)
 * [Multi-context genetic modeling of transcriptional regulation resolves novel disease loci](https://www.nature.com/articles/s41467-022-33212-0)
+* [Dynamic landscape of immune cell-specific gene regulation in immune-mediated diseases](https://www.sciencedirect.com/science/article/pii/S0092867421004293)
 
 
 ## Autoimmune disease papers
