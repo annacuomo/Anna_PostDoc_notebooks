@@ -35,25 +35,24 @@ these include Tregs?
 
 From https://satijalab.org/seurat/articles/pbmc3k_tutorial.html:
 
-**Markers   	    Cell Type**
-
-IL7R, CCR7	    Naive CD4+ T
-
-CD14, LYZ	      CD14+ Mono
-
-IL7R, S100A4 	  Memory CD4+
-
-MS4A1	          B
-
-CD8A	          CD8+ T
-
-FCGR3A, MS4A7	  FCGR3A+ Mono
-
-GNLY, NKG7	    NK
-
-FCER1A, CST3	  DC
-
-PPBP	          Platelet
+* Naive CD4+ T
+  * IL7R, CCR7
+* CD14+ Mono
+  * CD14, LYZ	      
+* Memory CD4+
+  * IL7R, S100A4 
+* B 	  
+  * MS4A1
+* CD8+ T
+  * CD8A	
+* FCGR3A+ Mono          
+  * FCGR3A, MS4A7	
+* NK 
+  * GNLY, NKG7
+* DC
+  * FCER1A, CST3
+* Platelet
+  * PPBP	          
 
 # Resources
 Cell type gene markers: https://www.rndsystems.com/resources/cell-markers/immune-cells/
