@@ -29,9 +29,13 @@ these include Tregs?
 * Naive
 * Memory
 
-# Markers
+# Markers to annotate cell types
 
-* Myeloid: CD33+
+First distinction: myeloid vs lymphoid
+
+Myeloid cells are CD33+
+
+## Collection(s) of immune cell type gene markers
 
 PBMC cell type gene markers from [Seurat tutorial](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html):
 
