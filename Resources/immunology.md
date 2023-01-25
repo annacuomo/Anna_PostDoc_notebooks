@@ -16,13 +16,19 @@ From [wiki](https://en.wikipedia.org/wiki/Haematopoiesis):
 * Intermediate monocytes have high levels of CD14 and low (but positive) levels of CD16: CD14++CD16+
 
 ## T cells
+
+Main categories:
+
 * Helper T-cells = CD4+ T-cells
   * TH1, TH2
 * Cytotoxic T-cells = CD8+ T-cells
 * Regulatory T-cells = T-regs
-* NKT-cells
 
-### Other T cells
+Other (?):
+
+* Memory T-cells?
+* NKT-cells?
+
 
 ## B cells
 * Naive
