@@ -17,11 +17,11 @@ From [wiki](https://en.wikipedia.org/wiki/Haematopoiesis):
 
 ## T cells
 
-### CD4
+### CD4 positive
 
 these include Tregs?
 
-### CD8
+### CD8 positive
 
 ### Other T cells
 
