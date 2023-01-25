@@ -33,7 +33,7 @@ these include Tregs?
 
 * Myeloid: CD33+
 
-From https://satijalab.org/seurat/articles/pbmc3k_tutorial.html:
+PBMC cell type gene markers from [Seurat tutorial](https://satijalab.org/seurat/articles/pbmc3k_tutorial.html):
 
 * Naive CD4+ T
   * IL7R, CCR7
