@@ -59,6 +59,8 @@
 * [Genetic control of the dynamic transcriptional response to
 immune stimuli and glucocorticoids at single cell resolution](https://www.biorxiv.org/content/10.1101/2021.09.30.462672v2.full.pdf)
 * [En masse organoid phenotyping informs metabolic-associated genetic susceptibility to NASH](https://www.sciencedirect.com/science/article/pii/S0092867422012508)
+* [FinnGen provides genetic insights from a well-phenotyped isolated population](https://www.nature.com/articles/s41586-022-05473-8)
+* [Multi-context genetic modeling of transcriptional regulation resolves novel disease loci](https://www.nature.com/articles/s41467-022-33212-0)
 
 
 ## Autoimmune disease papers
