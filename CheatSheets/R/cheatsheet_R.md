@@ -23,6 +23,11 @@ rownames(df) = rows
 colnames(df) = cols 
 ```
 
+### remove duplicate rows
+```
+results <- results[-which(duplicated(results$feature)),]
+```
+
 ### sample n rows from a dataframe
 ```df[sample(nrow(df), n), ]```
 
