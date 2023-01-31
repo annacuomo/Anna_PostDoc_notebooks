@@ -10,7 +10,8 @@ SAM: tab-delimited text format to store genomic alignment: header (@) + alignmen
 
 ## Genotypes
 
-VCF (variant call format) is the standard file format for storing variation data
+VCF (variant call format) is the standard file format for storing variation data.
+Each row represents a locus, with columns representing info on that locus and then genotypes at that locus for one or more individuals (one column per individual).
 
 
 ## Resources
