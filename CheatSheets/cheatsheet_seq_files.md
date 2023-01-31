@@ -18,3 +18,4 @@ Each row represents a locus, with columns representing info on that locus and th
 
 * [Video 2 of 6 as part of the INTRA scRNA-seq workshop](https://www.youtube.com/watch?v=rB9-xj8Q1gU&t=14s)
 * [VCF intro EBI](https://www.ebi.ac.uk/training/online/courses/human-genetic-variation-introduction/variant-identification-and-analysis/understanding-vcf-format/)
+* [on BAMs](https://felixfan.github.io/bam-sam/)
