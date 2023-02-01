@@ -1,6 +1,11 @@
 ## Build image
 ```
-docker build -t name . 
+docker build -t <image_name> . 
+```
+
+## Run scripts after mounting test data to local folder
+```
+docker run -it -v <local_folder>:/data <image_name> bash
 ```
 
 ## Example Docker Images
