@@ -36,8 +36,9 @@ cat file.txt | awk -F ',' '$4 == 22' | sed -n 1p | awk -F "," '{print $2}'
 
 ## Random
 
-[The uncompromising code formatter](https://black.readthedocs.io/en/stable/)
-Simply ```pip install black```,
+Black: [The uncompromising code formatter](https://black.readthedocs.io/en/stable/).
+
+To installe, simply ```pip install black```.
 
 Then, ``` black my_script.py``` to reformat.
 
