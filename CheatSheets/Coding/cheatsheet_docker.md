@@ -1,3 +1,5 @@
+First, always make sure the docker daemon is running.
+
 ## Build image
 ```
 docker build -t <image_name> . 
