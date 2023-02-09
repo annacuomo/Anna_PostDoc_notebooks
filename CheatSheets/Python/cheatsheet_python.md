@@ -100,3 +100,6 @@ plt.scatter(x,y)
 ```
 plt.savefig("fig.pdf")
 ```
+
+## Resources
+* [Pandas illustrated](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
