@@ -1,4 +1,4 @@
-## python
+## Python
 
 #### initiate pandas data frame
 ```
@@ -103,3 +103,4 @@ plt.savefig("fig.pdf")
 
 ## Resources
 * [Pandas illustrated](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
+* [Numpy illustrated](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1)
