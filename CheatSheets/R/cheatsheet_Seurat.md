@@ -13,10 +13,17 @@ pbmc.rna <- FindVariableFeatures(pbmc.rna)
 pbmc.rna <- ScaleData(pbmc.rna)
 pbmc.rna <- RunPCA(pbmc.rna)
 ```
+
 ### save
 ```
 saveRDS(pbmc, file = "../output/pbmc3k_final.rds")
 ```
+
+### set "identities"
+```
+Idents(object = pbmc.atac) <- pbmc.atac@meta.data$predicted.l1
+```
+
 ## Other
 
 ###  fetch (normalised) expression of a specific gene
