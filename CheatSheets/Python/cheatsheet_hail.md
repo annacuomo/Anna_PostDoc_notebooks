@@ -37,6 +37,11 @@ mt1_with_mt2_rows_only = mt1.semi_join_rows(mt2.rows())
 gene_interval = 'chr1:156053680-156053690'  
 mt0 = hl.filter_intervals(mt, [hl.parse_locus_interval(gene_interval, reference_genome='GRCh38')])
 ```
+### filter mt to variants within a chromosome
+```
+chrom = 21
+mt = mt.filter_rows(mt.locus.contig == ('chr' + chrom))
+```
 
 ### using Matt's script to copy subsets of hail tables / matrix tables to test
 
