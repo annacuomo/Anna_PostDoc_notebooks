@@ -39,7 +39,7 @@ mt0 = hl.filter_intervals(mt, [hl.parse_locus_interval(gene_interval, reference_
 ```
 ### filter mt to variants within a chromosome
 ```
-chrom = 21
+chrom = "21"
 mt = mt.filter_rows(mt.locus.contig == ('chr' + chrom))
 ```
 
