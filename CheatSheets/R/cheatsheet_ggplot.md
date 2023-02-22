@@ -30,16 +30,15 @@ p + stat_smooth(se=F, linetype = 2, aes(group=as.factor(GROUP), colour=as.factor
 p + labs(colour=GROUP)
 ```
 
-## Venn
+## QQ plot
 ```
-# pip install matplotlib-venn
-from matplotlib_venn import venn2, venn2_circles, venn2_unweighted
-from matplotlib_venn import venn3, venn3_circles
-from matplotlib import pyplot as plt
-%matplotlib inline
-venn2(subsets = (30, 10, 5), set_labels = ('Group A', 'Group B'))
+df$pv_uniform = runif(dim(df)[1], min = 0, max = 1)
+p = ggplot(df, aes(x = sort(-log10(pv_uniform)), y = sort(-log10(p.value)))) + 
+    geom_abline(slope = 1, intercept = 0, col = "firebrick") +
+    geom_point(alpha = 0.5, pch = 1) + xlab("-log10(expected p-values)") + ylab("-log10(observed p-values)") +
+    theme_bw() + ggtitle("mytrait") +
+    theme(legend.position="none", panel.border = element_blank())
 ```
-Slightly more complex example for neuroseq paper (Studies overlap figure; [Fig. 3A](https://github.com/single-cell-genetics/singlecell_neuroseq_paper/blob/main/plotting_notebooks/Figure_3/Figure_3a.ipynb))
 
 ## Text in plots
 ```
