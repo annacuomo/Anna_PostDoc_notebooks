@@ -68,6 +68,11 @@ def main(
     chrom: str,
 ):
 ```
+#### check if file exists
+```
+import os
+os.path.exists(path-i-am-checking)
+```
 
 #### to check version of python package
 ```
