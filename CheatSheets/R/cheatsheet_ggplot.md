@@ -91,7 +91,7 @@ ggplot(don, aes(x=BPcum, y=-log10(p.value))) +
     )
 ```
 
-Ref: https://github.com/annacuomo/Notebooks_private/blob/main/scripts/TenK10K/saige_qtl/saige_eqtl_onek1k/make_manhattan_files.R
+[Ref1](https://github.com/annacuomo/Notebooks_private/blob/main/scripts/TenK10K/saige_qtl/saige_eqtl_onek1k/make_manhattan_files.R), [Ref2](https://r-graph-gallery.com/101_Manhattan_plot.html)
 
 ## Text in plots
 ```
