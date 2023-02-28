@@ -40,6 +40,59 @@ p = ggplot(df, aes(x = sort(-log10(pv_uniform)), y = sort(-log10(p.value)))) +
     theme(legend.position="none", panel.border = element_blank())
 ```
 
+## Manhattan plot
+
+```R
+library(dplyr)
+library(ggplot2)
+
+# enforce numeric position
+df0$POS = as.numeric(df0$POS)
+
+# prepare dataframe for Manhattan
+don <- df0 %>% 
+  
+  # Compute chromosome size
+  group_by(CHR) %>% 
+  summarise(chr_len=max(POS)) %>% 
+  
+  # Calculate cumulative position of each chromosome
+  mutate(tot=cumsum(chr_len)-chr_len) %>%
+  select(-chr_len) %>%
+  
+  # Add this info to the initial dataset
+  left_join(df0, ., by=c("CHR"="CHR")) %>%
+  
+  # Add a cumulative position of each SNP
+  arrange(CHR, POS) %>%
+  mutate(BPcum=POS+tot)
+  
+# axes
+axisdf = don %>% group_by(CHR) %>% summarize(center=( max(BPcum) + min(BPcum) ) / 2 )
+
+# plot
+ggplot(don, aes(x=BPcum, y=-log10(p.value))) +
+    
+    # Show all points
+    geom_point(aes(color=as.factor(CHR)), alpha=0.8, size=1.3) +
+    scale_color_manual(values = rep(c("grey", "skyblue"), 22 )) +
+    
+    # custom X axis:
+    scale_x_continuous( label = axisdf$CHR, breaks=axisdf$center ) +
+    scale_y_continuous(expand = c(0, 0) ) +     # remove space between plot area and x axis
+  
+    # Custom the theme:
+    theme_bw() +
+    theme( 
+      legend.position="none",
+      panel.border = element_blank(),
+      panel.grid.major.x = element_blank(),
+      panel.grid.minor.x = element_blank()
+    )
+```
+
+Ref: https://github.com/annacuomo/Notebooks_private/blob/main/scripts/TenK10K/saige_qtl/saige_eqtl_onek1k/make_manhattan_files.R
+
 ## Text in plots
 ```
 # size of text in plot (axes labels, title, etc..)
