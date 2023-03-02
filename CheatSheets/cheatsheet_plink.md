@@ -39,7 +39,7 @@ plink2 --keep sc_samples.txt --bfile chr2_pruned --make-bed --out chr2_pruned_sc
 ### Make plink files from VCF file
 
 ```bash
-plink2 --vcf myvcf.vcf --make-bed --out myplink
+plink2 --vcf myvcf.vcf --maf 0.01 --max-maf 0.05 --make-bed --out myplink
 ```
 
 
