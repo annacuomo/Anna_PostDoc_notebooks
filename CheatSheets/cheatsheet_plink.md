@@ -46,5 +46,8 @@ plink2 --vcf myvcf.vcf --maf 0.01 --max-maf 0.05 --make-bed --out myplink
 ## Pandas Plink
 
 ```python
-from pandas-plink import
+from pandas_plink import read_plink1_bin, write_plink1_bin
+
+geno = read_plink1_bin(in_file)
+write_plink1_bin(geno, out_file, verbose=False)
 ```
