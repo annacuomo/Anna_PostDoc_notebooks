@@ -1,8 +1,8 @@
-## OneK1K original eQTL results
+# OneK1K original eQTL results
 
-### Spearman correlation
+## Spearman correlation
 
-#### all results
+### all results
 
 from (change cell type, eQTL round, chromosome)
 
@@ -12,9 +12,9 @@ to
 
 /share/ScratchGeneral/anncuo/OneK1K/Correlation_eQTL_results/BimmNaive_chr1_correlation_results.tsv
 
-### Matrix eQTL
+## Matrix eQTL
 
-#### all results
+### all results
 
 from
 
@@ -24,7 +24,7 @@ to
 
 /share/ScratchGeneral/anncuo/OneK1K/Matrix_eQTL_results/BIN_chr1_cis_eqtls_210211.tsv
 
-#### leads
+### leads
 
 from
 
