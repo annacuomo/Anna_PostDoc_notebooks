@@ -37,9 +37,13 @@ to
 
 # Cardiac data
 
+## Day0 RNA BAMs all individuals
+
 cp -r /directflow/SCCGGroupShare/projects/himaro/projects/mapping_eqtl_prep/barcode_out/sinto_out/barcode_village0_allINDV/ /share/ScratchGeneral/anncuo/cardiac_multiome/bam_files/day0/
 
 
 # General
+
+## SNP IDs (chrom, pos) to rsids
 
  cp /directflow/SCCGGroupShare/projects/SeyhanYazar/onek1k/cell_specific_eQTL_analysis_April20/hrc_ids_all.rds /share/ScratchGeneral/anncuo/
