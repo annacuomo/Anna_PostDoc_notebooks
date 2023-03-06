@@ -44,6 +44,11 @@ df <- df[rowSums(is.na(df)) == 0, ]         # removes rows with any NA
 df <- df[rowSums(is.na(df)) != ncol(df), ]  # removes rows with all NA
 ```
 
+### swap values (e.g. 0s for very small values)
+```
+p.value[p.value==0] <- 10^(-16)
+```
+
 ### use of seq (linspace)
 ```beta = seq(from = 0.1, to = 1, by = 0.1)```
 
