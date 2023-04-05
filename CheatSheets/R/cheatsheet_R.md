@@ -4,16 +4,20 @@
 
 ### to read in a compressed file with a .gz extension
 
-```df = read.csv(gzfile(filename.txt), sep="\t")```
+```R
+df <- read.csv(gzfile(filename.txt), sep="\t")
+```
 
 ### to read in Matrix (.mtx) objects
 
-```df = Matrix::readMM(mymatrix.mtx)```
+```R
+df <- Matrix::readMM(mymatrix.mtx)
+```
 
 ### read arguments in Rscript
 
 ```R
-args = commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE)
 chr_number <- args[1]
 ```
 
@@ -60,7 +64,9 @@ p.value[p.value==0] <- 10^(-16)
 
 ### use of seq (linspace)
 
-```beta = seq(from = 0.1, to = 1, by = 0.1)```
+```R
+beta = seq(from = 0.1, to = 1, by = 0.1)
+```
 
 ## Analysis
 
@@ -108,34 +114,44 @@ enrich_pw <- enrichr(list_of_egenes, 'KEGG_2021_Human')
 ## Plotting
 
 ### corrplot
-```
+
+```R
 library(corrplot)
 df = cbind(df0, df1)
 corrplot(cor(df))
 ```
+
 ### UMAP packages
-```
+
+```R
 install.packages("umap")
 library(umap)
 ```
+
 works fine in R, but to run Seurat's ```obj = RunUMAP(obj)``` you seemingly have to install umap-learn, i.e.,:
-```
+
+```R
 pip install umap-learn
 ```
+
 in the command line. Haven't quite managed to get it to work myself though.
 
 ## File exploration
 
 ### check if file exists
-```
+
+```R
 file.exists("myfile.R")
 ```
+
 returns ```TRUE``` (or ```FALSE```)
 
 ### list files in directory
-```
+
+```R
 list.files(mydir)
 ```
+
 ## Coding
 
 ### record time a function lasted
@@ -147,20 +163,26 @@ end_time <- Sys.time()
 end_time - start_time
 ```
 
-## installation
+## Installation
+
 ### using CRAN
-```
+
+```R
 install.packages("dplyr")
 ```
+
 ### using Bioconductor
-```
+
+```R
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 BiocManager::install("qvalue")
 ```
+
 ### check package version
-```
+
+```R
 packageVersion("snow")
 ```
 
