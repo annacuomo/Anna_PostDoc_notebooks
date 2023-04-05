@@ -3,42 +3,54 @@
 [Hail](https://hail.is/) used at Broad and CPG, python-based but with its own object types and syntax.
 
 The following commands read in a hail table and hail matrix table, respectively"
-```
+
+```Python
 import hail as hl
 ht = hl.read_table(my_object.ht)
 mt = hl.read_matrix_table(my_object.mt)
 ```
+
 As it turns out, a variant-specific ```Table``` is obtained by running 
-```
+
+```Python
 variant_table = mt.rows()
 ``` 
+
 retaining site-level data and annotations. 
 
 Similarly, one could run 
-```
+
+```Python
 sample_table = mt.cols()
 ```
+
 which would retain sample-level data and annotations.
 
 ## Recurring commands 
 
 ### filter to this sample's non-ref calls
-```
+
+```Python
 mt = hl.variant_qc(mt)
 mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 ```
+
 ### filter mt1 based on rows from mt2
-```
+
+```Python
 mt1_with_mt2_rows_only = mt1.semi_join_rows(mt2.rows())
 ```
 
 ### filter mt to variants within an interval
-```
+
+```Python
 gene_interval = 'chr1:156053680-156053690'  
 mt0 = hl.filter_intervals(mt, [hl.parse_locus_interval(gene_interval, reference_genome='GRCh38')])
 ```
+
 ### filter mt to variants within a chromosome
-```
+
+```Python
 chrom = "21"
 mt = mt.filter_rows(mt.locus.contig == ('chr' + chrom))
 ```
@@ -48,7 +60,8 @@ mt = mt.filter_rows(mt.locus.contig == ('chr' + chrom))
 From my own copy of [the scripts folder in analysis runner](https://github.com/populationgenomics/analysis-runner/tree/main/scripts), run
 
 For Hail Table - HT - objects: 
-```
+
+```shell
 analysis-runner --dataset tob-wgs \
     --description "subset vep annotated ht" \
     --output-dir "tob_wgs_rv" --access-level standard \
@@ -57,7 +70,8 @@ analysis-runner --dataset tob-wgs \
 ```
 
 For (Hail) Matrix Table - MT - objects: 
-```
+
+```shell
 analysis-runner --dataset tob-wgs \
     --description "subset mt to chr1 only" \
     --output-dir "tob_wgs_rv" --access-level standard \
@@ -66,7 +80,9 @@ analysis-runner --dataset tob-wgs \
 ```
 
 ## Plotting
+
 For plotting, see examples [here](https://github.com/populationgenomics/tob-wgs/tree/rare-variant-association/scripts/rv_expression_association/plot), note the
+
 * actual plotting script (s)
 * README to specify running commands using the analysis-runner
 
@@ -75,6 +91,7 @@ Plots then appear in the broswe, like in this [example](https://test-web.populat
 ## Example / template scripts
 
 ### Matt
+
 * https://github.com/populationgenomics/automated-interpretation-pipeline/blob/main/reanalysis/annotation.py
 * https://github.com/populationgenomics/automated-interpretation-pipeline/blob/main/reanalysis/hail_filter_and_label.py
 * https://github.com/populationgenomics/rare-disease/blob/main/data_transfer/subset_matrix_table.py
@@ -82,6 +99,7 @@ Plots then appear in the broswe, like in this [example](https://test-web.populat
 * https://github.com/populationgenomics/automated-interpretation-pipeline/blob/main/reanalysis/interpretation_runner.py
 
 ### Kat
+
 * https://github.com/populationgenomics/tx-adapt/blob/vep/vep/run_vep.py
 * https://github.com/populationgenomics/tob-wgs/blob/run_only_existing_files/scripts/eqtl_hail_batch/conditional_analysis.py
 
