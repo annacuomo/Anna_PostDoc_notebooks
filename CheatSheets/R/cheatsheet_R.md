@@ -3,13 +3,16 @@
 ## Reading in files
 
 ### to read in a compressed file with a .gz extension
+
 ```df = read.csv(gzfile(filename.txt), sep="\t")```
 
 ### to read in Matrix (.mtx) objects
+
 ```df = Matrix::readMM(mymatrix.mtx)```
 
 ### read arguments in Rscript
-```
+
+```R
 args = commandArgs(trailingOnly=TRUE)
 chr_number <- args[1]
 ```
@@ -17,69 +20,83 @@ chr_number <- args[1]
 ## Data manipulation
 
 ### initialise data frame
-```
+
+```R
 df <- data.frame(mat)
 rownames(df) = rows
 colnames(df) = cols 
 ```
 
 ### remove duplicate rows
-```
+
+```R
 results <- results[-which(duplicated(results$feature)),]
 ```
 
 ### sample n rows from a dataframe
+
 ```df[sample(nrow(df), n), ]```
 
 ### long to wide using reshape
-```
+
+```R
 library(reshape)
 df = data.frame(sample = c("sample1","sample2","sample1","sample2"), name = c("n1","n2","n2","n1"), value = c(1,2,3,4))
 mat = cast(df, sample ~ name)
 ```
 
 ### remove NAs
-```
+
+```R
 df <- df[rowSums(is.na(df)) == 0, ]         # removes rows with any NA
 df <- df[rowSums(is.na(df)) != ncol(df), ]  # removes rows with all NA
 ```
 
 ### swap values (e.g. 0s for very small values)
-```
+
+```R
 p.value[p.value==0] <- 10^(-16)
 ```
 
 ### use of seq (linspace)
+
 ```beta = seq(from = 0.1, to = 1, by = 0.1)```
 
 ## Analysis
 
 ### q-value (Storey method for multiple testing correction - FDR)
-```
+
+```R
 library(qvalue)
 qv = qvalue(pv)$qvalues
 ```
+
 If you get the error: ```Error in smooth.spline(lambda, pi0, df = smooth.df) : missing or infinite values in inputs are not allowed```, try:
-```
+
+```R
 qv = qvalue(pv, pi0=1)$qvalues
 ```
+
 ### adjust p-value
-```
+
+```R
 p.adjust(p, method = "BH")
 p.adjust.methods # to see alternative methods
 ```
 
 ### quantiles
-```
+
+```R
 qts = quantile(v, probs = c(0.3, 0.7))
 bottom_cells = rownames(df[df$gene < qts[1],])
 top_cells = rownames(df[df$gene > qts[2],])
-
 ```
+
 see [notebook](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/CellRegMap/neuroseq/June_2021/example_figure5_SLC35E2_step1.ipynb).
 
 ### quick enrichment for gene list
-```
+
+```R
 # install.packages("enrichR")
 library(enrichR)
 setEnrichrSite("Enrichr")
@@ -118,6 +135,16 @@ returns ```TRUE``` (or ```FALSE```)
 ### list files in directory
 ```
 list.files(mydir)
+```
+## Coding
+
+### record time a function lasted
+
+```R
+start_time <- Sys.time()
+my_function()
+end_time <- Sys.time()
+end_time - start_time
 ```
 
 ## installation
