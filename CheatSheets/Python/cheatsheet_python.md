@@ -14,19 +14,30 @@ df0 = pd.DataFrame(data, columns=cols, index=idx)
 cov_naive_Bcell = cov_df[cov_df['predicted.celltype.l2'] == 'B naive']
 ```
 
+```Python
+cov_naive_Bcell = cov_df[cov_df['predicted.celltype.l2'] == 'B naive']
+```
+
 #### but if the column is an index instead:
+
 ```
 df_subset = df[df.index =="XYZ"]
 ```
+
 #### select specific column(s)
+
 ```
 df[["colname"]]
 ```
+
 or
+
 ```
 df.loc[:,["col1","col2"]]
 ```
+
 #### select rows based on column values
+
 ```
 df_sel = df.loc[df['col'].isin(selected_values)]
 ```
