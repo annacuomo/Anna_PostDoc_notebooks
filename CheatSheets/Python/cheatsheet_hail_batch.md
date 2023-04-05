@@ -8,7 +8,7 @@ My main experience with this is so far is an end-to-end [workflow](https://githu
 
 Set up a batch:
 
-```python
+```Python
 import hailtop.batch as hb
 
 b = hb.ServiceBackend(
@@ -21,7 +21,7 @@ batch = hb.Batch('CellRegMap pipeline', backend=sb)
 
 For each (python) job:
 
-```python
+```Python
 
 new_job = batch.new_python_job('Some description of this job')
 manage_concurrency_for_job(new_job)  # manually define function to avoid too many concurrent jobs 
@@ -36,14 +36,14 @@ new_job.call(
 
 Then, at the end:
 
-```python
+```Python
 # set jobs running
 batch.run(wait=False)
 ```
 
 CPG Hail Batch utils:
 
-```python
+```Python
 from cpg_utils.hail_batch import (
     copy_common_env,
     dataset_path,
@@ -55,12 +55,13 @@ from cpg_utils.hail_batch import (
 ```
 
 Explain below what each of this is good for:
+
 * copy_common_env: 
 * dataset_path:
 
 Max number of genes being run at once function definition:
 
-```python
+```Python
 # Setup MAX concurrency by genes
 _dependent_jobs: list[hb.job.Job] = []
 
