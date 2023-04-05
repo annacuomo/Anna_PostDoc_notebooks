@@ -46,12 +46,15 @@ done
 ```
 
 ### Complicated (for me) example
+
 this command (used [here](https://github.com/annacuomo/TenK10K_analyses_HPC/blob/main/scripts/run_CRM.qsub)):
+
 * opens the file,
 * then using awk specifies it is comma "," separated, then selects rows where the 4th column is = 22
 * then using sed selects the "1"st row
 * awk again ("," separated again), then consider second column only to get tp the gene name
-```
+
+```bash
 cat file.txt | awk -F ',' '$4 == 22' | sed -n 1p | awk -F "," '{print $2}'
 ```
 
@@ -59,9 +62,15 @@ cat file.txt | awk -F ',' '$4 == 22' | sed -n 1p | awk -F "," '{print $2}'
 
 Black: [The uncompromising code formatter](https://black.readthedocs.io/en/stable/).
 
-To installe, simply ```pip install black```.
+To install, simply ```pip install black```.
 
-Then, ``` black my_script.py``` to reformat.
+Then, 
+
+```bash
+black my_script.py
+``` 
+
+to reformat.
 
 ## References
 
