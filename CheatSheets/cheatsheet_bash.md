@@ -8,9 +8,14 @@ Let's start with head and tail:
 head file.txt
 ```
 
+```bash
+head file.txt
+```
+
 will display the first 10 (?) lines of the file, and tail the last.
 
 To change how many lines are displayed, e.g. 50, just type:
+
 ```
 head -n 50 file.txt
 ```
