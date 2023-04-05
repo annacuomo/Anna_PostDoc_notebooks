@@ -9,9 +9,11 @@ df0 = pd.DataFrame(data, columns=cols, index=idx)
 ```
 
 #### subset data frame based on a column
-```
+
+```python
 cov_naive_Bcell = cov_df[cov_df['predicted.celltype.l2'] == 'B naive']
 ```
+
 #### but if the column is an index instead:
 ```
 df_subset = df[df.index =="XYZ"]
