@@ -1,10 +1,13 @@
 ## Useful bash commands
+
 ### Basics 
 
 Let's start with head and tail:
-```
+
+```shell
 head file.txt
 ```
+
 will display the first 10 (?) lines of the file, and tail the last.
 
 To change how many lines are displayed, e.g. 50, just type:
@@ -14,10 +17,26 @@ head -n 50 file.txt
 and again same with tail.
 
 If more commands are needed, you can display the whole file using "cat", and then "pipe" ("|", used to chain commands) the next command:
+
 ```
 cat file.txt | head -n 50
 ```
+### File dimensions
+
+Number of rows:
+
+```bash
+cat myfile.tsv | wc -l
+```
+
+Number of columns:
+
+```bash
+head -1 myfile.tsv | tr '\t' '\n' | wc -l
+```
+
 ### Loop
+
 ```
 for ((i=0; i <= 1000; i++)); do
     python $py_script $i 
