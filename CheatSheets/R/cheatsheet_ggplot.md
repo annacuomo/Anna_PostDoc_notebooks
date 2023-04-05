@@ -1,39 +1,53 @@
 ### Multiple plots
-```
+
+```R
 library(cowplot)
 plot_grid(p1, p2, ncol = 2)
 ```
+
 ### Jupyter notebook 
-```
+
+```R
 # size of plot(s)
 options(repr.plot.width = 10, repr.plot.height = 4) 
 ```
+
 ### Histogram ([Example here](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/sc_neuroseq/iPSCs/fig3b_3e.ipynb))
-```
+
+```R
 p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8, bins=15) 
 ```
+
 ### Add rectange to plot ([Example](https://github.com/single-cell-genetics/singlecell_endodiff_paper/blob/main/plotting_notebooks/lead_switchin.ipynb))
-```
+
+```R
 p = p + geom_rect(mapping = aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), color = col, fill = col)
 ```
+
 ### Linear trend across points
-```
+
+```R
 p = ggplot(df, aes(x=x, y=y)) + geom_point()
 p + stat_smooth(se = F, linetype=2, col="darkgrey"))
 ```
+
 #### to get a linear trend per group
-```
+
+```R
 p + stat_smooth(se=F, linetype = 2, aes(group=as.factor(GROUP), colour=as.factor(GROUP)))
 ```
+
 ## label name
-```
+
+```R
 p + labs(colour=GROUP)
 ```
 
 ## QQ plot
-```
-df$pv_uniform = runif(dim(df)[1], min = 0, max = 1)
-p = ggplot(df, aes(x = sort(-log10(pv_uniform)), y = sort(-log10(p.value)))) + 
+
+```R
+df$pv_uniform <- runif(dim(df)[1], min = 0, max = 1)
+p <- ggplot(df, aes(x = sort(-log10(pv_uniform)), y = sort(-log10(p.value)))) + 
     geom_abline(slope = 1, intercept = 0, col = "firebrick") +
     geom_point(alpha = 0.5, pch = 1) + xlab("-log10(expected p-values)") + ylab("-log10(observed p-values)") +
     theme_bw() + ggtitle("mytrait") +
@@ -94,13 +108,16 @@ ggplot(don, aes(x=BPcum, y=-log10(p.value))) +
 [Ref1](https://github.com/annacuomo/Notebooks_private/blob/main/scripts/TenK10K/saige_qtl/saige_eqtl_onek1k/make_manhattan_files.R), [Ref2](https://r-graph-gallery.com/101_Manhattan_plot.html)
 
 ## Text in plots
-```
+
+```R
 # size of text in plot (axes labels, title, etc..)
 p + theme(text = element_text(size=20))
 ```
+
 ## Save plot
-```
-fig_dir = "/.../figures/"
+
+```R
+fig_dir <- "/.../figures/"
 pdf(paste0(fig_dir,"myplot.pdf"), width=8, height=6)
 ggplot()
 dev.off()
@@ -109,17 +126,22 @@ dev.off()
 ## Colour scales
 
 ### Gradients
+
 #### RColorBrewer
-```
+
+```R
 library(RColorBrewer)
 p + scale_colour_gradientn(colors = brewer.pal(9,"Blues"))
 
 # for alternative palettes, try:
 RColorBrewer::display.brewer.all()
 ```
+
 ### Gradients
+
 #### ggthemes
-```
+
+```R
 library(ggthemes)
 p + scale_color_canva(palette = "Pool party")
 
@@ -130,10 +152,12 @@ for (i in 1:length(names(canva_palettes))){
     print(names(canva_palettes)[i])
 }
 ```
+
 or see [this notebook](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/sc_endodiff/Canva%20Palettes.ipynb).
 
 #### RColorBrewer
-```
+
+```R
 library(RColorBrewer)
 p + scale_colour_brewer(palette = "Set1")
 ```
