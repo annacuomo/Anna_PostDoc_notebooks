@@ -85,6 +85,10 @@ df <- df[rowSums(is.na(df)) != ncol(df), ]  # removes rows with all NA
 p.value[p.value==0] <- 10^(-16)
 ```
 
+### join using data.table (vs e.g. dplyr)
+
+[Cheatsheet](https://gist.github.com/nacnudus/ef3b22b79164bbf9c0ebafbf558f22a0)
+
 ### use of seq (linspace)
 
 ```R
