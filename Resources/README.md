@@ -16,4 +16,6 @@ They are split by category:
 
 ## Other
 
-[Genetics & Genomics Resources Cheatsheet](https://docs.google.com/document/d/1QSjDJCXqhtt6Dzc10vHs8LHGenrpurTSInlzsp8Chy4/edit#heading=h.a1agkpctmfcb) from the [Capra Lab](http://www.capralab.org/)
+* [Genetics & Genomics Resources Cheatsheet](https://docs.google.com/document/d/1QSjDJCXqhtt6Dzc10vHs8LHGenrpurTSInlzsp8Chy4/edit#heading=h.a1agkpctmfcb) from the [Capra Lab](http://www.capralab.org/)
+* [Useful numbers in human population genetics](https://twitter.com/jkpritch/status/1641879459480600576) tweet by Jonathan Pritchard
+* [Twitter thread on intuition/prior for PopGen](https://twitter.com/SashaGusevPosts/status/1647421238799736833) from Sasha Gusev
