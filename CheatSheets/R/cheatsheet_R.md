@@ -68,6 +68,9 @@ p.value[p.value==0] <- 10^(-16)
 beta = seq(from = 0.1, to = 1, by = 0.1)
 ```
 
+### note that sort by default excludes NAs, so may result in different vector lengths
+
+
 ## Analysis
 
 ### q-value (Storey method for multiple testing correction - FDR)
