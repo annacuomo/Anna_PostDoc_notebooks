@@ -45,6 +45,18 @@ for ((i=0; i <= 1000; i++)); do
 done
 ```
 
+### Find empty files in a dir
+
+```bash
+find /share/ScratchGeneral/anncuo/OneK1K/saige_eqtl/output/results/rare/ -empty 
+```
+
+and delete them:
+
+```bash
+find /share/ScratchGeneral/anncuo/OneK1K/saige_eqtl/output/results/rare/ -empty -exec rm {} \;
+```
+
 ### Complicated (for me) example
 
 this command (used [here](https://github.com/annacuomo/TenK10K_analyses_HPC/blob/main/scripts/run_CRM.qsub)):
