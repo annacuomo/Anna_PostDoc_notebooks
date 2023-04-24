@@ -38,6 +38,10 @@ df.loc[:,["col1","col2"]]
 df_sel = df.loc[df['col'].isin(selected_values)]
 ```
 
+#### join using Pandas
+
+https://sparkbyexamples.com/pandas/pandas-join-explained-with-examples/
+
 #### create anndata object from X matrix
 
 ```Python
