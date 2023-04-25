@@ -42,6 +42,14 @@ df_sel = df.loc[df['col'].isin(selected_values)]
 
 https://sparkbyexamples.com/pandas/pandas-join-explained-with-examples/
 
+#### confusion matrix from df using pandas
+
+```Python
+confusion_matrix = pd.crosstab(df['y_actual'], df['y_predicted'], rownames=['Actual'], colnames=['Predicted'])
+print(confusion_matrix)
+```
+
+
 #### create anndata object from X matrix
 
 ```Python
