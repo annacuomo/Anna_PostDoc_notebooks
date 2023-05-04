@@ -35,6 +35,14 @@ To overwrite defaults and change thins permanently, add to [this file](https://g
 * https://azodichr.github.io
 * more templates: https://github.com/seankross/postcards (rmd)
 
+## Lab website examples:
+
+* [Kaitlin Samocha Lab](https://www.samochalab.org/)
+* [Sarah Teichmann Lab](http://www.teichlab.org/)
+* [Roser Vento Lab](https://ventolab.org/)
+* [Emma Davenport Lab](https://davenportlab.com/)
+* [Soumya Raychaudhuri Lab](https://immunogenomics.hms.harvard.edu/)
+
 ## Useful articles
 
 * https://theacademicdesigner.com/2020/1-page-academic-personal-website/
