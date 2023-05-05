@@ -28,6 +28,7 @@
 * [Unique roles of rare variants in the genetics of complex diseases in humans](https://www.nature.com/articles/s10038-020-00845-2), Momozawa & Mizukami, 2021
 * [Demystifying non-coding GWAS variants: an overview of computational tools and methods](https://academic.oup.com/hmg/article/31/R1/R73/6668660), Marijn Schipper, Danielle Posthuma, 2022
 * [Single-cell genomics to understand disease pathogenesis](https://www.nature.com/articles/s10038-020-00844-3)
+* [Future prospects for human genetics and genomics in drug discovery](https://www.sciencedirect.com/science/article/pii/S0959440X23000428)
 
 ### Nature Reviews Methods Primers
 
