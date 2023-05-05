@@ -57,6 +57,14 @@ and delete them:
 find /share/ScratchGeneral/anncuo/OneK1K/saige_eqtl/output/results/rare/ -empty -exec rm {} \;
 ```
 
+### Compare files (check they are not identical)
+
+```bash
+cmp --silent SAIGE-QTL.sif.2 SAIGE-QTL.sif.3 || echo "files are different"
+````
+
+which prints ```files are different``` at the first byte difference.
+
 ### Complicated (for me) example
 
 this command (used [here](https://github.com/annacuomo/TenK10K_analyses_HPC/blob/main/scripts/run_CRM.qsub)):
