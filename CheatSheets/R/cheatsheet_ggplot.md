@@ -18,6 +18,13 @@ options(repr.plot.width = 10, repr.plot.height = 4)
 p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8, bins=15) 
 ```
 
+### Order bar chart by value
+
+```R
+ggplot(corr.m, aes(x = reorder(miRNA, -value), y = value, fill = variable)) + 
+  geom_bar(stat = "identity")
+```
+
 ### Add rectange to plot ([Example](https://github.com/single-cell-genetics/singlecell_endodiff_paper/blob/main/plotting_notebooks/lead_switchin.ipynb))
 
 ```R
