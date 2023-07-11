@@ -1,8 +1,20 @@
 # Thyroid biology
 
-## Thyroid basics
+## Thyroid basics (wiki)
 
-Thyroid follicular cells (also called thyroid epithelial cells or thyrocytes) are the major cell type in the thyroid gland, and are responsible for the production and secretion of the thyroid hormones thyroxine (T4) and triiodothyronine (T3).
+The thyroid, or thyroid gland, is an endocrine gland in vertebrates. 
+In humans, it is in the neck and consists of two connected lobes. 
+The lower two thirds of the lobes are connected by a thin band of tissue called the isthmus. 
+The thyroid gland is a butterfly-shaped gland located in the neck below the Adam's apple.
+
+Microscopically, the functional unit of the thyroid gland is the spherical thyroid follicle, lined with follicular cells (thyrocytes), and occasional parafollicular cells that surround a lumen containing colloid. 
+The thyroid gland secretes three hormones: the two thyroid hormones – triiodothyronine (T3) and thyroxine (T4) – and a peptide hormone, calcitonin. 
+
+The thyroid hormones influence the metabolic rate and protein synthesis and growth and development in children. 
+Calcitonin plays a role in calcium homeostasis.
+Secretion of the two thyroid hormones is regulated by thyroid-stimulating hormone (TSH), which is secreted from the anterior pituitary gland.
+TSH is regulated by thyrotropin-releasing hormone (TRH), which is produced by the hypothalamus.
+
 
 ## Thyroid diseases
 
@@ -10,7 +22,8 @@ Thyroid follicular cells (also called thyroid epithelial cells or thyrocytes) ar
   * can lead to Graves' disease (autoimmune)
 * hypothyroidism: underactive thyroid
   * can be caused to Hashimoto's disease (also autoimmune)
-* thryoid non-cancerous tumours
+  * iodine-deficiency, more common in isolated & mountaneous regions, linked to intellectual disability
+* thryoid non-cancerous tumours / lumps
 * thyroid cancer
 * pregnancy-linked thryoid issues    
 
@@ -31,6 +44,8 @@ Thyroid follicular cells (also called thyroid epithelial cells or thyrocytes) ar
 * Kwak SH et al. A genome-wide association study on thyroid function and anti-thyroid peroxidase antibodies in Koreans. Hum Mol Genet 2014;23:4433-42.
 * Medici M et al. Identification of novel genetic Loci associated with thyroid peroxidase antibodies and clinical thyroid disease. PLoS Genet 2014;10:e1004123.
 * Matana A, Popovic M, Boutin T, Torlak V, Brdar D, Gunjaca I, et al. Genome-wide meta-analysis identifies novel gender specific loci associated with thyroid antibodies level in Croatians. Genomics 2018 Apr 18 [Epub]. https://doi.org/10.1016/j.ygeno.2018.04.012.
-* Oryoji D et al. Identification of a Hashimoto thyroiditis susceptibility locus via a genome-wide comparison with Graves’ disease. J Clin Endocrinol Metab 2015;100:E319-24. 
+* Oryoji D et al. Identification of a Hashimoto thyroiditis susceptibility locus via a genome-wide comparison with Graves’ disease. J Clin Endocrinol Metab 2015;100:E319-24.
+* Genome-Wide Association Studies of Autoimmune Thyroid Diseases, Thyroid Function, and Thyroid Cancer. Yul Hwangbo & Young Joo Park, 2018.
+* Genome-wide association analysis suggests novel loci for Hashimoto’s thyroiditis, [2019](https://link.springer.com/article/10.1007/s40618-018-0955-4) (discovery dataset, Croatia)
 
 
