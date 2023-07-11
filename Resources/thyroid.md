@@ -49,6 +49,17 @@ TSH is regulated by thyrotropin-releasing hormone (TRH), which is produced by th
 * Genome-wide association analysis suggests novel loci for Hashimoto’s thyroiditis, [2019](https://link.springer.com/article/10.1007/s40618-018-0955-4) (discovery dataset, Croatia)
 * GWAS of thyroid stimulating hormone highlights pleiotropic effects and inverse association with thyroid cancer. [Zhou et al Nat Comm 2020](https://www.nature.com/articles/s41467-020-17718-z)
 
+## Single-cell data
+
+* https://academic.oup.com/endo/article-abstract/164/4/bqad029/7040488
+  * n=7
+* https://www.nature.com/articles/s41467-021-26343-3
+  * tumour
+* https://www.frontiersin.org/articles/10.3389/fimmu.2022.840811/full
+* https://www.cell.com/cell-reports-medicine/pdfExtended/S2666-3791(22)00235-X
+  * eyes but associated with Graves
+* https://cellandbioscience.biomedcentral.com/articles/10.1186/s13578-021-00549-w       
+
 
 ## Intiatives
 
