@@ -18,11 +18,11 @@ Thyroid follicular cells (also called thyroid epithelial cells or thyrocytes) ar
 
 ### GWAS for Graves' disease (GD), Hashimoto's thyroiditis (HT) & maybe other?
 
-* WTCCC study, [WTCCC & TASC Nat Genet 2007]
+* WTCCC study, [WTCCC & TASC (Burton et al) Nat Genet 2007](https://www.nature.com/articles/ng.2007.17)
   * 2,500 cases, 2,500 controls  
 * Japanese study, [Nakabayashi et al JHG 2011](https://www.nature.com/articles/jhg201199)
   * 1,119 cases & 2,718 controls + replication (432 cases + 1,157 controls)
-* Chu X et al. A genome-wide association study identifies two new risk loci for Graves’ disease. Nat Genet 2011;43:897-901.
+* Chu X et al. A genome-wide association study identifies two new risk loci for Graves’ disease. [Nat Genet 2011;43:897-901](https://www.nature.com/articles/ng.898).
 * Cooper JD et al. Seven newly identified loci for autoimmune thyroid disease. Hum Mol Genet 2012;21:5202-8.
 * Denny JC et al. Variants near FOXE1 are associated with hypothyroidism and other thyroid conditions: using electronic medical records for genome- and phenome-wide studies. Am J Hum Genet 2011;89:529-42.
 * Eriksson N et al. Novel associations for hypothyroidism include known autoimmune risk loci. PLoS One 2012;7:e34442.
