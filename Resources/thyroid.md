@@ -50,3 +50,7 @@ TSH is regulated by thyrotropin-releasing hormone (TRH), which is produced by th
 * GWAS of thyroid stimulating hormone highlights pleiotropic effects and inverse association with thyroid cancer. [Zhou et al Nat Comm 2020](https://www.nature.com/articles/s41467-020-17718-z)
 
 
+## Intiatives
+
+* [Thyroidomics](https://transfer.sysepi.medizin.uni-greifswald.de/thyroidomics/)
+
