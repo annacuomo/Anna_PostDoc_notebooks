@@ -47,5 +47,6 @@ TSH is regulated by thyrotropin-releasing hormone (TRH), which is produced by th
 * Oryoji D et al. Identification of a Hashimoto thyroiditis susceptibility locus via a genome-wide comparison with Graves’ disease. J Clin Endocrinol Metab 2015;100:E319-24.
 * Genome-Wide Association Studies of Autoimmune Thyroid Diseases, Thyroid Function, and Thyroid Cancer. Yul Hwangbo & Young Joo Park, 2018.
 * Genome-wide association analysis suggests novel loci for Hashimoto’s thyroiditis, [2019](https://link.springer.com/article/10.1007/s40618-018-0955-4) (discovery dataset, Croatia)
+* GWAS of thyroid stimulating hormone highlights pleiotropic effects and inverse association with thyroid cancer. [Zhou et al Nat Comm 2020](https://www.nature.com/articles/s41467-020-17718-z)
 
 
