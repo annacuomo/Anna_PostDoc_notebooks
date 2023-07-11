@@ -1,0 +1,1 @@
+Thyroid follicular cells (also called thyroid epithelial cells or thyrocytes) are the major cell type in the thyroid gland, and are responsible for the production and secretion of the thyroid hormones thyroxine (T4) and triiodothyronine (T3).
