@@ -37,6 +37,12 @@ colnames(df) = cols
 results <- results[-which(duplicated(results$feature)),]
 ```
 
+## re-order factor levels for region
+
+```R
+df$region <- factor(df$region, levels=c('A', 'E', 'D', 'C', 'B'))
+```
+
 ### MUCH faster rbind
 
 instead of doing:
