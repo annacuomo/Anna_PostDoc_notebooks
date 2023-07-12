@@ -50,6 +50,12 @@ p + stat_smooth(se=F, linetype = 2, aes(group=as.factor(GROUP), colour=as.factor
 p + labs(colour=GROUP)
 ```
 
+## rotate axes labels
+
+```R
+p + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
 ## QQ plot
 
 ```R
