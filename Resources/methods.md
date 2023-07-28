@@ -38,7 +38,7 @@ PCG (preconditioned conjugate gradient) to solve LMMs ([paper](https://www.scien
   * linear combination of SKAT and burden tests statistics
 * SAIGE-GENE - can conduct SKAT-type associations as well as burden tests for unbalanced case-control studies
   * [paper](https://www.nature.com/articles/s41588-020-0621-6) (Zhou et al, Nature Genetics 2020)
-  * [preprint v2](https://www.medrxiv.org/content/10.1101/2021.07.12.21260400v2) (Zhou et al, medRxiv 2022)
+  * [SAIGE-GENE+](https://www.nature.com/articles/s41588-022-01178-w) (Zhou et al, Nature Genetics 2022)
   * [used by Karczewski et al medRxiv 2021](https://www.medrxiv.org/content/10.1101/2021.06.19.21259117v4.full.pdf)
 * LRTq (specific for expression association, i.e., identification of RV-eGenes)
   * [code](https://github.com/avallonking/LRTq),
