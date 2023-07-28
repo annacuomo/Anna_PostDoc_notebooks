@@ -5,7 +5,7 @@
   * [wiki (LIMIX for eQTL mapping)](https://github.com/single-cell-genetics/limix_qtl/wiki).
 * BOLT-LMM
   * [paper](https://www.nature.com/articles/ng.3190) (Loh et al, Nature Genetics 2015),
-  * [paper 2](https://www.nature.com/articles/s41588-018-0144-6) (Loh et al, Nature Genetics 2018),
+  * [BOLT-LMM v2](https://www.nature.com/articles/s41588-018-0144-6) (Loh et al, Nature Genetics 2018),
   * [manual](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html).
 * LEMMA (Linear Environment Mixed Model Analysis)
   * [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779) (Kerin & Marchinin, AJHG 2020),
@@ -63,4 +63,5 @@ Adding to [this doc](https://docs.google.com/document/d/1zWrtY_1xe0Ye63ukfwb940g
   * [repo](https://github.com/gaochengPRC/LORSEN)
 
 ## Overleaf
+
 LateX scripts for own document getting together info / formulae [here](https://github.com/annacuomo/Review_G_LMM_for_genetics)
