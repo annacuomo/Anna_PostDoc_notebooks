@@ -8,6 +8,7 @@
 * [Crafting Papers for Publication](https://twitter.com/SandraNoDuerme/status/1577792875156357121/photo/1)
 * [Population-specific Genetic Effects and Where to Find Them](https://huwenboshi.github.io/genetics/2021/02/21/crosspopfunct.html)
 * [Two Killer Jupyter Hacks That Are Guaranteed To Save You Hours Of Work Time](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
+* [Introduction to Bayesian Linear Regression](https://towardsdatascience.com/introduction-to-bayesian-linear-regression-e66e60791ea7)
 
 
 ### Illustrators
