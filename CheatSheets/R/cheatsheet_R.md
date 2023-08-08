@@ -14,6 +14,14 @@ df <- read.csv(gzfile(filename.txt), sep="\t")
 df <- Matrix::readMM(mymatrix.mtx)
 ```
 
+### to read in h5ad objects
+
+```R
+library(rhdf5)
+```
+
+[example](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/Covid/full_data_toR.ipynb)
+
 ### read arguments in Rscript
 
 ```R
