@@ -56,6 +56,12 @@ p + labs(colour=GROUP)
 p + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
+## add text to plot, AKA "annotate"
+
+```R
+p + annotate("text", label = "added_text", x = x_value, y = y_value)
+```
+
 ## QQ plot
 
 ```R
