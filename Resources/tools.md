@@ -1,5 +1,13 @@
 # Collection of tools / resource-websites
 
+### get rsids
+
+* [biomart](http://asia.ensembl.org/biomart/martview/deac7bacee5389a78edf872de8b7b357)
+* [biomart ref37](https://grch37.ensembl.org/biomart/martview/377d8e5f76faab7d8517fe0ced390427)
+
+can specify dataset (aka species, type of variant of interest) and then also a range (e.g., chrom, start and end).
+to look up a specific variant useful to just do online, else can download entire tables for larger ranges.
+
 ### Variant Annotations
 * MPC: **M**issense badness, **P**olyphen-2, missense **C**onstraint (Lily Wang (Talkowski lab), Kaitlin Samocha)
 * REVEL
