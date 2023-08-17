@@ -50,6 +50,13 @@ p + stat_smooth(se=F, linetype = 2, aes(group=as.factor(GROUP), colour=as.factor
 p + labs(colour=GROUP)
 ```
 
+## increase text in plots
+
+```R
+# size of text in plot (axes labels, title, etc..)
+p + theme(text = element_text(size=20))
+```
+
 ## rotate axes labels
 
 ```R
@@ -130,12 +137,6 @@ ggplot(don, aes(x=BPcum, y=-log10(p.value))) +
 
 https://jokergoo.github.io/ComplexHeatmap-reference/book/upset-plot.html
 
-## Text in plots
-
-```R
-# size of text in plot (axes labels, title, etc..)
-p + theme(text = element_text(size=20))
-```
 
 ## Save plot
 
