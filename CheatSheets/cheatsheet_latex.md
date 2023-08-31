@@ -23,7 +23,7 @@ To write a system of equations, ```\usepackage{systeme}``` in main and then
     },
 ```
 
-For tables with multi-row captions, ```\usepackage{multirow}``` in main and then, _e.g.,_ ([Box on confusion matrix from {hD thesis](https://github.com/annacuomo/PhD_Thesis/blob/main/Chapter2/chapter2.tex#L231-L242)):
+For tables with multi-row captions, ```\usepackage{multirow}``` in main and then, _e.g.,_ ([Box on confusion matrix from PhD thesis](https://github.com/annacuomo/PhD_Thesis/blob/main/Chapter2/chapter2.tex#L231-L242)):
 
 ```
 \begin{center}
