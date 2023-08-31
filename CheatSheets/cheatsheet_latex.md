@@ -1,4 +1,5 @@
 ## Useful Commands LateX edition
+
 Adding here useful LateX commands I find myself forgetting and having to routinely google or look up in my own scripts.
 
 Mostly, I figured these out when compiling my [PhD thesis](https://github.com/annacuomo/PhD_Thesis/).
@@ -7,19 +8,23 @@ Mostly, I figured these out when compiling my [PhD thesis](https://github.com/an
 * ```\textcolor{blue}{text_i_need_in_colour}``` to colour one piece of text (_e.g._, minor revisions for my thesis)
 * in formulae, ```\in``` is the "belongs to" symbol
 * ```\leq``` smaller or equal
+* ```\geq``` greater or equal
 * to capitalise greek letters, use ```\boldsymbol{\theta}```
 * in formulae, ```sim``` is ~ (distributed as / similar to)
 * ```\approx``` is approximately, "double ~"
 * ```\underbrace_{y}_{sc. \ expr}``` adds an bracket under ```y``` to specify it represents single-cell expression
 
 To write a system of equations, ```\usepackage{systeme}``` in main and then 
+
 ```
 \systeme{
     part1,
     part2
     },
 ```
+
 For tables with multi-row captions, ```\usepackage{multirow}``` in main and then, _e.g.,_ ([Box on confusion matrix from {hD thesis](https://github.com/annacuomo/PhD_Thesis/blob/main/Chapter2/chapter2.tex#L231-L242)):
+
 ```
 \begin{center}
 \begin{tabular}{l|l|c|c|}
