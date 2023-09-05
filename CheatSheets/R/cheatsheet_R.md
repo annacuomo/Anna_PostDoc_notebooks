@@ -20,7 +20,7 @@ df <- Matrix::readMM(mymatrix.mtx)
 library(rhdf5)
 ```
 
-[example](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/Covid/full_data_toR.ipynb)
+[Example](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/Covid/full_data_toR.ipynb)
 
 ### read arguments in Rscript
 
