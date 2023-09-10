@@ -17,7 +17,7 @@ docker run -it -v <local_folder>:/data <image_name> bash
 Lots in [this folder](https://github.com/populationgenomics/images/tree/main/images).
 
 * [R example 1](https://github.com/populationgenomics/images/blob/main/images/str-r/Dockerfile)
-* [R example 2 (SAIGE-QTL)][https://github.com/populationgenomics/images/blob/main/images/saige-qtl/Dockerfile]
+* [R example 2 (SAIGE-QTL)](https://github.com/populationgenomics/images/blob/main/images/saige-qtl/Dockerfile)
 
 ## Resources
 
