@@ -30,7 +30,7 @@ Idents(object = pbmc.atac) <- pbmc.atac@meta.data$predicted.l1
 
 ### metadata
 
-Metadata are typically stored in ```R obj@meta.data```.
+Metadata are typically stored in ```obj@meta.data```.
 
 ## Other
 
