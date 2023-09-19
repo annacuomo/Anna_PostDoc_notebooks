@@ -28,6 +28,10 @@ saveRDS(pbmc, file = "../output/pbmc3k_final.rds")
 Idents(object = pbmc.atac) <- pbmc.atac@meta.data$predicted.l1
 ```
 
+### metadata
+
+Metadata are typically stored in ```R obj@meta.data```.
+
 ## Other
 
 ###  fetch (normalised) expression of a specific gene
