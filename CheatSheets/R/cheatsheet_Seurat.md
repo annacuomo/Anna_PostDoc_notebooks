@@ -22,15 +22,23 @@ pbmc.rna <- RunPCA(pbmc.rna)
 saveRDS(pbmc, file = "../output/pbmc3k_final.rds")
 ```
 
+### metadata
+
+Metadata are typically stored in ```obj@meta.data```.
+
 ### set "identities"
 
 ```R
 Idents(object = pbmc.atac) <- pbmc.atac@meta.data$predicted.l1
 ```
 
-### metadata
+### subset to cell type
 
-Metadata are typically stored in ```obj@meta.data```.
+First, may need to cell type as identity (see above).
+
+```R
+subset(x = obj, idents = "CD4+ T cell")
+```
 
 ## Other
 
