@@ -18,6 +18,13 @@ options(repr.plot.width = 10, repr.plot.height = 4)
 p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8, bins=15) 
 ```
 
+### Barplot
+
+```R
+ggplot(data, aes(x=name, y=value)) + geom_bar(stat = "identity")
+```
+
+
 ### Order bar chart by value
 
 ```R
