@@ -29,6 +29,14 @@ args <- commandArgs(trailingOnly=TRUE)
 chr_number <- args[1]
 ```
 
+### check if dir / path exists and create if not
+
+```R
+if (!dir.exists(output_dir)) {dir.create(output_dir)}
+```
+
+add ```recursive=TRUE``` if the parent directory does not exist either.
+
 ## Data manipulation
 
 ### initialise data frame
