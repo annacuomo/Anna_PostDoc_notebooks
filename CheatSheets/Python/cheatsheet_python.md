@@ -114,6 +114,13 @@ import os
 os.path.exists(path-i-am-checking)
 ```
 
+#### if path doesn't exist (check as above), creata new dir
+
+```Python
+if os.path.exists(path) == False:
+	os.makedirs(path)
+```
+
 #### to check version of python package
 
 ```Python
