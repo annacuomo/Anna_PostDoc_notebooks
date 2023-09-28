@@ -45,32 +45,32 @@ p = ggplot(df, aes(x=x, y=y)) + geom_point()
 p + stat_smooth(se = F, linetype=2, col="darkgrey"))
 ```
 
-#### to get a linear trend per group
+#### To get a linear trend per group
 
 ```R
 p + stat_smooth(se=F, linetype = 2, aes(group=as.factor(GROUP), colour=as.factor(GROUP)))
 ```
 
-## label name
+## Label name
 
 ```R
 p + labs(colour=GROUP)
 ```
 
-## increase text in plots
+## Increase text in plots
 
 ```R
 # size of text in plot (axes labels, title, etc..)
 p + theme(text = element_text(size=20))
 ```
 
-## rotate axes labels
+## Rotate axes labels 
 
 ```R
 p + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
-## add text to plot, AKA "annotate"
+## Add text to plot, AKA "annotate"
 
 ```R
 p + annotate("text", label = "added_text", x = x_value, y = y_value)
