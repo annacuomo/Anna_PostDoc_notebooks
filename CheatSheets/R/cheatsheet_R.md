@@ -35,7 +35,7 @@ chr_number <- args[1]
 if (!dir.exists(output_dir)) {dir.create(output_dir)}
 ```
 
-add ```recursive=TRUE``` if the parent directory does not exist either.
+add ```recursive=TRUE``` if the parent directory does not exist either, and do ```file.exists``` instead for files.
 
 ## Data manipulation
 
@@ -53,7 +53,7 @@ colnames(df) = cols
 results <- results[-which(duplicated(results$feature)),]
 ```
 
-## re-order factor levels for region
+## re-order factor levels for any categorical variable
 
 ```R
 df$region <- factor(df$region, levels=c('A', 'E', 'D', 'C', 'B'))
@@ -80,7 +80,7 @@ for (file in files){
 df_combine = rbindlist(df_list)
 ```
 
-it's much faster!!
+it is *much* faster!!
 
 ### sample n rows from a dataframe
 
