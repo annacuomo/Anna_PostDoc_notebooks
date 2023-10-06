@@ -14,3 +14,4 @@
 * [Genetics lectures Eric Lander](http://videolectures.net/eric_lander/) at MIT
 * [Carl Kadie on PySnpTools](https://www.youtube.com/watch?v=KPI6479ctAQ) - Microsoft guy, FaST-LMM et al
 * [Graham Coop's Population Genetics notes](https://github.com/cooplab/popgen-notes) - download the PDF (this is basically a book)
+* [Jonathan Pritchard's Human Genetics book](https://web.stanford.edu/group/pritchardlab/HGbook.html) - about half ready as of Oct 2023
