@@ -1,6 +1,8 @@
-## Python
+# Python
 
-#### initiate pandas data frame
+## Pandas
+
+### initiate pandas data frame
 
 ```Python
 import pandas as pd
@@ -8,19 +10,19 @@ data = {"cell": cells, "cluster": clusters}
 df0 = pd.DataFrame(data, columns=cols, index=idx)
 ```
 
-#### subset data frame based on a column
+### subset data frame based on a column
 
 ```Python
 cov_naive_Bcell = cov_df[cov_df['predicted.celltype.l2'] == 'B naive']
 ```
 
-#### but if the column is an index instead:
+### but if the column is an index instead:
 
 ```Python
 df_subset = df[df.index =="XYZ"]
 ```
 
-#### select specific column(s)
+### select specific column(s)
 
 ```Python
 df[["colname"]]
@@ -32,13 +34,13 @@ or
 df.loc[:,["col1","col2"]]
 ```
 
-#### select rows based on column values
+### select rows based on column values
 
 ```Python
 df_sel = df.loc[df['col'].isin(selected_values)]
 ```
 
-#### reorder columns Pandas df (alphabetically)
+### reorder columns Pandas df (alphabetically)
 
 ```Python
 df = df.reindex(sorted(df.columns), axis=1)
@@ -50,37 +52,46 @@ for rows,
 df = df.reindex(sorted(df.index), axis=0)
 ```
 
-### NAs
+### NAs (pandas)
 
 https://datatofish.com/check-nan-pandas-dataframe/
 
-#### join using Pandas
+### join using Pandas
 
 https://sparkbyexamples.com/pandas/pandas-join-explained-with-examples/
 
-#### confusion matrix from df using pandas
+### confusion matrix from df using pandas
 
 ```Python
 confusion_matrix = pd.crosstab(df['y_actual'], df['y_predicted'], rownames=['Actual'], colnames=['Predicted'])
 print(confusion_matrix)
 ```
 
+### equivalent to table in python (pandas DataFrame)
 
-#### create anndata object from X matrix
+```Python
+df.colunm_name.value_counts()
+```
+
+## scanpy / anndata
+
+### create anndata object from X matrix
 
 ```Python
 import anndata as ad
 adata = ad.AnnData(X=X, obs=obs, var=var, dtype='float')
 ```
 
-#### correlation (cor in R)
+## general
+
+### correlation (cor in R)
 
 ```Python
 import numpy as np
 np.corrcoef[1,0] = np.corrcoef[0,1]
 ```
 
-#### equivalent to gsub in python
+### equivalent to gsub in python
 
 ```Python
 import re
@@ -93,13 +104,7 @@ or
 mynewstring = mystring.replace("_", "-")
 ```
 
-#### equivalent to table in python (pandas DataFrame)
-
-```Python
-df.colunm_name.value_counts()
-```
-
-#### read arguments in .py script
+### read arguments in .py script
 
 Option 1:
 
@@ -119,42 +124,42 @@ def main(
 ):
 ```
 
-#### check if file exists
+### check if file exists
 
 ```Python
 import os
 os.path.exists(path-i-am-checking)
 ```
 
-#### if path doesn't exist (check as above), creata new dir
+### if path doesn't exist (check as above), creata new dir
 
 ```Python
 if os.path.exists(path) == False:
 	os.makedirs(path)
 ```
 
-#### to check version of python package
+### to check version of python package
 
 ```Python
 import cellregmap as crm
 crm.__version__
 ```
 
-#### python try except
+### python try except
 
 https://www.w3schools.com/python/python_try_except.asp
 
 
-### Plotting
+## Plotting
 
-#### show matrix
+### show matrix
 
 ```Python
 import matplotlib.pyplot as plt
 plt.matshow(M)
 ```
 
-#### histogram
+### histogram
 
 ```Python
 import matplotlib.pyplot as plt
@@ -162,14 +167,14 @@ plt.hist(y)
 plt.show()
 ```
 
-#### scatter
+### scatter
 
 ```
 import matplotlib.pyplot as plt
 plt.scatter(x,y)
 ```
 
-#### Venn
+### Venn
 
 ```Python
 # pip install matplotlib-venn
@@ -182,7 +187,7 @@ venn2(subsets = (30, 10, 5), set_labels = ('Group A', 'Group B'))
 
 Slightly more complex example for neuroseq paper (Studies overlap figure; [Fig. 3A](https://github.com/single-cell-genetics/singlecell_neuroseq_paper/blob/main/plotting_notebooks/Figure_3/Figure_3a.ipynb))
 
-#### save plot
+### save plot
 
 ```Python
 plt.savefig("fig.pdf")
