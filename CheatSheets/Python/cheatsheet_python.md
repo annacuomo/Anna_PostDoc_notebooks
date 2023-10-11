@@ -38,6 +38,18 @@ df.loc[:,["col1","col2"]]
 df_sel = df.loc[df['col'].isin(selected_values)]
 ```
 
+#### reorder columns Pandas df (alphabetically)
+
+```Python
+df = df.reindex(sorted(df.columns), axis=1)
+```
+
+for rows,
+
+```Python
+df = df.reindex(sorted(df.index), axis=0)
+```
+
 ### NAs
 
 https://datatofish.com/check-nan-pandas-dataframe/
