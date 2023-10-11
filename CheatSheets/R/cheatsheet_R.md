@@ -82,6 +82,14 @@ df_combine = rbindlist(df_list)
 
 it is *much* faster!!
 
+#### rbind tables with different columns
+
+```R
+rbindlist(df_list, fill=TRUE)
+```
+
+just adds NAs for missing values.
+
 ### sample n rows from a dataframe
 
 ```df[sample(nrow(df), n), ]```
