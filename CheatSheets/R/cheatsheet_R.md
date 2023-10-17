@@ -2,6 +2,13 @@
 
 ## Reading in files
 
+### much faster reading (and writing) using data.table
+
+```R
+df = as.data.frame(data.table:::fread(input_filename, header = T, stringsAsFactors = FALSE))
+data.table:::fwrite(df0, output_filename)
+```
+
 ### to read in a compressed file with a .gz extension
 
 ```R
