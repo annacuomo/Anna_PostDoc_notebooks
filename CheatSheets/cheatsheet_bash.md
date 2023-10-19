@@ -45,6 +45,12 @@ for ((i=0; i <= 1000; i++)); do
 done
 ```
 
+### One-line loop
+
+```bash
+for i in {1..5}; do echo "Hi, $i"; done
+```
+
 ### Find empty files in a dir
 
 ```bash
