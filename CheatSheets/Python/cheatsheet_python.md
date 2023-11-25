@@ -131,6 +131,15 @@ import os
 os.path.exists(path-i-am-checking)
 ```
 
+### time of running something
+
+```Python
+import time
+start_time = time.time()
+main()
+print("--- %s seconds ---" % (time.time() - start_time))
+```
+
 ### if path doesn't exist (check as above), creata new dir
 
 ```Python
