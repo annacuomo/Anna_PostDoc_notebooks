@@ -131,6 +131,20 @@ import os
 os.path.exists(path-i-am-checking)
 ```
 
+### list files in a directory
+
+```Python
+import os
+files = os.listdir(mydir)
+```
+
+### list files with a pattern
+
+```
+import glob
+files = glob.glob("*.tsv")
+```
+
 ### time of running something
 
 ```Python
