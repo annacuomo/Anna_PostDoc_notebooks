@@ -60,10 +60,16 @@ colnames(df) = cols
 results <- results[-which(duplicated(results$feature)),]
 ```
 
-## re-order factor levels for any categorical variable
+### re-order factor levels for any categorical variable
 
 ```R
 df$region <- factor(df$region, levels=c('A', 'E', 'D', 'C', 'B'))
+```
+
+### number of characters in string
+
+```R
+nchar(mystring)
 ```
 
 ### MUCH faster rbind
