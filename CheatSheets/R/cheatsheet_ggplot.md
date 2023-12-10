@@ -66,6 +66,12 @@ p + labs(colour=GROUP)
 p + theme(text = element_text(size=20))
 ```
 
+## Remove legend
+
+```R
+p + theme(legend.position="none")
+````
+
 ## Rotate axes labels 
 
 ```R
