@@ -1,3 +1,10 @@
+### Create a new branch and go into it
+```
+git checkout -b name-of-branch
+```
+### Delete branch
+```git branch -d name-of-branch``` or ```git branch -D name-of-branch``` if github refuses to help.
+
 ### Reset previous version
 ```
 git reset --hard 9344d8b

@@ -5,7 +5,7 @@
   * [wiki (LIMIX for eQTL mapping)](https://github.com/single-cell-genetics/limix_qtl/wiki).
 * BOLT-LMM
   * [paper](https://www.nature.com/articles/ng.3190) (Loh et al, Nature Genetics 2015),
-  * [paper 2](https://www.nature.com/articles/s41588-018-0144-6) (Loh et al, Nature Genetics 2018),
+  * [BOLT-LMM v2](https://www.nature.com/articles/s41588-018-0144-6) (Loh et al, Nature Genetics 2018),
   * [manual](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html).
 * LEMMA (Linear Environment Mixed Model Analysis)
   * [paper](https://www.sciencedirect.com/science/article/pii/S0002929720302779) (Kerin & Marchinin, AJHG 2020),
@@ -19,16 +19,19 @@
 * regenie
   * [paper](https://www.nature.com/articles/s41588-021-00870-7) (Mbatchou et al, Nature Genetics 2021),
   * [webpage](https://rgcgithub.github.io/regenie/)
+  * [repo](https://github.com/rgcgithub/regenie)
 * GridLMM
   * [code](https://github.com/deruncie/GridLMM)
 * [Estimation and Inference for Very Large Linear Mixed Effects Models](https://arxiv.org/pdf/1610.08088.pdf)
 * [lme4](https://github.com/lme4/lme4)
 * [mgcv](https://www.maths.ed.ac.uk/~swood34/mgcv/#:~:text=mgcv%20is%20an%20R%20package,splines%20with%20automatic%20smoothness%20estimation.)
 
+
 PCG (preconditioned conjugate gradient) to solve LMMs ([paper](https://www.sciencedirect.com/science/article/pii/0377042788903585?ref=pdf_download&fr=RR-2&rr=71fa1dad6e88a831)) - used in BOLT-LMM I think
 
 ## Rare Variants (RV) association methods
 
+* [Review / Overview (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4085641/) (Lee et al, AJHG 2014)
 * SKAT (Sequence Kernel Association Test)
   * [paper](https://www.sciencedirect.com/science/article/pii/S0002929711002229) (Wu et al, AJHG 2011)
 * SKAT-O 
@@ -36,8 +39,8 @@ PCG (preconditioned conjugate gradient) to solve LMMs ([paper](https://www.scien
   * linear combination of SKAT and burden tests statistics
 * SAIGE-GENE - can conduct SKAT-type associations as well as burden tests for unbalanced case-control studies
   * [paper](https://www.nature.com/articles/s41588-020-0621-6) (Zhou et al, Nature Genetics 2020)
-  * [preprint v2](https://www.medrxiv.org/content/10.1101/2021.07.12.21260400v2) (Zhou et al, medRxiv 2022)
-  * [used by Karczewski et al medRxiv 2021](https://www.medrxiv.org/content/10.1101/2021.06.19.21259117v4.full.pdf)
+  * [SAIGE-GENE+](https://www.nature.com/articles/s41588-022-01178-w) (Zhou et al, Nature Genetics 2022)
+  * used by [Karczewski et al Cell Genomics 2022](https://www.sciencedirect.com/science/article/pii/S2666979X22001100)
 * LRTq (specific for expression association, i.e., identification of RV-eGenes)
   * [code](https://github.com/avallonking/LRTq),
   * [paper](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009596) (Li et al, Plos Genetics 2021).
@@ -59,3 +62,10 @@ Adding to [this doc](https://docs.google.com/document/d/1zWrtY_1xe0Ye63ukfwb940g
 * LORSEN
   * [paper](https://www.frontiersin.org/articles/10.3389/fgene.2021.690926/full)
   * [repo](https://github.com/gaochengPRC/LORSEN)
+* APEX: (All-in-one Package for Efficient Xqtl analysis) 
+  * [paper](https://www.biorxiv.org/content/10.1101/2020.12.18.423490v1.full.pdf)
+  * [software](https://github.com/corbinq/apex)
+
+## Overleaf
+
+LateX scripts for own document getting together info / formulae [here](https://github.com/annacuomo/Review_G_LMM_for_genetics)

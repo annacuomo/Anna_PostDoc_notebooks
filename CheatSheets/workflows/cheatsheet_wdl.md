@@ -144,19 +144,40 @@ To use a docker image instead of a conda environment ([commit](https://github.co
 
 Create repo in dockerhub, add secrets in github (specific repo-> settings-> secrets-> actions-> new repository secret) DOCKERHUB_USERNAME (annasecuomo) and DOCKERHUB_TOKEN, after creating a token in dockerhub (account settings -> security -> new access token). 
 
+#### Run on GCP
+```gcloud auth application-default login```
+then, using analysis-runner:
+```
+analysis-runner cromwell submit  \
+    --dataset "tob-wgs" \
+    --description "Run CellRegMap WDL pipeline" \
+    --access-level "full" \
+    --output-dir "scrna-seq/CellRegMap_input_files/2022-08-10_output/" \
+    -i input_gcs.json \
+    -p tasks/ \
+    runCellRegMap.wdl
+```
+To check the status of the job:
+```analysis-runner cromwell status <job-id> --json-output metadata.json``` (<job-id> will look something like 67f01351-3b0e-41de-9dd6-f3f1e1c34c85)
+
+#### visualise pipeline
+Install womtools from [here](https://github.com/broadinstitute/cromwell/releases/tag/56) (note that as for cromwell the newest version 83 doesn't quite work so I am using v 56).
+Then, run:
+```
+java -jar ../cromwell/womtool-56.jar graph runCellRegMap.wdl
+```
+copy results into: https://dreampuf.github.io/GraphvizOnline, and you get something like this:
+
+![graphviz (1)](https://user-images.githubusercontent.com/25035866/183782252-11d38773-f6c0-40f7-bef0-14b075406be9.svg)
 
 ## Resources
 
-[WDL specs](https://github.com/openwdl/wdl/blob/main/versions/development/SPEC.md).
-
-[WDL best practices](https://docs.dockstore.org/en/stable/advanced-topics/best-practices/wdl-best-practices.html)
-
-[python logging](https://docs.python.org/3/howto/logging.html)
-
-[what to look for in a code review](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
-
-[case styles in programming](https://systemweakness.com/case-styles-in-programming-b4ee6012fd5f)
+* [WDL specs](https://github.com/openwdl/wdl/blob/main/versions/development/SPEC.md).
+* [WDL best practices](https://docs.dockstore.org/en/stable/advanced-topics/best-practices/wdl-best-practices.html)
+* [python logging](https://docs.python.org/3/howto/logging.html)
+* [what to look for in a code review](https://google.github.io/eng-practices/review/reviewer/looking-for.html)
+* [case styles in programming](https://systemweakness.com/case-styles-in-programming-b4ee6012fd5f)
 
 ## References
 
-https://www.rc.virginia.edu/userinfo/howtos/rivanna/wdl-bioinformatics/ (intro)
+* https://www.rc.virginia.edu/userinfo/howtos/rivanna/wdl-bioinformatics/ (intro)

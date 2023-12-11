@@ -1,13 +1,19 @@
 ## Snakemake
 
-I have been wanting to learn in better detail how to use snakemake (and whether that is ideal at all, as opposed to nextflow, and I am sure many other alternatives - e.g. should I just switch to hail-bath altogether [in line with CPG](https://github.com/populationgenomics/team-docs/blob/main/hail_batch_dev.md)?).
+I have been wanting to learn in better detail how to use [snakemake](https://snakemake.readthedocs.io/en/stable/) (and whether that is ideal at all, as opposed to nextflow, and I am sure many other alternatives - e.g. should I just switch to hail-bath altogether [in line with CPG](https://github.com/populationgenomics/team-docs/blob/main/hail_batch_dev.md)?).
 
 I have used it extensively to map eQTLs in my PhD but I have largely copy-pasted someone else's, only adapting to my own specific needs.
 Now, I'd like to gain a deeper understanding to be able to do exactly what I want in different settings, and to be able to efficiently debug by myself without anyone else's help.
 
+While for running CellRegMap as a pipeline (and on the cloud) I have opted to use Workflow Descriptor Language (WDL; see [WDL CheatSheet](cheatsheet_wdl.md)), _i.e._, [CellRegMap WDL pipeline](https://github.com/populationgenomics/cellregmap-pipeline), in some cases it may be useful to use snakemakes, thus learning how to run a Snakemake on PBS may also be useful.
 
-### Examples 
+### Running the limix QTL pipeline 
 
+For example, when testing for interaction eQTLs with a single factor (_e.g._, sex) it may be unnecessary to resort to [CellRegMap](https://github.com/limix/CellRegMap/), and a fixed effect model that allows to account for confounders like the one implemented in the [limix QTL](https://github.com/single-cell-genetics/limix_qtl) pipeline may be preferrable.
+
+[Here](https://github.com/annacuomo/TenK10K_analyses_HPC/tree/main/scripts/Sex_interaction_analysis), I am building an appropriate snakemake (and runner) to map sex-biased eQTLs in Monocytes using the OneK1K data as part of a larger project led by Sara Ballouz, Lachlan Gray and Seyhan Yazar.
+
+### Resouces / Examples 
 
 #### Snakemake to run single-cell (pseudobulk) eQTL
 
