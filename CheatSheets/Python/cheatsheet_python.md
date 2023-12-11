@@ -1,4 +1,4 @@
-# Python (hello)
+# Python
 
 ## Pandas
 
