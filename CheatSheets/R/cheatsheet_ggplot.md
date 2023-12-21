@@ -26,6 +26,14 @@ ggplot(data, aes(x=name, y=value)) + geom_bar(stat = "identity")
 
 add error bars: https://r-graph-gallery.com/4-barplot-with-error-bar.html
 
+### Alluvial plots
+
+```R
+install.packages("ggalluvial")
+library(ggalluvial)
+```
+
+[Examples](https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html)
 
 ### Order bar chart by value
 
