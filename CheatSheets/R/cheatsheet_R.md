@@ -36,6 +36,12 @@ args <- commandArgs(trailingOnly=TRUE)
 chr_number <- args[1]
 ```
 
+### check if file exists
+
+```R
+file.exists(myfile)
+```
+
 ### check if dir / path exists and create if not
 
 ```R
