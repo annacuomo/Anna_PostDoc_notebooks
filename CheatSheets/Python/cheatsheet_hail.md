@@ -35,6 +35,8 @@ mt = hl.variant_qc(mt)
 mt = mt.filter_rows(mt.variant_qc.n_non_ref > 0)
 ```
 
+```filter_rows``` by default **keeps** the loci with the requirements you specify, unless you specify ```keep = false```, which will do the reverse.
+
 ### filter mt1 based on rows from mt2
 
 ```Python
