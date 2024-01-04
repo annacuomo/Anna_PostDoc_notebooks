@@ -51,6 +51,8 @@ done
 for i in {1..5}; do echo "Hi, $i"; done
 ```
 
+Note the dollar sign in front of the i (```$i```)
+
 ### Find empty files in a dir
 
 ```bash
