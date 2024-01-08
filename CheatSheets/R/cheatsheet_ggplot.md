@@ -24,7 +24,8 @@ p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8, bins=15)
 ggplot(data, aes(x=name, y=value)) + geom_bar(stat = "identity")
 ```
 
-add error bars: https://r-graph-gallery.com/4-barplot-with-error-bar.html
+* add error bars: https://r-graph-gallery.com/4-barplot-with-error-bar.html
+* order factor by value: https://rpubs.com/rubengura/factor_ordered_frequency
 
 ### Alluvial plots
 
