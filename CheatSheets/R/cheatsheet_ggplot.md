@@ -34,7 +34,9 @@ install.packages("ggalluvial")
 library(ggalluvial)
 ```
 
-[Examples](https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html)
+* [Examples](https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html)
+* Note: must avoid repeated combinations (e.g. cells with same name across samples, issue: https://github.com/corybrunson/ggalluvial/issues/72) 
+
 
 ### Order bar chart by value
 
