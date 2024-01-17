@@ -36,12 +36,19 @@ plink2 --extract chr2.prune.in --bfile plink_chr2_noduplicates --make-bed --out 
 plink2 --keep sc_samples.txt --bfile chr2_pruned --make-bed --out chr2_pruned_sc_samples
 ```
 
-### Make plink files from VCF file
+### Make plink files from VCF file (VCF -> plink)
 
 ```bash
 plink2 --vcf myvcf.vcf --maf 0.01 --max-maf 0.05 --make-bed --out myplink
 ```
 
+### Export plink files as VCF (plink -> VCF)
+
+```bash
+plink2 --bfile my_plink_prefix --recode vcf-iid --out my_vcf_prefix
+```
+
+Use ```--recode vcf``` for sample ids as FID_IID, and ```vcf-iid``` or ```vcf-fid``` to specify only one.
 
 ## Pandas Plink
 
