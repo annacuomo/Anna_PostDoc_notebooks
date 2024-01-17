@@ -25,6 +25,14 @@ bcftools index -t myfile.vcf.gz
 
 for ```.csi``` or ```.tbi``` files respectively
 
+### zip file
+
+```bash
+module use /share/ClusterShare/apps/brenner/Modules/modulefiles
+module load htslib
+bgzip -c myfile.vcf > myfile.gz
+```
+
 ## some random manipulation from other repos
 
 * https://github.com/powellgenomicslab/tenk10k_phase1/blob/main/Demuxafy/preprocessing/prepare_inputs.md#vcf-manipulation
