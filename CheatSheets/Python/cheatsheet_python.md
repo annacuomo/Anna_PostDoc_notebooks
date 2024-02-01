@@ -56,6 +56,14 @@ df = df.reindex(sorted(df.index), axis=0)
 
 https://datatofish.com/check-nan-pandas-dataframe/
 
+### replace specific values
+
+```Python
+adata.obs['individual_test']=adata.obs['individual'].replace('CPG247841', 'CPG305235')
+```
+
+where you are creating a new column (individual_test) which is identical to individual except for that one value that gets replaced (CPG247841 is the original, CPG305235 the new)
+
 ### join using Pandas
 
 https://sparkbyexamples.com/pandas/pandas-join-explained-with-examples/
