@@ -76,5 +76,5 @@ print(confusion_matrix)
 ### equivalent to table in python (pandas DataFrame)
 
 ```Python
-df.colunm_name.value_counts()
+df.column_name.value_counts()
 ```
