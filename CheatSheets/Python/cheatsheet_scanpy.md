@@ -30,3 +30,16 @@ for file in scanpy_files:
     datasets.append(adata)
 adata = datasets[0].concatenate(*datasets[1:])
 ```
+
+## exclude categories by obs
+
+```Python
+adata = adata[~adata.obs['MajoritySinglet_Individual_Assignment'].isin(["unassigned","doublet"])]
+```
+
+## add cell info to anndata from a separate dataframe
+
+```Python
+import pandas as pd
+adata.obs = pd.concat([adata.obs, new_obs_info_df], axis=1)
+```
