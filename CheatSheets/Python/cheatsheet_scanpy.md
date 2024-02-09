@@ -43,3 +43,12 @@ adata = adata[~adata.obs['MajoritySinglet_Individual_Assignment'].isin(["unassig
 import pandas as pd
 adata.obs = pd.concat([adata.obs, new_obs_info_df], axis=1)
 ```
+
+## extract gene expression for selected genes
+
+```Python
+gene_adata = expression_adata[:, expression_adata.var.index.isin(genes)]
+expr_mat = gene_adata.X.todense() # to dense from sparse
+# if you want to save it as a data frame
+expr_df = pd.DataFrame(data=expr_mat, index=gene_adata.obs.index, columns=genes)
+```
