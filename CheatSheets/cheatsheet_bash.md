@@ -23,6 +23,12 @@ If more commands are needed, you can display the whole file using "cat", and the
 cat file.txt | head -n 50
 ```
 
+```cat```'s equivalent for (bg)zipped files:
+
+```bash
+gunzip -c myfile.vcf.bgz
+```
+
 ### File dimensions
 
 Number of rows:
