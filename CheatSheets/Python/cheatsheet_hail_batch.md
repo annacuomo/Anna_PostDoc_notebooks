@@ -74,6 +74,11 @@ def manage_concurrency_for_job(job: hb.job.Job):
     _dependent_jobs.append(job)
 ```
 
+## Dataset path does not like paths starting with /
+
+* PR: https://github.com/populationgenomics/saige-tenk10k/pull/54#pullrequestreview-1892542388
+* Matt's message: https://centrepopgen.slack.com/archives/D02PT77HWBX/p1708511199972329?thread_ts=1708499378.203179&cid=D02PT77HWBX
+
 ### Other
 
 In the future, I may want to adapt [Konrad K's SAIGE on UKBB whole exomes workflow](https://github.com/Nealelab/ukb_exomes) to running the new Poisson version of SAIGE on scRNA-seq + WGS data from TenK10K.
