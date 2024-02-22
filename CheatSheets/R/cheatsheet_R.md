@@ -50,6 +50,15 @@ if (!dir.exists(output_dir)) {dir.create(output_dir)}
 
 add ```recursive=TRUE``` if the parent directory does not exist either, and do ```file.exists``` instead for files.
 
+### basic R function
+
+```R
+myfun <- function(param1, param2){
+    # body of function
+    return(myout)
+}
+```
+
 ## Data manipulation
 
 ### initialise data frame
