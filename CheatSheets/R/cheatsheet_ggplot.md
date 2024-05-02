@@ -95,6 +95,10 @@ p + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 p + annotate("text", label = "added_text", x = x_value, y = y_value)
 ```
 
+## Using expressions to add subscripts etc to labels
+
+[Example](https://github.com/annacuomo/SAIGE_QTL_analyses/blob/main/Plotting_Notebooks/Rare_Variants/RV_results_overview.ipynb)
+
 ## QQ plot
 
 ```R
