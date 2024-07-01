@@ -20,6 +20,13 @@ or
 mynewstring = mystring.replace("_", "-")
 ```
 
+## permuting / shuffling vector
+
+```Python
+from sklearn.utils import shuffle
+vec_perm = shuffle(vec, random_state=0)
+```
+
 ## read arguments in .py script
 
 Option 1:
