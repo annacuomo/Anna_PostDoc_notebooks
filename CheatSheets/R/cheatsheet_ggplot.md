@@ -26,6 +26,7 @@ ggplot(data, aes(x=name, y=value)) + geom_bar(stat = "identity")
 
 * add error bars: https://r-graph-gallery.com/4-barplot-with-error-bar.html
 * order factor by value: https://rpubs.com/rubengura/factor_ordered_frequency
+* side by side based on two variables: https://stackoverflow.com/questions/42820677/ggplot-bar-plot-side-by-side-using-two-variables (note the position:dodge)
 
 ### Alluvial plots
 
