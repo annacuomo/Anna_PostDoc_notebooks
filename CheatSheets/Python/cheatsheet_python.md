@@ -120,6 +120,10 @@ import matplotlib.pyplot as plt
 plt.scatter(x,y)
 ```
 
+## barplot
+
+https://www.geeksforgeeks.org/bar-plot-in-matplotlib/
+
 ## Venn
 
 ```Python
