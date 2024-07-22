@@ -84,6 +84,8 @@ p + theme(text = element_text(size=20))
 p + theme(legend.position="none")
 ````
 
+remove labels and ticks etc: https://stackoverflow.com/questions/35090883/remove-all-of-x-axis-labels-in-ggplot
+
 ## Rotate axes labels 
 
 ```R
