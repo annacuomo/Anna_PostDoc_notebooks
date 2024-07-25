@@ -9,4 +9,4 @@ Various from postdoc projects at Garvan (Sydney) in [Joseph Powell](https://www.
 ## Notes
 
 * [Personal profile on Garvan website](https://www.garvan.org.au/people/researchers/anna-cuomo)
-* [CPG website](https://populationgenomics.org.au/)
+* [Personal profile on CPG website](https://populationgenomics.org.au/person/anna-cuomo-2/)
