@@ -28,6 +28,10 @@ ggplot(data, aes(x=name, y=value)) + geom_bar(stat = "identity")
 * order factor by value: https://rpubs.com/rubengura/factor_ordered_frequency
 * side by side based on two variables: https://stackoverflow.com/questions/42820677/ggplot-bar-plot-side-by-side-using-two-variables (note the position:dodge)
 
+### Correlation heatmap
+
+http://www.sthda.com/english/wiki/ggplot2-quick-correlation-matrix-heatmap-r-software-and-data-visualization
+
 ### Alluvial plots
 
 ```R
