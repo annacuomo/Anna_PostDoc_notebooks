@@ -23,6 +23,12 @@ If more commands are needed, you can display the whole file using "cat", and the
 cat file.txt | head -n 50
 ```
 
+```cat```'s equivalent for (bg)zipped files:
+
+```bash
+gunzip -c myfile.vcf.bgz
+```
+
 ### File dimensions
 
 Number of rows:
@@ -51,6 +57,8 @@ done
 for i in {1..5}; do echo "Hi, $i"; done
 ```
 
+Note the dollar sign in front of the i (```$i```)
+
 ### Find empty files in a dir
 
 ```bash
@@ -62,6 +70,21 @@ and delete them:
 ```bash
 find /share/ScratchGeneral/anncuo/OneK1K/saige_eqtl/output/results/rare/ -empty -exec rm {} \;
 ```
+
+### Get permissions + file size in a directory
+
+```bash
+ls -lh
+```
+
+### Get file size of *all* files in a directory
+
+The above only gives you the size at that current level, if you want to recursively get the size of all files in sub-directories as well, do:
+
+```bash
+du -h
+```
+
 
 ### Compare files (check they are not identical)
 

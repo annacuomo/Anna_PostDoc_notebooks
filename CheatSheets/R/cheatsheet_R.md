@@ -36,6 +36,12 @@ args <- commandArgs(trailingOnly=TRUE)
 chr_number <- args[1]
 ```
 
+### check if file exists
+
+```R
+file.exists(myfile)
+```
+
 ### check if dir / path exists and create if not
 
 ```R
@@ -43,6 +49,15 @@ if (!dir.exists(output_dir)) {dir.create(output_dir)}
 ```
 
 add ```recursive=TRUE``` if the parent directory does not exist either, and do ```file.exists``` instead for files.
+
+### basic R function
+
+```R
+myfun <- function(param1, param2){
+    # body of function
+    return(myout)
+}
+```
 
 ## Data manipulation
 
@@ -81,6 +96,7 @@ df_combine = data.frame()
 for (file in files){
     df_curr = read.csv(file)
     df_combine = rbind(df_combine, df_curr)
+}
 ```
 
 do 
@@ -89,7 +105,8 @@ do
 library(data.table)
 df_list = list()
 for (file in files){
-    df_list[file] = read.csv(file)
+    df_list[[file]] = read.csv(file)
+}
 df_combine = rbindlist(df_list)
 ```
 

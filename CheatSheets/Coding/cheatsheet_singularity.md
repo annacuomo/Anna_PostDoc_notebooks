@@ -12,6 +12,12 @@ singularity inspect --environment SAIGE-QTL.sif
 
 same but for the environment (?).
 
+```bash
+singularity inspect /share/ScratchGeneral/anncuo/software/Demuxafy.sif
+```
+
+just shows you the version, e.g. for Demuxafy it's 2.1.0 here.
+
 ## Run Singularity on HPC
 
 shows you the code part of the recipe / definition file used to build the image.

@@ -24,7 +24,19 @@ p = ggplot(df_to_plot, aes(x=gene)) + geom_histogram(alpha = 0.8, bins=15)
 ggplot(data, aes(x=name, y=value)) + geom_bar(stat = "identity")
 ```
 
-add error bars: https://r-graph-gallery.com/4-barplot-with-error-bar.html
+* add error bars: https://r-graph-gallery.com/4-barplot-with-error-bar.html
+* order factor by value: https://rpubs.com/rubengura/factor_ordered_frequency
+* side by side based on two variables: https://stackoverflow.com/questions/42820677/ggplot-bar-plot-side-by-side-using-two-variables (note the position:dodge)
+
+### Alluvial plots
+
+```R
+install.packages("ggalluvial")
+library(ggalluvial)
+```
+
+* [Examples](https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html)
+* Note: must avoid repeated combinations (e.g. cells with same name across samples, issue: https://github.com/corybrunson/ggalluvial/issues/72) 
 
 
 ### Order bar chart by value
@@ -72,6 +84,8 @@ p + theme(text = element_text(size=20))
 p + theme(legend.position="none")
 ````
 
+remove labels and ticks etc: https://stackoverflow.com/questions/35090883/remove-all-of-x-axis-labels-in-ggplot
+
 ## Rotate axes labels 
 
 ```R
@@ -83,6 +97,10 @@ p + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```R
 p + annotate("text", label = "added_text", x = x_value, y = y_value)
 ```
+
+## Using expressions to add subscripts etc to labels
+
+[Example](https://github.com/annacuomo/SAIGE_QTL_analyses/blob/main/Plotting_Notebooks/Rare_Variants/RV_results_overview.ipynb)
 
 ## QQ plot
 
