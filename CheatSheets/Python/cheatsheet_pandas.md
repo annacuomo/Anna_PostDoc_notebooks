@@ -62,6 +62,19 @@ adata.obs['individual_test']=adata.obs['individual'].replace('CPG247841', 'CPG30
 
 where you are creating a new column (individual_test) which is identical to individual except for that one value that gets replaced (CPG247841 is the original, CPG305235 the new)
 
+# combine dataframes
+
+```Python
+results_all_df = []
+for pv_df in pv_dfs:
+    df = pd.read_csv(to_path(pv_df), index_col=0, sep='\t')
+    results_all_df.append(df)
+results_all_df = pd.concat(results_all_df)
+```
+
+* equivalent in R:
+* reference: https://stackoverflow.com/questions/28669482/appending-pandas-dataframes-generated-in-a-for-loop
+
 ## join using Pandas
 
 https://sparkbyexamples.com/pandas/pandas-join-explained-with-examples/
