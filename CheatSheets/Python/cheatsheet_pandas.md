@@ -72,7 +72,7 @@ for pv_df in pv_dfs:
 results_all_df = pd.concat(results_all_df)
 ```
 
-* equivalent in R:
+* equivalent in R: https://github.com/annacuomo/Anna_PostDoc_notebooks/blob/main/CheatSheets/R/cheatsheet_R.md#much-faster-rbind
 * reference: https://stackoverflow.com/questions/28669482/appending-pandas-dataframes-generated-in-a-for-loop
 
 ## join using Pandas
