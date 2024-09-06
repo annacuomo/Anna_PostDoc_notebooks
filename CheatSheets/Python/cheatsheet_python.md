@@ -4,7 +4,7 @@
 
 ```Python
 import numpy as np
-np.corrcoef[1,0] = np.corrcoef[0,1]
+np.corrcoef(x,y)[1,0] == np.corrcoef(x,y)[0,1]
 ```
 
 ## equivalent to gsub in python
