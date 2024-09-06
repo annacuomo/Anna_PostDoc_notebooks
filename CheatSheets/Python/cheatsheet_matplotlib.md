@@ -17,7 +17,7 @@ plt.show()
 
 ## scatter
 
-```
+```Python
 import matplotlib.pyplot as plt
 plt.scatter(x,y)
 ```
@@ -25,6 +25,17 @@ plt.scatter(x,y)
 ## barplot
 
 https://www.geeksforgeeks.org/bar-plot-in-matplotlib/
+
+## QQplot
+
+```Python
+import numpy as np
+import matplotlib.pyplot as plt
+expected_pvalues = np.random.uniform(low=0, high=1, size=len(observed_pvalues))
+x = -np.log10(np.sort(expected_pvalues))
+y = -np.log10(np.sort(observed_pvalues))
+plt.scatter(x,y)
+```
 
 ## Venn
 
