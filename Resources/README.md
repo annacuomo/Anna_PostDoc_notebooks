@@ -7,7 +7,7 @@ Collating resources I want to remember to read, blog posts or tools I want to ha
 They are split by category:
 
 * [Blog posts](blog_posts.md)
-* [Lectures](lectures.md)
+* [Lectures](lectures_slides_books.md)
 * [Methods](methods.md)
 * [Papers](papers.md) I want to read
 * [Pipelines](pipelines.md)
