@@ -16,6 +16,19 @@ git reset --hard 9344d8b
 
 ref: https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit
 
+### Merge main into branch
+
+Without the million changes appearing as new.
+
+* Checkout main
+* git pull to get latest changes
+* switch to other branch
+* git rebase main - incorporate the other changes
+* git add / commit
+* git push --force-with-lease to PR branch
+
+Slack message (Alex Stuckey): https://centrepopgen.slack.com/archives/C030X7WGFCL/p1727754157246799?thread_ts=1727754013.417709&cid=C030X7WGFCL
+
 ### To add all files including deleted ones
 
 * `git add -A .`
