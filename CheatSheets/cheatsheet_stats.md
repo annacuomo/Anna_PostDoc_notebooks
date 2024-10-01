@@ -15,3 +15,9 @@ cohens_kappa <- function(a,b,c,d){
     k
 }
 ```
+
+## Lambda GC
+
+Also called genomic control / genomic inflation / just lambda.
+
+https://genometoolbox.blogspot.com/2014/08/how-to-calculate-genomic-inflation.html
