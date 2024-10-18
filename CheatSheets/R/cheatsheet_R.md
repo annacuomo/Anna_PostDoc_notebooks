@@ -276,6 +276,9 @@ BiocManager::install("qvalue")
 packageVersion("snow")
 ```
 
+## Resources
+
+* Twitter cheatsheet https://x.com/R_Graph_Gallery/status/1846553315657580981
 
 
 
