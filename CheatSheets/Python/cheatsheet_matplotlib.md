@@ -26,6 +26,10 @@ plt.scatter(x,y)
 
 https://www.geeksforgeeks.org/bar-plot-in-matplotlib/
 
+## boxplot
+
+https://medium.com/save-the-data/beautiful-beginner-box-plots-in-python-3e380eff4a4b
+
 ## QQplot
 
 ```Python
