@@ -56,6 +56,8 @@ ggplot(corr.m, aes(x = reorder(miRNA, -value), y = value, fill = variable)) +
 p = p + geom_rect(mapping = aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), color = col, fill = col)
 ```
 
+multiple rectangles: https://stackoverflow.com/questions/71555720/create-automatically-multiple-rectangles-between-limit-values-in-ggplot-r
+
 ### Linear trend across points
 
 ```R
