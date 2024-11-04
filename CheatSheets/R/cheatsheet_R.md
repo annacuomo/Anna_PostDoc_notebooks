@@ -81,6 +81,10 @@ results <- results[-which(duplicated(results$feature)),]
 df$region <- factor(df$region, levels=c('A', 'E', 'D', 'C', 'B'))
 ```
 
+### categorical into unique numbers
+
+https://www.kaggle.com/discussions/getting-started/396165
+
 ### number of characters in string
 
 ```R
