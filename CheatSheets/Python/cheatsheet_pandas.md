@@ -38,6 +38,14 @@ df.loc[:,["col1","col2"]]
 df_sel = df.loc[df['col'].isin(selected_values)]
 ```
 
+## numeric columns only
+
+https://stackoverflow.com/questions/25039626/how-do-i-find-numeric-columns-in-pandas
+
+## correlation between columns
+
+https://stackoverflow.com/questions/42579908/use-corr-to-get-the-correlation-between-two-columns
+
 ## reorder columns Pandas df (alphabetically)
 
 ```Python
