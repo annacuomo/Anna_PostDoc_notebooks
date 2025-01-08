@@ -46,9 +46,10 @@ library(ggalluvial)
 ### Order bar chart by value
 
 ```R
-ggplot(corr.m, aes(x = reorder(miRNA, -value), y = value, fill = variable)) + 
-  geom_bar(stat = "identity")
+ggplot(df, aes(x = reorder(variable, -value), y = value, fill = variable)) + geom_bar(stat = "identity")
 ```
+ 
+ https://stackoverflow.com/questions/25664007/reorder-bars-in-geom-bar-ggplot2-by-value
 
 ### Add rectange to plot ([Example](https://github.com/single-cell-genetics/singlecell_endodiff_paper/blob/main/plotting_notebooks/lead_switchin.ipynb))
 
