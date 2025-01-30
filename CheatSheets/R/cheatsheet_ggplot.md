@@ -174,6 +174,10 @@ ggplot(don, aes(x=BPcum, y=-log10(p.value))) +
 * [Ref1](https://github.com/annacuomo/Notebooks_private/blob/main/scripts/TenK10K/saige_qtl/saige_eqtl_onek1k/make_manhattan_files.R)
 * [Ref2](https://r-graph-gallery.com/101_Manhattan_plot.html)
 
+## circular manhattan plot
+
+https://github.com/Owen-haha/R-CMplot
+
 ## Upset plots
 
 https://jokergoo.github.io/ComplexHeatmap-reference/book/upset-plot.html
