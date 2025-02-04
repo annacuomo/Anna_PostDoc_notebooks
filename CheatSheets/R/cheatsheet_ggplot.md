@@ -99,6 +99,14 @@ remove labels and ticks etc: https://stackoverflow.com/questions/35090883/remove
 p + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
+## general theme for font and style (e.g. italic)
+
+from Katie:
+
+`I usually use ggplot’s theme to set font type (“family”), size and style (“face”). 
+E.g. theme(text=element_text(size=12,  family="TT Arial"),
+      axis.text=element_text(size=10,  face="italic"))`
+
 ## Add text to plot, AKA "annotate"
 
 ```R
