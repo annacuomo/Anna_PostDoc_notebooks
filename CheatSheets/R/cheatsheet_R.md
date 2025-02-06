@@ -71,7 +71,7 @@ colnames(df) = cols
 
 ### remove duplicate rows
 
-e.g. only retain top variant for a gene
+e.g., only retain top variant for a gene
 
 ```R
 results <- results[-which(duplicated(results$gene)),]
