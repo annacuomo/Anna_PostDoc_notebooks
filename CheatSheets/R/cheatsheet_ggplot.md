@@ -32,6 +32,10 @@ ggplot(data, aes(x=name, y=value)) + geom_bar(stat = "identity")
 
 http://www.sthda.com/english/wiki/ggplot2-quick-correlation-matrix-heatmap-r-software-and-data-visualization
 
+### Bubble / dot plot
+
+https://davemcg.github.io/post/lets-plot-scrna-dotplots/
+
 ### Alluvial plots
 
 ```R
