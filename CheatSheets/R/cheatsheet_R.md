@@ -145,6 +145,12 @@ df <- df[rowSums(is.na(df)) == 0, ]         # removes rows with any NA
 df <- df[rowSums(is.na(df)) != ncol(df), ]  # removes rows with all NA
 ```
 
+### replace NAs (eg with 0s)
+
+```R
+data[is.na(data)] <- 0
+```
+
 ### swap values (e.g. 0s for very small values)
 
 ```R
