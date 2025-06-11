@@ -28,6 +28,15 @@ ggplot(data, aes(x=name, y=value)) + geom_bar(stat = "identity")
 * order factor by value: https://rpubs.com/rubengura/factor_ordered_frequency
 * side by side based on two variables: https://stackoverflow.com/questions/42820677/ggplot-bar-plot-side-by-side-using-two-variables (note the position:dodge)
 * keep factors even when empty values: https://stackoverflow.com/questions/10834382/keep-unused-levels-in-bar-plot (come back to clarify this, window changing)
+* https://r-graph-gallery.com/48-grouped-barplot-with-ggplot2
+
+#### Order bar chart by value
+
+```R
+ggplot(df, aes(x = reorder(variable, -value), y = value, fill = variable)) + geom_bar(stat = "identity")
+```
+ 
+ https://stackoverflow.com/questions/25664007/reorder-bars-in-geom-bar-ggplot2-by-value
 
 ### Correlation heatmap
 
@@ -47,14 +56,6 @@ library(ggalluvial)
 * [Examples](https://cran.r-project.org/web/packages/ggalluvial/vignettes/ggalluvial.html)
 * Note: must avoid repeated combinations (e.g. cells with same name across samples, issue: https://github.com/corybrunson/ggalluvial/issues/72) 
 
-
-### Order bar chart by value
-
-```R
-ggplot(df, aes(x = reorder(variable, -value), y = value, fill = variable)) + geom_bar(stat = "identity")
-```
- 
- https://stackoverflow.com/questions/25664007/reorder-bars-in-geom-bar-ggplot2-by-value
 
 ### Add rectange to plot ([Example](https://github.com/single-cell-genetics/singlecell_endodiff_paper/blob/main/plotting_notebooks/lead_switchin.ipynb))
 
