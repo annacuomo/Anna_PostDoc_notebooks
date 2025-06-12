@@ -1,15 +1,15 @@
+### Jupyter notebook plots sizes
+
+```R
+# size of plot(s)
+options(repr.plot.width = 10, repr.plot.height = 4) 
+```
+
 ### Multiple plots
 
 ```R
 library(cowplot)
 plot_grid(p1, p2, ncol = 2)
-```
-
-### Jupyter notebook 
-
-```R
-# size of plot(s)
-options(repr.plot.width = 10, repr.plot.height = 4) 
 ```
 
 ### Histogram ([Example here](https://github.com/annacuomo/Anna_PhD_notebooks/blob/main/sc_neuroseq/iPSCs/fig3b_3e.ipynb))
