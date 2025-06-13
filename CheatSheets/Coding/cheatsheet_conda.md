@@ -12,11 +12,15 @@ conda env export > environment.yaml
 conda env create -f environment.yaml
 ```
 
-## Conda on HPC (Brenner)
+## find envs location / names
+
+`conda env list`
+
+## conda on Garvan's HPC (Brenner)
 
 https://github.com/annacuomo/Garvan_useful_commands/blob/main/Garvan_HPC/Setting_up_Conda.md
 
-## create environment and set up on notebook
+## create (python) environment and set up on notebook
 
 as an example, installing scanpy
 
@@ -31,6 +35,11 @@ conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=my_scanpy
 ```
 
-## find envs location / names
+## create R environment
 
-`conda env list`
+```bash
+conda create --name r_env r-essentials r-base
+conda activate r_env
+pip install jupyterlab
+conda install -n r_env r-irkernel
+```
