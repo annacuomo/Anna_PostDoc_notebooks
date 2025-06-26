@@ -1,5 +1,11 @@
 # Scanpy / AnnData commands I often forget
 
+## open in 'backed' mode for quicker loading
+
+```Python
+adata = sc.read_h5ad('myfile.h5ad',backed='r')
+```
+
 ## create anndata object from X matrix
 
 ```Python
