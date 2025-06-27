@@ -20,7 +20,7 @@ conda env create -f environment.yaml
 
 https://github.com/annacuomo/Garvan_useful_commands/blob/main/Garvan_HPC/Setting_up_Conda.md
 
-## create (python) environment and set up on notebook
+## create (python) environment and set up as kernel on notebook
 
 as an example, installing scanpy
 
@@ -35,7 +35,7 @@ conda install -c anaconda ipykernel
 python -m ipykernel install --user --name=my_scanpy
 ```
 
-## create R environment
+## create R environment and set up as kernel on notebook
 
 ```bash
 conda create --name r_env r-essentials r-base
