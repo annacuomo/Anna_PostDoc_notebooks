@@ -43,3 +43,10 @@ conda activate r_env
 pip install jupyterlab
 conda install -n r_env r-irkernel
 ```
+
+then, inside of R:
+
+```R
+install.packages("IRkernel")
+IRkernel::installspec(name="ir36_native", displayname="R 3.6.0 (native)")
+```
