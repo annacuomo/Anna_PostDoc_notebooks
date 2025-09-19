@@ -247,6 +247,7 @@ p + scale_colour_brewer(palette = "Set1")
 
 ### Resources
 
+* https://r-charts.com/colors/
 * http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf
 * https://ggplot2-book.org/scale-colour.html
 * https://r-graph-gallery.com/ggplot2-color.html
