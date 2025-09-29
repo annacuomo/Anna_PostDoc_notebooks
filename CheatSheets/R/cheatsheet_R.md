@@ -12,7 +12,7 @@ data.table:::fwrite(df0, output_filename)
 ### to read in a compressed file with a .gz extension
 
 ```R
-df <- read.csv(gzfile(filename.txt), sep="\t")
+df <- read.csv(gzfile(filename.txt.gz), sep="\t")
 ```
 
 ### to read in Matrix (.mtx) objects
